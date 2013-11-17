@@ -1,0 +1,105 @@
+/*** Guest vote pop-up ***/
+.wpvregcon {
+    display: none;
+    height: 100%;
+    left: 0;
+    position: fixed;
+    text-align: left;
+    top: 0;
+    width: 100%;
+}
+.wpvregclosebtn {
+    border: 0 none;
+    float: right;
+    height: 16px;
+    padding: 1px;
+    width: 16px;
+}
+.wpvregconbg {
+    background-color: #CCCCCC;
+    height: 100%;
+    left: 0;
+    opacity: 0.7;
+    filter: alpha(opacity=70);
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.wpvregpopup {
+    background-color: #EEF9FD;
+    border: 1px solid #CCCCCC;
+    color: #333333;
+    font-family: arial;
+    margin: auto;
+    padding: 3px 10px 10px;
+    position: relative;
+    top: 30%;
+    width: 40%;
+    z-index: 101;
+}
+.wpvregpopup .mid {
+    width: 250px;
+}
+.wpvregpopup h3 {
+    color: #4AA2DB;
+    font-size: 18px;
+    font-weight: normal;
+    margin: 0 0 5px;
+    padding: 0;
+}
+/*** vote ***/
+.wpv_postvote {
+    margin: 10px 0; 
+    font-weight: bold;
+    font-size: 12px !important;
+}
+.wpv_votewidget {
+}
+.wpv_votecount {
+    margin-right: 12px;
+}
+.wpv_votebtncon {
+}
+.wpv_vcount {
+    font-weight: bold;
+}
+.wpv_votebtn {
+    float: none!important;
+    margin: 0 !important;
+}
+.wpv_votebtn a {
+    text-decoration: none;
+}
+.wpv_voted_icon {
+    background: url('../images/voted-btn.png') no-repeat;
+    width: 21px;
+    height: 20px;
+    display: inline-block;
+}
+.wpv_vote_icon {
+    background: url('../images/vote-btn.png') no-repeat;
+    width: 21px;
+    height: 20px;
+    display: inline-block;
+}
+.wpv_vote_icon,
+.wpv_voted_icon {
+    float: none!important;
+    margin: 0 !important;
+    vertical-align: middle;
+}
+.wpv_votebtn_txt {
+    color: #555555;
+    margin-left: 5px;
+}
+.wpv_votedbtn_txt {
+    color: #999999!important;
+}
+.wpv_voting {
+}
+.loadingimage {
+    margin: 0 !important;
+    vertical-align: middle;
+}
+.wpvtcount {
+}
