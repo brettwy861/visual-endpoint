@@ -1,0 +1,77 @@
+{
+  "payment": {
+    "get": [
+      "balance",
+      "address/{currency}",
+      "transactions",
+      "transactions/{transaction}"
+    ],
+    "post": [
+      "transfer_to_trading",
+      "transfer_to_main",
+      "address/{currency}",
+      "payout"
+    ]
+  },
+  "private": {
+    "delete": [
+      "order",
+      "order/{clientOrderId}",
+      "account/crypto/withdraw/{id}"
+    ],
+    "get": [
+      "order",
+      "order/{clientOrderId}",
+      "trading/balance",
+      "trading/fee/{symbol}",
+      "history/trades",
+      "history/order",
+      "history/order/{id}/trades",
+      "account/balance",
+      "account/transactions",
+      "account/transactions/{id}",
+      "account/crypto/address/{currency}"
+    ],
+    "patch": [
+      "order/{clientOrderId}"
+    ],
+    "post": [
+      "order",
+      "account/crypto/withdraw",
+      "account/crypto/address/{currency}",
+      "account/transfer"
+    ],
+    "put": [
+      "order/{clientOrderId}",
+      "account/crypto/withdraw/{id}"
+    ]
+  },
+  "public": {
+    "get": [
+      "symbol",
+      "symbol/{symbol}",
+      "currency",
+      "currency/{currency}",
+      "ticker",
+      "ticker/{symbol}",
+      "trades/{symbol}",
+      "orderbook/{symbol}",
+      "candles/{symbol}"
+    ]
+  },
+  "trading": {
+    "get": [
+      "balance",
+      "orders/active",
+      "orders/recent",
+      "order",
+      "trades/by/order",
+      "trades"
+    ],
+    "post": [
+      "new_order",
+      "cancel_order",
+      "cancel_orders"
+    ]
+  }
+}
