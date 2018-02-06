@@ -1,49 +1,24 @@
 {
-  { "name": "payment",
+  {"name": "private",
+  "children": [
+  {
+    "name": "post",
     "children": [
       {
-      "name": "get",
-      "children": [
-        {
-          "name": "balance",
-          "name": "address/{currency}",
-          "name": "transactions",
-          "name": "transactions/{transaction}"
-        }
-      ]
-      }
-    ]
-  },
-  {
-      "name": "post", 
-      "children": [
-        {
-          "name": "transfer_to_trading",
-          "name": "transfer_to_main",
-          "name": "address/{currency}",
-          "name": "payout"
-        }
-      ]
-  },
-  {
-  "name": "public", 
-    "children": [
-      {
-        "name": "get", 
-        "children": [
-          {
-            "name": "symbol",
-            "name": "symbol/{symbol}",
-            "name": "currency",
-            "name": "currency/{currency}",
-            "name": "ticker",
-            "name": "ticker/{symbol}",
-            "name": "trades/{symbol}",
-            "name": "orderbook/{symbol}",
-            "name": "candles/{symbol}"
-          }
-          ]
+      "name": "CancelTrade",
+      "name": "GetBalance",
+      "name": "GetDepositAddress",
+      "name": "GetOpenOrders",
+      "name": "GetTradeHistory",
+      "name": "GetTransactions",
+      "name": "SubmitTip",
+      "name": "SubmitTrade",
+      "name": "SubmitTransfer",
+      "name": "SubmitWithdraw"
       }
     ]
   }
+]
 }
+}
+ 
