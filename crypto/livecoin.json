@@ -1,0 +1,160 @@
+{
+  "name": "hitbtc2",
+  "parent": "null",
+  "children": [
+    {
+      "name": "public",
+      "parent": "hitbtc2",
+      "children": [
+        {
+          "name": "get",
+          "parent": "public",
+          "children": [
+            {
+              "name": "exchange/all/order_book",
+              "parent": "get"
+            },
+            {
+              "name": "exchange/last_trades",
+              "parent": "get"
+            },
+            {
+              "name": "exchange/maxbid_minask",
+              "parent": "get"
+            },
+            {
+              "name": "exchange/order_book",
+              "parent": "get"
+            },
+            {
+              "name": "exchange/restrictions",
+              "parent": "get"
+            },
+            {
+              "name": "exchange/ticker",
+              "parent": "get"
+            },
+            {
+              "name": "info/coinInfo",
+              "parent": "get"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "private",
+      "parent": "hitbtc2",
+      "children": [
+        {
+          "name": "get",
+          "parent": "private",
+          "children": [
+            {
+              "name": "exchange/client_orders",
+              "parent": "get"
+            },
+            {
+              "name": "exchange/order",
+              "parent": "get"
+            },
+            {
+              "name": "exchange/trades",
+              "parent": "get"
+            },
+            {
+              "name": "exchange/commission",
+              "parent": "get"
+            },
+            {
+              "name": "exchange/commissionCommonInfo",
+              "parent": "get"
+            },
+            {
+              "name": "payment/balances",
+              "parent": "get"
+            },
+            {
+              "name": "payment/balance",
+              "parent": "get"
+            },
+            {
+              "name": "payment/get/address",
+              "parent": "get"
+            },
+            {
+              "name": "payment/history/size",
+              "parent": "get"
+            },
+            {
+              "name": "payment/history/transactions",
+              "parent": "get"
+            }
+          ]
+        },
+        {
+          "name": "post",
+          "parent": "private",
+          "children": [
+            {
+              "name": "exchange/buylimit",
+              "parent": "post"
+            },
+            {
+              "name": "exchange/buymarket",
+              "parent": "post"
+            },
+            {
+              "name": "exchange/cancellimit",
+              "parent": "post"
+            },
+            {
+              "name": "exchange/selllimit",
+              "parent": "post"
+            },
+            {
+              "name": "exchange/sellmarket",
+              "parent": "post"
+            },
+            {
+              "name": "payment/out/capitalist",
+              "parent": "post"
+            },
+            {
+              "name": "payment/out/card",
+              "parent": "post"
+            },
+            {
+              "name": "payment/out/coin",
+              "parent": "post"
+            },
+            {
+              "name": "payment/out/okpay",
+              "parent": "post"
+            },
+            {
+              "name": "payment/out/payeer",
+              "parent": "post"
+            },
+            {
+              "name": "payment/out/perfectmoney",
+              "parent": "post"
+            },
+            {
+              "name": "payment/voucher/amount",
+              "parent": "post"
+            },
+            {
+              "name": "payment/voucher/make",
+              "parent": "post"
+            },
+            {
+              "name": "payment/voucher/redeem",
+              "parent": "post"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

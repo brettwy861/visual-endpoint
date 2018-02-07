@@ -1,0 +1,126 @@
+{
+  "name": "hitbtc2",
+  "parent": "null",
+  "children": [
+    {
+      "name": "public",
+      "parent": "hitbtc2",
+      "children": [
+        {
+          "name": "get",
+          "parent": "public",
+          "children": [
+            {
+              "name": "markets/",
+              "parent": "get"
+            },
+            {
+              "name": "markets/{basecurrency}/",
+              "parent": "get"
+            },
+            {
+              "name": "market/info/{pair}/",
+              "parent": "get"
+            },
+            {
+              "name": "market/orderhistory/{pair}/",
+              "parent": "get"
+            },
+            {
+              "name": "market/openorders/{pair}/buy/",
+              "parent": "get"
+            },
+            {
+              "name": "market/openorders/{pair}/sell/",
+              "parent": "get"
+            },
+            {
+              "name": "market/openorders/{pair}/both/",
+              "parent": "get"
+            },
+            {
+              "name": "market/openorders/{pair}/{ordertype}/",
+              "parent": "get"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "private",
+      "parent": "hitbtc2",
+      "children": [
+        {
+          "name": "post",
+          "parent": "private",
+          "children": [
+            {
+              "name": "getbalances/",
+              "parent": "post"
+            },
+            {
+              "name": "getbalance/{currency}/",
+              "parent": "post"
+            },
+            {
+              "name": "getdeposits/",
+              "parent": "post"
+            },
+            {
+              "name": "getwithdrawals/",
+              "parent": "post"
+            },
+            {
+              "name": "getnewdepositaddress/{currency}/",
+              "parent": "post"
+            },
+            {
+              "name": "getdepositaddress/{currency}/",
+              "parent": "post"
+            },
+            {
+              "name": "myopenorders/",
+              "parent": "post"
+            },
+            {
+              "name": "myopenorders_market/{pair}/",
+              "parent": "post"
+            },
+            {
+              "name": "cancelorder/{orderid}/",
+              "parent": "post"
+            },
+            {
+              "name": "withdraw/{currency}/",
+              "parent": "post"
+            },
+            {
+              "name": "trade/{pair}/",
+              "parent": "post"
+            },
+            {
+              "name": "tradehistory/",
+              "parent": "post"
+            },
+            {
+              "name": "getdeposithistory/",
+              "parent": "post"
+            },
+            {
+              "name": "getwithdrawalhistory/",
+              "parent": "post"
+            },
+            {
+              "name": "walletstatus/",
+              "parent": "post"
+            },
+            {
+              "name": "walletstatus/{currency}/",
+              "parent": "post"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

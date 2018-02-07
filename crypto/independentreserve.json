@@ -1,0 +1,134 @@
+{
+  "name": "hitbtc2",
+  "parent": "null",
+  "children": [
+    {
+      "name": "public",
+      "parent": "hitbtc2",
+      "children": [
+        {
+          "name": "get",
+          "parent": "public",
+          "children": [
+            {
+              "name": "GetValidPrimaryCurrencyCodes",
+              "parent": "get"
+            },
+            {
+              "name": "GetValidSecondaryCurrencyCodes",
+              "parent": "get"
+            },
+            {
+              "name": "GetValidLimitOrderTypes",
+              "parent": "get"
+            },
+            {
+              "name": "GetValidMarketOrderTypes",
+              "parent": "get"
+            },
+            {
+              "name": "GetValidOrderTypes",
+              "parent": "get"
+            },
+            {
+              "name": "GetValidTransactionTypes",
+              "parent": "get"
+            },
+            {
+              "name": "GetMarketSummary",
+              "parent": "get"
+            },
+            {
+              "name": "GetOrderBook",
+              "parent": "get"
+            },
+            {
+              "name": "GetTradeHistorySummary",
+              "parent": "get"
+            },
+            {
+              "name": "GetRecentTrades",
+              "parent": "get"
+            },
+            {
+              "name": "GetFxRates",
+              "parent": "get"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "private",
+      "parent": "hitbtc2",
+      "children": [
+        {
+          "name": "post",
+          "parent": "private",
+          "children": [
+            {
+              "name": "PlaceLimitOrder",
+              "parent": "post"
+            },
+            {
+              "name": "PlaceMarketOrder",
+              "parent": "post"
+            },
+            {
+              "name": "CancelOrder",
+              "parent": "post"
+            },
+            {
+              "name": "GetOpenOrders",
+              "parent": "post"
+            },
+            {
+              "name": "GetClosedOrders",
+              "parent": "post"
+            },
+            {
+              "name": "GetClosedFilledOrders",
+              "parent": "post"
+            },
+            {
+              "name": "GetOrderDetails",
+              "parent": "post"
+            },
+            {
+              "name": "GetAccounts",
+              "parent": "post"
+            },
+            {
+              "name": "GetTransactions",
+              "parent": "post"
+            },
+            {
+              "name": "GetDigitalCurrencyDepositAddress",
+              "parent": "post"
+            },
+            {
+              "name": "GetDigitalCurrencyDepositAddresses",
+              "parent": "post"
+            },
+            {
+              "name": "SynchDigitalCurrencyDepositAddressWithBlockchain",
+              "parent": "post"
+            },
+            {
+              "name": "WithdrawDigitalCurrency",
+              "parent": "post"
+            },
+            {
+              "name": "RequestFiatWithdrawal",
+              "parent": "post"
+            },
+            {
+              "name": "GetTrades",
+              "parent": "post"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

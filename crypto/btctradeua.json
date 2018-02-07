@@ -1,0 +1,82 @@
+{
+  "name": "hitbtc2",
+  "parent": "null",
+  "children": [
+    {
+      "name": "public",
+      "parent": "hitbtc2",
+      "children": [
+        {
+          "name": "get",
+          "parent": "public",
+          "children": [
+            {
+              "name": "deals/{symbol}",
+              "parent": "get"
+            },
+            {
+              "name": "trades/sell/{symbol}",
+              "parent": "get"
+            },
+            {
+              "name": "trades/buy/{symbol}",
+              "parent": "get"
+            },
+            {
+              "name": "japan_stat/high/{symbol}",
+              "parent": "get"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "private",
+      "parent": "hitbtc2",
+      "children": [
+        {
+          "name": "post",
+          "parent": "private",
+          "children": [
+            {
+              "name": "auth",
+              "parent": "post"
+            },
+            {
+              "name": "ask/{symbol}",
+              "parent": "post"
+            },
+            {
+              "name": "balance",
+              "parent": "post"
+            },
+            {
+              "name": "bid/{symbol}",
+              "parent": "post"
+            },
+            {
+              "name": "buy/{symbol}",
+              "parent": "post"
+            },
+            {
+              "name": "my_orders/{symbol}",
+              "parent": "post"
+            },
+            {
+              "name": "order/status/{id}",
+              "parent": "post"
+            },
+            {
+              "name": "remove/order/{id}",
+              "parent": "post"
+            },
+            {
+              "name": "sell/{symbol}",
+              "parent": "post"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

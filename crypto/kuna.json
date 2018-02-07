@@ -1,0 +1,80 @@
+{
+  "name": "hitbtc2",
+  "parent": "null",
+  "children": [
+    {
+      "name": "public",
+      "parent": "hitbtc2",
+      "children": [
+        {
+          "name": "get",
+          "parent": "public",
+          "children": [
+            {
+              "name": "tickers/{market}",
+              "parent": "get"
+            },
+            {
+              "name": "order_book",
+              "parent": "get"
+            },
+            {
+              "name": "order_book/{market}",
+              "parent": "get"
+            },
+            {
+              "name": "trades",
+              "parent": "get"
+            },
+            {
+              "name": "trades/{market}",
+              "parent": "get"
+            },
+            {
+              "name": "timestamp",
+              "parent": "get"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "private",
+      "parent": "hitbtc2",
+      "children": [
+        {
+          "name": "get",
+          "parent": "private",
+          "children": [
+            {
+              "name": "members/me",
+              "parent": "get"
+            },
+            {
+              "name": "orders",
+              "parent": "get"
+            },
+            {
+              "name": "trades/my",
+              "parent": "get"
+            }
+          ]
+        },
+        {
+          "name": "post",
+          "parent": "private",
+          "children": [
+            {
+              "name": "orders",
+              "parent": "post"
+            },
+            {
+              "name": "order/delete",
+              "parent": "post"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

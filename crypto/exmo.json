@@ -1,0 +1,106 @@
+{
+  "name": "hitbtc2",
+  "parent": "null",
+  "children": [
+    {
+      "name": "public",
+      "parent": "hitbtc2",
+      "children": [
+        {
+          "name": "get",
+          "parent": "public",
+          "children": [
+            {
+              "name": "currency",
+              "parent": "get"
+            },
+            {
+              "name": "order_book",
+              "parent": "get"
+            },
+            {
+              "name": "pair_settings",
+              "parent": "get"
+            },
+            {
+              "name": "ticker",
+              "parent": "get"
+            },
+            {
+              "name": "trades",
+              "parent": "get"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "private",
+      "parent": "hitbtc2",
+      "children": [
+        {
+          "name": "post",
+          "parent": "private",
+          "children": [
+            {
+              "name": "user_info",
+              "parent": "post"
+            },
+            {
+              "name": "order_create",
+              "parent": "post"
+            },
+            {
+              "name": "order_cancel",
+              "parent": "post"
+            },
+            {
+              "name": "user_open_orders",
+              "parent": "post"
+            },
+            {
+              "name": "user_trades",
+              "parent": "post"
+            },
+            {
+              "name": "user_cancelled_orders",
+              "parent": "post"
+            },
+            {
+              "name": "order_trades",
+              "parent": "post"
+            },
+            {
+              "name": "required_amount",
+              "parent": "post"
+            },
+            {
+              "name": "deposit_address",
+              "parent": "post"
+            },
+            {
+              "name": "withdraw_crypt",
+              "parent": "post"
+            },
+            {
+              "name": "withdraw_get_txid",
+              "parent": "post"
+            },
+            {
+              "name": "excode_create",
+              "parent": "post"
+            },
+            {
+              "name": "excode_load",
+              "parent": "post"
+            },
+            {
+              "name": "wallet_history",
+              "parent": "post"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

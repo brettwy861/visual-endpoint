@@ -1,0 +1,220 @@
+{
+  "name": "hitbtc2",
+  "parent": "null",
+  "children": [
+    {
+      "name": "system",
+      "parent": "hitbtc2",
+      "children": [
+        {
+          "name": "get",
+          "parent": "system",
+          "children": [
+            {
+              "name": "info",
+              "parent": "get"
+            },
+            {
+              "name": "time",
+              "parent": "get"
+            },
+            {
+              "name": "messages",
+              "parent": "get"
+            },
+            {
+              "name": "messages/{message_id}",
+              "parent": "get"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "admin",
+      "parent": "hitbtc2",
+      "children": [
+        {
+          "name": "get",
+          "parent": "admin",
+          "children": [
+            {
+              "name": "system/messages",
+              "parent": "get"
+            },
+            {
+              "name": "system/messages/{message_id}",
+              "parent": "get"
+            }
+          ]
+        },
+        {
+          "name": "post",
+          "parent": "admin",
+          "children": [
+            {
+              "name": "system/messages",
+              "parent": "post"
+            }
+          ]
+        },
+        {
+          "name": "patch",
+          "parent": "admin",
+          "children": [
+            {
+              "name": "system/messages/{message_id}",
+              "parent": "patch"
+            }
+          ]
+        },
+        {
+          "name": "delete",
+          "parent": "admin",
+          "children": [
+            {
+              "name": "system/messages/{message_id}",
+              "parent": "delete"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "public",
+      "parent": "hitbtc2",
+      "children": [
+        {
+          "name": "get",
+          "parent": "public",
+          "children": [
+            {
+              "name": "market/currencies",
+              "parent": "get"
+            },
+            {
+              "name": "market/trading_pairs",
+              "parent": "get"
+            },
+            {
+              "name": "market/orderbooks/{trading_pair_id}",
+              "parent": "get"
+            },
+            {
+              "name": "market/stats",
+              "parent": "get"
+            },
+            {
+              "name": "market/tickers/{trading_pair_id}",
+              "parent": "get"
+            },
+            {
+              "name": "market/trades/{trading_pair_id}",
+              "parent": "get"
+            },
+            {
+              "name": "chart/candles/{trading_pair_id}",
+              "parent": "get"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "private",
+      "parent": "hitbtc2",
+      "children": [
+        {
+          "name": "get",
+          "parent": "private",
+          "children": [
+            {
+              "name": "trading/orders/{order_id}",
+              "parent": "get"
+            },
+            {
+              "name": "trading/orders/{order_id}/trades",
+              "parent": "get"
+            },
+            {
+              "name": "trading/orders",
+              "parent": "get"
+            },
+            {
+              "name": "trading/order_history",
+              "parent": "get"
+            },
+            {
+              "name": "trading/trades/{trade_id}",
+              "parent": "get"
+            },
+            {
+              "name": "wallet/balances",
+              "parent": "get"
+            },
+            {
+              "name": "wallet/ledger",
+              "parent": "get"
+            },
+            {
+              "name": "wallet/deposit_addresses",
+              "parent": "get"
+            },
+            {
+              "name": "wallet/withdrawal_addresses",
+              "parent": "get"
+            },
+            {
+              "name": "wallet/withdrawals/{withdrawal_id}",
+              "parent": "get"
+            },
+            {
+              "name": "wallet/withdrawals",
+              "parent": "get"
+            },
+            {
+              "name": "wallet/deposits/{deposit_id}",
+              "parent": "get"
+            },
+            {
+              "name": "wallet/deposits",
+              "parent": "get"
+            }
+          ]
+        },
+        {
+          "name": "post",
+          "parent": "private",
+          "children": [
+            {
+              "name": "trading/orders",
+              "parent": "post"
+            },
+            {
+              "name": "wallet/deposit_addresses",
+              "parent": "post"
+            },
+            {
+              "name": "wallet/withdrawal_addresses",
+              "parent": "post"
+            },
+            {
+              "name": "wallet/withdrawals",
+              "parent": "post"
+            }
+          ]
+        },
+        {
+          "name": "delete",
+          "parent": "private",
+          "children": [
+            {
+              "name": "trading/orders/{order_id}",
+              "parent": "delete"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

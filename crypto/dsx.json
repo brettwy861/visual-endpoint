@@ -1,0 +1,118 @@
+{
+  "name": "hitbtc2",
+  "parent": "null",
+  "children": [
+    {
+      "name": "public",
+      "parent": "hitbtc2",
+      "children": [
+        {
+          "name": "get",
+          "parent": "public",
+          "children": [
+            {
+              "name": "barsFromMoment/{id}/{period}/{start}",
+              "parent": "get"
+            },
+            {
+              "name": "depth/{pair}",
+              "parent": "get"
+            },
+            {
+              "name": "info",
+              "parent": "get"
+            },
+            {
+              "name": "lastBars/{id}/{period}/{amount}",
+              "parent": "get"
+            },
+            {
+              "name": "periodBars/{id}/{period}/{start}/{end}",
+              "parent": "get"
+            },
+            {
+              "name": "ticker/{pair}",
+              "parent": "get"
+            },
+            {
+              "name": "trades/{pair}",
+              "parent": "get"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "private",
+      "parent": "hitbtc2",
+      "children": [
+        {
+          "name": "post",
+          "parent": "private",
+          "children": [
+            {
+              "name": "getInfo",
+              "parent": "post"
+            },
+            {
+              "name": "TransHistory",
+              "parent": "post"
+            },
+            {
+              "name": "TradeHistory",
+              "parent": "post"
+            },
+            {
+              "name": "OrderHistory",
+              "parent": "post"
+            },
+            {
+              "name": "ActiveOrders",
+              "parent": "post"
+            },
+            {
+              "name": "Trade",
+              "parent": "post"
+            },
+            {
+              "name": "CancelOrder",
+              "parent": "post"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "dwapi",
+      "parent": "hitbtc2",
+      "children": [
+        {
+          "name": "post",
+          "parent": "dwapi",
+          "children": [
+            {
+              "name": "getCryptoDepositAddress",
+              "parent": "post"
+            },
+            {
+              "name": "cryptoWithdraw",
+              "parent": "post"
+            },
+            {
+              "name": "fiatWithdraw",
+              "parent": "post"
+            },
+            {
+              "name": "getTransactionStatus",
+              "parent": "post"
+            },
+            {
+              "name": "getTransactions",
+              "parent": "post"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

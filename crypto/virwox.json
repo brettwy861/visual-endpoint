@@ -1,0 +1,170 @@
+{
+  "name": "hitbtc2",
+  "parent": "null",
+  "children": [
+    {
+      "name": "public",
+      "parent": "hitbtc2",
+      "children": [
+        {
+          "name": "get",
+          "parent": "public",
+          "children": [
+            {
+              "name": "getInstruments",
+              "parent": "get"
+            },
+            {
+              "name": "getBestPrices",
+              "parent": "get"
+            },
+            {
+              "name": "getMarketDepth",
+              "parent": "get"
+            },
+            {
+              "name": "estimateMarketOrder",
+              "parent": "get"
+            },
+            {
+              "name": "getTradedPriceVolume",
+              "parent": "get"
+            },
+            {
+              "name": "getRawTradeData",
+              "parent": "get"
+            },
+            {
+              "name": "getStatistics",
+              "parent": "get"
+            },
+            {
+              "name": "getTerminalList",
+              "parent": "get"
+            },
+            {
+              "name": "getGridList",
+              "parent": "get"
+            },
+            {
+              "name": "getGridStatistics",
+              "parent": "get"
+            }
+          ]
+        },
+        {
+          "name": "post",
+          "parent": "public",
+          "children": [
+            {
+              "name": "getInstruments",
+              "parent": "post"
+            },
+            {
+              "name": "getBestPrices",
+              "parent": "post"
+            },
+            {
+              "name": "getMarketDepth",
+              "parent": "post"
+            },
+            {
+              "name": "estimateMarketOrder",
+              "parent": "post"
+            },
+            {
+              "name": "getTradedPriceVolume",
+              "parent": "post"
+            },
+            {
+              "name": "getRawTradeData",
+              "parent": "post"
+            },
+            {
+              "name": "getStatistics",
+              "parent": "post"
+            },
+            {
+              "name": "getTerminalList",
+              "parent": "post"
+            },
+            {
+              "name": "getGridList",
+              "parent": "post"
+            },
+            {
+              "name": "getGridStatistics",
+              "parent": "post"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "private",
+      "parent": "hitbtc2",
+      "children": [
+        {
+          "name": "get",
+          "parent": "private",
+          "children": [
+            {
+              "name": "cancelOrder",
+              "parent": "get"
+            },
+            {
+              "name": "getBalances",
+              "parent": "get"
+            },
+            {
+              "name": "getCommissionDiscount",
+              "parent": "get"
+            },
+            {
+              "name": "getOrders",
+              "parent": "get"
+            },
+            {
+              "name": "getTransactions",
+              "parent": "get"
+            },
+            {
+              "name": "placeOrder",
+              "parent": "get"
+            }
+          ]
+        },
+        {
+          "name": "post",
+          "parent": "private",
+          "children": [
+            {
+              "name": "cancelOrder",
+              "parent": "post"
+            },
+            {
+              "name": "getBalances",
+              "parent": "post"
+            },
+            {
+              "name": "getCommissionDiscount",
+              "parent": "post"
+            },
+            {
+              "name": "getOrders",
+              "parent": "post"
+            },
+            {
+              "name": "getTransactions",
+              "parent": "post"
+            },
+            {
+              "name": "placeOrder",
+              "parent": "post"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

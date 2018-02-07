@@ -1,0 +1,190 @@
+{
+  "name": "hitbtc2",
+  "parent": "null",
+  "children": [
+    {
+      "name": "public",
+      "parent": "hitbtc2",
+      "children": [
+        {
+          "name": "get",
+          "parent": "public",
+          "children": [
+            {
+              "name": "order_book/{pair}/",
+              "parent": "get"
+            },
+            {
+              "name": "ticker_hour/{pair}/",
+              "parent": "get"
+            },
+            {
+              "name": "ticker/{pair}/",
+              "parent": "get"
+            },
+            {
+              "name": "transactions/{pair}/",
+              "parent": "get"
+            },
+            {
+              "name": "trading-pairs-info/",
+              "parent": "get"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "private",
+      "parent": "hitbtc2",
+      "children": [
+        {
+          "name": "post",
+          "parent": "private",
+          "children": [
+            {
+              "name": "balance/",
+              "parent": "post"
+            },
+            {
+              "name": "balance/{pair}/",
+              "parent": "post"
+            },
+            {
+              "name": "bch_withdrawal/",
+              "parent": "post"
+            },
+            {
+              "name": "bch_address/",
+              "parent": "post"
+            },
+            {
+              "name": "user_transactions/",
+              "parent": "post"
+            },
+            {
+              "name": "user_transactions/{pair}/",
+              "parent": "post"
+            },
+            {
+              "name": "open_orders/all/",
+              "parent": "post"
+            },
+            {
+              "name": "open_orders/{pair}/",
+              "parent": "post"
+            },
+            {
+              "name": "order_status/",
+              "parent": "post"
+            },
+            {
+              "name": "cancel_order/",
+              "parent": "post"
+            },
+            {
+              "name": "buy/{pair}/",
+              "parent": "post"
+            },
+            {
+              "name": "buy/market/{pair}/",
+              "parent": "post"
+            },
+            {
+              "name": "sell/{pair}/",
+              "parent": "post"
+            },
+            {
+              "name": "sell/market/{pair}/",
+              "parent": "post"
+            },
+            {
+              "name": "ltc_withdrawal/",
+              "parent": "post"
+            },
+            {
+              "name": "ltc_address/",
+              "parent": "post"
+            },
+            {
+              "name": "eth_withdrawal/",
+              "parent": "post"
+            },
+            {
+              "name": "eth_address/",
+              "parent": "post"
+            },
+            {
+              "name": "xrp_withdrawal/",
+              "parent": "post"
+            },
+            {
+              "name": "xrp_address/",
+              "parent": "post"
+            },
+            {
+              "name": "transfer-to-main/",
+              "parent": "post"
+            },
+            {
+              "name": "transfer-from-main/",
+              "parent": "post"
+            },
+            {
+              "name": "withdrawal/open/",
+              "parent": "post"
+            },
+            {
+              "name": "withdrawal/status/",
+              "parent": "post"
+            },
+            {
+              "name": "withdrawal/cancel/",
+              "parent": "post"
+            },
+            {
+              "name": "liquidation_address/new/",
+              "parent": "post"
+            },
+            {
+              "name": "liquidation_address/info/",
+              "parent": "post"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "v1",
+      "parent": "hitbtc2",
+      "children": [
+        {
+          "name": "post",
+          "parent": "v1",
+          "children": [
+            {
+              "name": "bitcoin_deposit_address/",
+              "parent": "post"
+            },
+            {
+              "name": "unconfirmed_btc/",
+              "parent": "post"
+            },
+            {
+              "name": "bitcoin_withdrawal/",
+              "parent": "post"
+            },
+            {
+              "name": "ripple_withdrawal/",
+              "parent": "post"
+            },
+            {
+              "name": "ripple_address/",
+              "parent": "post"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "name": "hitbtc2",
+  "parent": "null",
+  "children": [
+    {
+      "name": "public",
+      "parent": "hitbtc2",
+      "children": [
+        {
+          "name": "get",
+          "parent": "public",
+          "children": [
+            {
+              "name": "latest",
+              "parent": "get"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "private",
+      "parent": "hitbtc2",
+      "children": [
+        {
+          "name": "post",
+          "parent": "private",
+          "children": [
+            {
+              "name": "orders",
+              "parent": "post"
+            },
+            {
+              "name": "orders/history",
+              "parent": "post"
+            },
+            {
+              "name": "my/coin/deposit",
+              "parent": "post"
+            },
+            {
+              "name": "my/coin/send",
+              "parent": "post"
+            },
+            {
+              "name": "quote/buy",
+              "parent": "post"
+            },
+            {
+              "name": "quote/sell",
+              "parent": "post"
+            },
+            {
+              "name": "my/balances",
+              "parent": "post"
+            },
+            {
+              "name": "my/orders",
+              "parent": "post"
+            },
+            {
+              "name": "my/buy",
+              "parent": "post"
+            },
+            {
+              "name": "my/sell",
+              "parent": "post"
+            },
+            {
+              "name": "my/buy/cancel",
+              "parent": "post"
+            },
+            {
+              "name": "my/sell/cancel",
+              "parent": "post"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

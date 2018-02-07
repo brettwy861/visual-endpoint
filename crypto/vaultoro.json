@@ -1,0 +1,104 @@
+{
+  "name": "hitbtc2",
+  "parent": "null",
+  "children": [
+    {
+      "name": "public",
+      "parent": "hitbtc2",
+      "children": [
+        {
+          "name": "get",
+          "parent": "public",
+          "children": [
+            {
+              "name": "bidandask",
+              "parent": "get"
+            },
+            {
+              "name": "buyorders",
+              "parent": "get"
+            },
+            {
+              "name": "latest",
+              "parent": "get"
+            },
+            {
+              "name": "latesttrades",
+              "parent": "get"
+            },
+            {
+              "name": "markets",
+              "parent": "get"
+            },
+            {
+              "name": "orderbook",
+              "parent": "get"
+            },
+            {
+              "name": "sellorders",
+              "parent": "get"
+            },
+            {
+              "name": "transactions/day",
+              "parent": "get"
+            },
+            {
+              "name": "transactions/hour",
+              "parent": "get"
+            },
+            {
+              "name": "transactions/month",
+              "parent": "get"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "private",
+      "parent": "hitbtc2",
+      "children": [
+        {
+          "name": "get",
+          "parent": "private",
+          "children": [
+            {
+              "name": "balance",
+              "parent": "get"
+            },
+            {
+              "name": "mytrades",
+              "parent": "get"
+            },
+            {
+              "name": "orders",
+              "parent": "get"
+            }
+          ]
+        },
+        {
+          "name": "post",
+          "parent": "private",
+          "children": [
+            {
+              "name": "buy/{symbol}/{type}",
+              "parent": "post"
+            },
+            {
+              "name": "cancel/{id}",
+              "parent": "post"
+            },
+            {
+              "name": "sell/{symbol}/{type}",
+              "parent": "post"
+            },
+            {
+              "name": "withdraw",
+              "parent": "post"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

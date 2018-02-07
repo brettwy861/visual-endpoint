@@ -1,0 +1,224 @@
+{
+  "name": "hitbtc2",
+  "parent": "null",
+  "children": [
+    {
+      "name": "v2",
+      "parent": "hitbtc2",
+      "children": [
+        {
+          "name": "get",
+          "parent": "v2",
+          "children": [
+            {
+              "name": "candles/trade:{timeframe}:{symbol}/{section}",
+              "parent": "get"
+            },
+            {
+              "name": "candles/trade:{timeframe}:{symbol}/last",
+              "parent": "get"
+            },
+            {
+              "name": "candles/trade:{timeframe}:{symbol}/hist",
+              "parent": "get"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "public",
+      "parent": "hitbtc2",
+      "children": [
+        {
+          "name": "get",
+          "parent": "public",
+          "children": [
+            {
+              "name": "platform/status",
+              "parent": "get"
+            },
+            {
+              "name": "tickers",
+              "parent": "get"
+            },
+            {
+              "name": "ticker/{symbol}",
+              "parent": "get"
+            },
+            {
+              "name": "trades/{symbol}/hist",
+              "parent": "get"
+            },
+            {
+              "name": "book/{symbol}/{precision}",
+              "parent": "get"
+            },
+            {
+              "name": "book/{symbol}/P0",
+              "parent": "get"
+            },
+            {
+              "name": "book/{symbol}/P1",
+              "parent": "get"
+            },
+            {
+              "name": "book/{symbol}/P2",
+              "parent": "get"
+            },
+            {
+              "name": "book/{symbol}/P3",
+              "parent": "get"
+            },
+            {
+              "name": "book/{symbol}/R0",
+              "parent": "get"
+            },
+            {
+              "name": "stats1/{key}:{size}:{symbol}/{side}/{section}",
+              "parent": "get"
+            },
+            {
+              "name": "stats1/{key}:{size}:{symbol}/long/last",
+              "parent": "get"
+            },
+            {
+              "name": "stats1/{key}:{size}:{symbol}/long/hist",
+              "parent": "get"
+            },
+            {
+              "name": "stats1/{key}:{size}:{symbol}/short/last",
+              "parent": "get"
+            },
+            {
+              "name": "stats1/{key}:{size}:{symbol}/short/hist",
+              "parent": "get"
+            },
+            {
+              "name": "candles/trade:{timeframe}:{symbol}/{section}",
+              "parent": "get"
+            },
+            {
+              "name": "candles/trade:{timeframe}:{symbol}/last",
+              "parent": "get"
+            },
+            {
+              "name": "candles/trade:{timeframe}:{symbol}/hist",
+              "parent": "get"
+            }
+          ]
+        },
+        {
+          "name": "post",
+          "parent": "public",
+          "children": [
+            {
+              "name": "calc/trade/avg",
+              "parent": "post"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "private",
+      "parent": "hitbtc2",
+      "children": [
+        {
+          "name": "post",
+          "parent": "private",
+          "children": [
+            {
+              "name": "auth/r/wallets",
+              "parent": "post"
+            },
+            {
+              "name": "auth/r/orders/{symbol}",
+              "parent": "post"
+            },
+            {
+              "name": "auth/r/orders/{symbol}/new",
+              "parent": "post"
+            },
+            {
+              "name": "auth/r/orders/{symbol}/hist",
+              "parent": "post"
+            },
+            {
+              "name": "auth/r/order/{symbol}:{id}/trades",
+              "parent": "post"
+            },
+            {
+              "name": "auth/r/trades/{symbol}/hist",
+              "parent": "post"
+            },
+            {
+              "name": "auth/r/positions",
+              "parent": "post"
+            },
+            {
+              "name": "auth/r/funding/offers/{symbol}",
+              "parent": "post"
+            },
+            {
+              "name": "auth/r/funding/offers/{symbol}/hist",
+              "parent": "post"
+            },
+            {
+              "name": "auth/r/funding/loans/{symbol}",
+              "parent": "post"
+            },
+            {
+              "name": "auth/r/funding/loans/{symbol}/hist",
+              "parent": "post"
+            },
+            {
+              "name": "auth/r/funding/credits/{symbol}",
+              "parent": "post"
+            },
+            {
+              "name": "auth/r/funding/credits/{symbol}/hist",
+              "parent": "post"
+            },
+            {
+              "name": "auth/r/funding/trades/{symbol}/hist",
+              "parent": "post"
+            },
+            {
+              "name": "auth/r/info/margin/{key}",
+              "parent": "post"
+            },
+            {
+              "name": "auth/r/info/funding/{key}",
+              "parent": "post"
+            },
+            {
+              "name": "auth/r/movements/{currency}/hist",
+              "parent": "post"
+            },
+            {
+              "name": "auth/r/stats/perf:{timeframe}/hist",
+              "parent": "post"
+            },
+            {
+              "name": "auth/r/alerts",
+              "parent": "post"
+            },
+            {
+              "name": "auth/w/alert/set",
+              "parent": "post"
+            },
+            {
+              "name": "auth/w/alert/{type}:{symbol}:{price}/del",
+              "parent": "post"
+            },
+            {
+              "name": "auth/calc/order/avail",
+              "parent": "post"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "name": "hitbtc2",
+  "parent": "null",
+  "children": [
+    {
+      "name": "files",
+      "parent": "hitbtc2",
+      "children": [
+        {
+          "name": "get",
+          "parent": "files",
+          "children": [
+            {
+              "name": "generated/stats/global.json",
+              "parent": "get"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "graphs",
+      "parent": "hitbtc2",
+      "children": [
+        {
+          "name": "get",
+          "parent": "graphs",
+          "children": [
+            {
+              "name": "currencies/{name}/",
+              "parent": "get"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "public",
+      "parent": "hitbtc2",
+      "children": [
+        {
+          "name": "get",
+          "parent": "public",
+          "children": [
+            {
+              "name": "ticker/",
+              "parent": "get"
+            },
+            {
+              "name": "ticker/{id}/",
+              "parent": "get"
+            },
+            {
+              "name": "global/",
+              "parent": "get"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

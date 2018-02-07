@@ -1,0 +1,122 @@
+{
+  "name": "hitbtc2",
+  "parent": "null",
+  "children": [
+    {
+      "name": "public",
+      "parent": "hitbtc2",
+      "children": [
+        {
+          "name": "get",
+          "parent": "public",
+          "children": [
+            {
+              "name": "countries",
+              "parent": "get"
+            },
+            {
+              "name": "data/{id}/ticker",
+              "parent": "get"
+            },
+            {
+              "name": "data/{id}/trades",
+              "parent": "get"
+            },
+            {
+              "name": "data/{id}/depth",
+              "parent": "get"
+            },
+            {
+              "name": "bitcoin_charts/{id}/trades",
+              "parent": "get"
+            },
+            {
+              "name": "bitcoin_charts/{id}/depth",
+              "parent": "get"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "private",
+      "parent": "hitbtc2",
+      "children": [
+        {
+          "name": "get",
+          "parent": "private",
+          "children": [
+            {
+              "name": "merchant/get_payment/{UUID}",
+              "parent": "get"
+            },
+            {
+              "name": "user",
+              "parent": "get"
+            },
+            {
+              "name": "user/addresses",
+              "parent": "get"
+            },
+            {
+              "name": "user/addresses/{btc_address}",
+              "parent": "get"
+            },
+            {
+              "name": "user/orders",
+              "parent": "get"
+            },
+            {
+              "name": "user/orders/{UUID}",
+              "parent": "get"
+            },
+            {
+              "name": "user/price_alerts",
+              "parent": "get"
+            }
+          ]
+        },
+        {
+          "name": "post",
+          "parent": "private",
+          "children": [
+            {
+              "name": "user/orders",
+              "parent": "post"
+            },
+            {
+              "name": "user/addresses",
+              "parent": "post"
+            },
+            {
+              "name": "user/payment_requests",
+              "parent": "post"
+            },
+            {
+              "name": "user/price_alerts",
+              "parent": "post"
+            },
+            {
+              "name": "merchant/create_payment",
+              "parent": "post"
+            }
+          ]
+        },
+        {
+          "name": "delete",
+          "parent": "private",
+          "children": [
+            {
+              "name": "user/orders/{UUID}/cancel",
+              "parent": "delete"
+            },
+            {
+              "name": "user/price_alerts/{id}",
+              "parent": "delete"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

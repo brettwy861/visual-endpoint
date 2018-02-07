@@ -1,0 +1,158 @@
+{
+  "name": "hitbtc2",
+  "parent": "null",
+  "children": [
+    {
+      "name": "public",
+      "parent": "hitbtc2",
+      "children": [
+        {
+          "name": "get",
+          "parent": "public",
+          "children": [
+            {
+              "name": "exchange/orders/rate",
+              "parent": "get"
+            },
+            {
+              "name": "order_books",
+              "parent": "get"
+            },
+            {
+              "name": "rate/{pair}",
+              "parent": "get"
+            },
+            {
+              "name": "ticker",
+              "parent": "get"
+            },
+            {
+              "name": "trades",
+              "parent": "get"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "private",
+      "parent": "hitbtc2",
+      "children": [
+        {
+          "name": "get",
+          "parent": "private",
+          "children": [
+            {
+              "name": "accounts",
+              "parent": "get"
+            },
+            {
+              "name": "accounts/balance",
+              "parent": "get"
+            },
+            {
+              "name": "accounts/leverage_balance",
+              "parent": "get"
+            },
+            {
+              "name": "bank_accounts",
+              "parent": "get"
+            },
+            {
+              "name": "deposit_money",
+              "parent": "get"
+            },
+            {
+              "name": "exchange/orders/opens",
+              "parent": "get"
+            },
+            {
+              "name": "exchange/orders/transactions",
+              "parent": "get"
+            },
+            {
+              "name": "exchange/orders/transactions_pagination",
+              "parent": "get"
+            },
+            {
+              "name": "exchange/leverage/positions",
+              "parent": "get"
+            },
+            {
+              "name": "lending/borrows/matches",
+              "parent": "get"
+            },
+            {
+              "name": "send_money",
+              "parent": "get"
+            },
+            {
+              "name": "withdraws",
+              "parent": "get"
+            }
+          ]
+        },
+        {
+          "name": "post",
+          "parent": "private",
+          "children": [
+            {
+              "name": "bank_accounts",
+              "parent": "post"
+            },
+            {
+              "name": "deposit_money/{id}/fast",
+              "parent": "post"
+            },
+            {
+              "name": "exchange/orders",
+              "parent": "post"
+            },
+            {
+              "name": "exchange/transfers/to_leverage",
+              "parent": "post"
+            },
+            {
+              "name": "exchange/transfers/from_leverage",
+              "parent": "post"
+            },
+            {
+              "name": "lending/borrows",
+              "parent": "post"
+            },
+            {
+              "name": "lending/borrows/{id}/repay",
+              "parent": "post"
+            },
+            {
+              "name": "send_money",
+              "parent": "post"
+            },
+            {
+              "name": "withdraws",
+              "parent": "post"
+            }
+          ]
+        },
+        {
+          "name": "delete",
+          "parent": "private",
+          "children": [
+            {
+              "name": "bank_accounts/{id}",
+              "parent": "delete"
+            },
+            {
+              "name": "exchange/orders/{id}",
+              "parent": "delete"
+            },
+            {
+              "name": "withdraws/{id}",
+              "parent": "delete"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

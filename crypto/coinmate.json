@@ -1,0 +1,98 @@
+{
+  "name": "hitbtc2",
+  "parent": "null",
+  "children": [
+    {
+      "name": "public",
+      "parent": "hitbtc2",
+      "children": [
+        {
+          "name": "get",
+          "parent": "public",
+          "children": [
+            {
+              "name": "orderBook",
+              "parent": "get"
+            },
+            {
+              "name": "ticker",
+              "parent": "get"
+            },
+            {
+              "name": "transactions",
+              "parent": "get"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "private",
+      "parent": "hitbtc2",
+      "children": [
+        {
+          "name": "post",
+          "parent": "private",
+          "children": [
+            {
+              "name": "balances",
+              "parent": "post"
+            },
+            {
+              "name": "bitcoinWithdrawal",
+              "parent": "post"
+            },
+            {
+              "name": "bitcoinDepositAddresses",
+              "parent": "post"
+            },
+            {
+              "name": "buyInstant",
+              "parent": "post"
+            },
+            {
+              "name": "buyLimit",
+              "parent": "post"
+            },
+            {
+              "name": "cancelOrder",
+              "parent": "post"
+            },
+            {
+              "name": "cancelOrderWithInfo",
+              "parent": "post"
+            },
+            {
+              "name": "createVoucher",
+              "parent": "post"
+            },
+            {
+              "name": "openOrders",
+              "parent": "post"
+            },
+            {
+              "name": "redeemVoucher",
+              "parent": "post"
+            },
+            {
+              "name": "sellInstant",
+              "parent": "post"
+            },
+            {
+              "name": "sellLimit",
+              "parent": "post"
+            },
+            {
+              "name": "transactionHistory",
+              "parent": "post"
+            },
+            {
+              "name": "unconfirmedBitcoinDeposits",
+              "parent": "post"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

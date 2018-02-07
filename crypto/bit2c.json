@@ -1,0 +1,94 @@
+{
+  "name": "hitbtc2",
+  "parent": "null",
+  "children": [
+    {
+      "name": "public",
+      "parent": "hitbtc2",
+      "children": [
+        {
+          "name": "get",
+          "parent": "public",
+          "children": [
+            {
+              "name": "Exchanges/{pair}/Ticker",
+              "parent": "get"
+            },
+            {
+              "name": "Exchanges/{pair}/orderbook",
+              "parent": "get"
+            },
+            {
+              "name": "Exchanges/{pair}/trades",
+              "parent": "get"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "private",
+      "parent": "hitbtc2",
+      "children": [
+        {
+          "name": "post",
+          "parent": "private",
+          "children": [
+            {
+              "name": "Account/Balance",
+              "parent": "post"
+            },
+            {
+              "name": "Account/Balance/v2",
+              "parent": "post"
+            },
+            {
+              "name": "Merchant/CreateCheckout",
+              "parent": "post"
+            },
+            {
+              "name": "Order/AccountHistory",
+              "parent": "post"
+            },
+            {
+              "name": "Order/AddCoinFundsRequest",
+              "parent": "post"
+            },
+            {
+              "name": "Order/AddFund",
+              "parent": "post"
+            },
+            {
+              "name": "Order/AddOrder",
+              "parent": "post"
+            },
+            {
+              "name": "Order/AddOrderMarketPriceBuy",
+              "parent": "post"
+            },
+            {
+              "name": "Order/AddOrderMarketPriceSell",
+              "parent": "post"
+            },
+            {
+              "name": "Order/CancelOrder",
+              "parent": "post"
+            },
+            {
+              "name": "Order/MyOrders",
+              "parent": "post"
+            },
+            {
+              "name": "Payment/GetMyId",
+              "parent": "post"
+            },
+            {
+              "name": "Payment/Send",
+              "parent": "post"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

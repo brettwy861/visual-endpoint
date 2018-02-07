@@ -1,0 +1,224 @@
+{
+  "name": "hitbtc2",
+  "parent": "null",
+  "children": [
+    {
+      "name": "web",
+      "parent": "hitbtc2",
+      "children": [
+        {
+          "name": "get",
+          "parent": "web",
+          "children": [
+            {
+              "name": "exchange/public/product",
+              "parent": "get"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "wapi",
+      "parent": "hitbtc2",
+      "children": [
+        {
+          "name": "post",
+          "parent": "wapi",
+          "children": [
+            {
+              "name": "withdraw",
+              "parent": "post"
+            }
+          ]
+        },
+        {
+          "name": "get",
+          "parent": "wapi",
+          "children": [
+            {
+              "name": "depositHistory",
+              "parent": "get"
+            },
+            {
+              "name": "withdrawHistory",
+              "parent": "get"
+            },
+            {
+              "name": "depositAddress",
+              "parent": "get"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "v3",
+      "parent": "hitbtc2",
+      "children": [
+        {
+          "name": "get",
+          "parent": "v3",
+          "children": [
+            {
+              "name": "ticker/price",
+              "parent": "get"
+            },
+            {
+              "name": "ticker/bookTicker",
+              "parent": "get"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "public",
+      "parent": "hitbtc2",
+      "children": [
+        {
+          "name": "get",
+          "parent": "public",
+          "children": [
+            {
+              "name": "exchangeInfo",
+              "parent": "get"
+            },
+            {
+              "name": "ping",
+              "parent": "get"
+            },
+            {
+              "name": "time",
+              "parent": "get"
+            },
+            {
+              "name": "depth",
+              "parent": "get"
+            },
+            {
+              "name": "aggTrades",
+              "parent": "get"
+            },
+            {
+              "name": "klines",
+              "parent": "get"
+            },
+            {
+              "name": "ticker/24hr",
+              "parent": "get"
+            },
+            {
+              "name": "ticker/allPrices",
+              "parent": "get"
+            },
+            {
+              "name": "ticker/allBookTickers",
+              "parent": "get"
+            },
+            {
+              "name": "ticker/price",
+              "parent": "get"
+            },
+            {
+              "name": "ticker/bookTicker",
+              "parent": "get"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "private",
+      "parent": "hitbtc2",
+      "children": [
+        {
+          "name": "get",
+          "parent": "private",
+          "children": [
+            {
+              "name": "order",
+              "parent": "get"
+            },
+            {
+              "name": "openOrders",
+              "parent": "get"
+            },
+            {
+              "name": "allOrders",
+              "parent": "get"
+            },
+            {
+              "name": "account",
+              "parent": "get"
+            },
+            {
+              "name": "myTrades",
+              "parent": "get"
+            }
+          ]
+        },
+        {
+          "name": "post",
+          "parent": "private",
+          "children": [
+            {
+              "name": "order",
+              "parent": "post"
+            },
+            {
+              "name": "order/test",
+              "parent": "post"
+            }
+          ]
+        },
+        {
+          "name": "delete",
+          "parent": "private",
+          "children": [
+            {
+              "name": "order",
+              "parent": "delete"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "v1",
+      "parent": "hitbtc2",
+      "children": [
+        {
+          "name": "put",
+          "parent": "v1",
+          "children": [
+            {
+              "name": "userDataStream",
+              "parent": "put"
+            }
+          ]
+        },
+        {
+          "name": "post",
+          "parent": "v1",
+          "children": [
+            {
+              "name": "userDataStream",
+              "parent": "post"
+            }
+          ]
+        },
+        {
+          "name": "delete",
+          "parent": "v1",
+          "children": [
+            {
+              "name": "userDataStream",
+              "parent": "delete"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

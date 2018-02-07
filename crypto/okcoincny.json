@@ -1,0 +1,258 @@
+{
+  "name": "hitbtc2",
+  "parent": "null",
+  "children": [
+    {
+      "name": "web",
+      "parent": "hitbtc2",
+      "children": [
+        {
+          "name": "get",
+          "parent": "web",
+          "children": [
+            {
+              "name": "markets/currencies",
+              "parent": "get"
+            },
+            {
+              "name": "markets/products",
+              "parent": "get"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "public",
+      "parent": "hitbtc2",
+      "children": [
+        {
+          "name": "get",
+          "parent": "public",
+          "children": [
+            {
+              "name": "depth",
+              "parent": "get"
+            },
+            {
+              "name": "exchange_rate",
+              "parent": "get"
+            },
+            {
+              "name": "future_depth",
+              "parent": "get"
+            },
+            {
+              "name": "future_estimated_price",
+              "parent": "get"
+            },
+            {
+              "name": "future_hold_amount",
+              "parent": "get"
+            },
+            {
+              "name": "future_index",
+              "parent": "get"
+            },
+            {
+              "name": "future_kline",
+              "parent": "get"
+            },
+            {
+              "name": "future_price_limit",
+              "parent": "get"
+            },
+            {
+              "name": "future_ticker",
+              "parent": "get"
+            },
+            {
+              "name": "future_trades",
+              "parent": "get"
+            },
+            {
+              "name": "kline",
+              "parent": "get"
+            },
+            {
+              "name": "otcs",
+              "parent": "get"
+            },
+            {
+              "name": "ticker",
+              "parent": "get"
+            },
+            {
+              "name": "tickers",
+              "parent": "get"
+            },
+            {
+              "name": "trades",
+              "parent": "get"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "private",
+      "parent": "hitbtc2",
+      "children": [
+        {
+          "name": "post",
+          "parent": "private",
+          "children": [
+            {
+              "name": "account_records",
+              "parent": "post"
+            },
+            {
+              "name": "batch_trade",
+              "parent": "post"
+            },
+            {
+              "name": "borrow_money",
+              "parent": "post"
+            },
+            {
+              "name": "borrow_order_info",
+              "parent": "post"
+            },
+            {
+              "name": "borrows_info",
+              "parent": "post"
+            },
+            {
+              "name": "cancel_borrow",
+              "parent": "post"
+            },
+            {
+              "name": "cancel_order",
+              "parent": "post"
+            },
+            {
+              "name": "cancel_otc_order",
+              "parent": "post"
+            },
+            {
+              "name": "cancel_withdraw",
+              "parent": "post"
+            },
+            {
+              "name": "future_batch_trade",
+              "parent": "post"
+            },
+            {
+              "name": "future_cancel",
+              "parent": "post"
+            },
+            {
+              "name": "future_devolve",
+              "parent": "post"
+            },
+            {
+              "name": "future_explosive",
+              "parent": "post"
+            },
+            {
+              "name": "future_order_info",
+              "parent": "post"
+            },
+            {
+              "name": "future_orders_info",
+              "parent": "post"
+            },
+            {
+              "name": "future_position",
+              "parent": "post"
+            },
+            {
+              "name": "future_position_4fix",
+              "parent": "post"
+            },
+            {
+              "name": "future_trade",
+              "parent": "post"
+            },
+            {
+              "name": "future_trades_history",
+              "parent": "post"
+            },
+            {
+              "name": "future_userinfo",
+              "parent": "post"
+            },
+            {
+              "name": "future_userinfo_4fix",
+              "parent": "post"
+            },
+            {
+              "name": "lend_depth",
+              "parent": "post"
+            },
+            {
+              "name": "order_fee",
+              "parent": "post"
+            },
+            {
+              "name": "order_history",
+              "parent": "post"
+            },
+            {
+              "name": "order_info",
+              "parent": "post"
+            },
+            {
+              "name": "orders_info",
+              "parent": "post"
+            },
+            {
+              "name": "otc_order_history",
+              "parent": "post"
+            },
+            {
+              "name": "otc_order_info",
+              "parent": "post"
+            },
+            {
+              "name": "repayment",
+              "parent": "post"
+            },
+            {
+              "name": "submit_otc_order",
+              "parent": "post"
+            },
+            {
+              "name": "trade",
+              "parent": "post"
+            },
+            {
+              "name": "trade_history",
+              "parent": "post"
+            },
+            {
+              "name": "trade_otc_order",
+              "parent": "post"
+            },
+            {
+              "name": "withdraw",
+              "parent": "post"
+            },
+            {
+              "name": "withdraw_info",
+              "parent": "post"
+            },
+            {
+              "name": "unrepayments_info",
+              "parent": "post"
+            },
+            {
+              "name": "userinfo",
+              "parent": "post"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

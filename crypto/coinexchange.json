@@ -1,0 +1,42 @@
+{
+  "name": "hitbtc2",
+  "parent": "null",
+  "children": [
+    {
+      "name": "public",
+      "parent": "hitbtc2",
+      "children": [
+        {
+          "name": "get",
+          "parent": "public",
+          "children": [
+            {
+              "name": "getcurrency",
+              "parent": "get"
+            },
+            {
+              "name": "getcurrencies",
+              "parent": "get"
+            },
+            {
+              "name": "getmarkets",
+              "parent": "get"
+            },
+            {
+              "name": "getmarketsummaries",
+              "parent": "get"
+            },
+            {
+              "name": "getmarketsummary",
+              "parent": "get"
+            },
+            {
+              "name": "getorderbook",
+              "parent": "get"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

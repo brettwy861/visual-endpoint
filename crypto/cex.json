@@ -1,0 +1,140 @@
+{
+  "name": "hitbtc2",
+  "parent": "null",
+  "children": [
+    {
+      "name": "public",
+      "parent": "hitbtc2",
+      "children": [
+        {
+          "name": "get",
+          "parent": "public",
+          "children": [
+            {
+              "name": "currency_limits/",
+              "parent": "get"
+            },
+            {
+              "name": "last_price/{pair}/",
+              "parent": "get"
+            },
+            {
+              "name": "last_prices/{currencies}/",
+              "parent": "get"
+            },
+            {
+              "name": "ohlcv/hd/{yyyymmdd}/{pair}",
+              "parent": "get"
+            },
+            {
+              "name": "order_book/{pair}/",
+              "parent": "get"
+            },
+            {
+              "name": "ticker/{pair}/",
+              "parent": "get"
+            },
+            {
+              "name": "tickers/{currencies}/",
+              "parent": "get"
+            },
+            {
+              "name": "trade_history/{pair}/",
+              "parent": "get"
+            }
+          ]
+        },
+        {
+          "name": "post",
+          "parent": "public",
+          "children": [
+            {
+              "name": "convert/{pair}",
+              "parent": "post"
+            },
+            {
+              "name": "price_stats/{pair}",
+              "parent": "post"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "private",
+      "parent": "hitbtc2",
+      "children": [
+        {
+          "name": "post",
+          "parent": "private",
+          "children": [
+            {
+              "name": "active_orders_status/",
+              "parent": "post"
+            },
+            {
+              "name": "archived_orders/{pair}/",
+              "parent": "post"
+            },
+            {
+              "name": "balance/",
+              "parent": "post"
+            },
+            {
+              "name": "cancel_order/",
+              "parent": "post"
+            },
+            {
+              "name": "cancel_orders/{pair}/",
+              "parent": "post"
+            },
+            {
+              "name": "cancel_replace_order/{pair}/",
+              "parent": "post"
+            },
+            {
+              "name": "close_position/{pair}/",
+              "parent": "post"
+            },
+            {
+              "name": "get_address/",
+              "parent": "post"
+            },
+            {
+              "name": "get_myfee/",
+              "parent": "post"
+            },
+            {
+              "name": "get_order/",
+              "parent": "post"
+            },
+            {
+              "name": "get_order_tx/",
+              "parent": "post"
+            },
+            {
+              "name": "open_orders/{pair}/",
+              "parent": "post"
+            },
+            {
+              "name": "open_orders/",
+              "parent": "post"
+            },
+            {
+              "name": "open_position/{pair}/",
+              "parent": "post"
+            },
+            {
+              "name": "open_positions/{pair}/",
+              "parent": "post"
+            },
+            {
+              "name": "place_order/{pair}/",
+              "parent": "post"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

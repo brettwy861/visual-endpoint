@@ -1,0 +1,166 @@
+{
+  "name": "hitbtc2",
+  "parent": "null",
+  "children": [
+    {
+      "name": "public",
+      "parent": "hitbtc2",
+      "children": [
+        {
+          "name": "get",
+          "parent": "public",
+          "children": [
+            {
+              "name": "products",
+              "parent": "get"
+            },
+            {
+              "name": "products/{id}",
+              "parent": "get"
+            },
+            {
+              "name": "products/{id}/price_levels",
+              "parent": "get"
+            },
+            {
+              "name": "executions",
+              "parent": "get"
+            },
+            {
+              "name": "ir_ladders/{currency}",
+              "parent": "get"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "private",
+      "parent": "hitbtc2",
+      "children": [
+        {
+          "name": "get",
+          "parent": "private",
+          "children": [
+            {
+              "name": "accounts/balance",
+              "parent": "get"
+            },
+            {
+              "name": "accounts/main_asset",
+              "parent": "get"
+            },
+            {
+              "name": "crypto_accounts",
+              "parent": "get"
+            },
+            {
+              "name": "executions/me",
+              "parent": "get"
+            },
+            {
+              "name": "fiat_accounts",
+              "parent": "get"
+            },
+            {
+              "name": "loan_bids",
+              "parent": "get"
+            },
+            {
+              "name": "loans",
+              "parent": "get"
+            },
+            {
+              "name": "orders",
+              "parent": "get"
+            },
+            {
+              "name": "orders/{id}",
+              "parent": "get"
+            },
+            {
+              "name": "orders/{id}/trades",
+              "parent": "get"
+            },
+            {
+              "name": "orders/{id}/executions",
+              "parent": "get"
+            },
+            {
+              "name": "trades",
+              "parent": "get"
+            },
+            {
+              "name": "trades/{id}/loans",
+              "parent": "get"
+            },
+            {
+              "name": "trading_accounts",
+              "parent": "get"
+            },
+            {
+              "name": "trading_accounts/{id}",
+              "parent": "get"
+            }
+          ]
+        },
+        {
+          "name": "post",
+          "parent": "private",
+          "children": [
+            {
+              "name": "fiat_accounts",
+              "parent": "post"
+            },
+            {
+              "name": "loan_bids",
+              "parent": "post"
+            },
+            {
+              "name": "orders",
+              "parent": "post"
+            }
+          ]
+        },
+        {
+          "name": "put",
+          "parent": "private",
+          "children": [
+            {
+              "name": "loan_bids/{id}/close",
+              "parent": "put"
+            },
+            {
+              "name": "loans/{id}",
+              "parent": "put"
+            },
+            {
+              "name": "orders/{id}",
+              "parent": "put"
+            },
+            {
+              "name": "orders/{id}/cancel",
+              "parent": "put"
+            },
+            {
+              "name": "trades/{id}",
+              "parent": "put"
+            },
+            {
+              "name": "trades/{id}/close",
+              "parent": "put"
+            },
+            {
+              "name": "trades/close_all",
+              "parent": "put"
+            },
+            {
+              "name": "trading_accounts/{id}",
+              "parent": "put"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

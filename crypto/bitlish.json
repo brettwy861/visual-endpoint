@@ -1,0 +1,184 @@
+{
+  "name": "hitbtc2",
+  "parent": "null",
+  "children": [
+    {
+      "name": "public",
+      "parent": "hitbtc2",
+      "children": [
+        {
+          "name": "get",
+          "parent": "public",
+          "children": [
+            {
+              "name": "instruments",
+              "parent": "get"
+            },
+            {
+              "name": "ohlcv",
+              "parent": "get"
+            },
+            {
+              "name": "pairs",
+              "parent": "get"
+            },
+            {
+              "name": "tickers",
+              "parent": "get"
+            },
+            {
+              "name": "trades_depth",
+              "parent": "get"
+            },
+            {
+              "name": "trades_history",
+              "parent": "get"
+            }
+          ]
+        },
+        {
+          "name": "post",
+          "parent": "public",
+          "children": [
+            {
+              "name": "instruments",
+              "parent": "post"
+            },
+            {
+              "name": "ohlcv",
+              "parent": "post"
+            },
+            {
+              "name": "pairs",
+              "parent": "post"
+            },
+            {
+              "name": "tickers",
+              "parent": "post"
+            },
+            {
+              "name": "trades_depth",
+              "parent": "post"
+            },
+            {
+              "name": "trades_history",
+              "parent": "post"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "private",
+      "parent": "hitbtc2",
+      "children": [
+        {
+          "name": "post",
+          "parent": "private",
+          "children": [
+            {
+              "name": "accounts_operations",
+              "parent": "post"
+            },
+            {
+              "name": "balance",
+              "parent": "post"
+            },
+            {
+              "name": "cancel_trade",
+              "parent": "post"
+            },
+            {
+              "name": "cancel_trades_by_ids",
+              "parent": "post"
+            },
+            {
+              "name": "cancel_all_trades",
+              "parent": "post"
+            },
+            {
+              "name": "create_bcode",
+              "parent": "post"
+            },
+            {
+              "name": "create_template_wallet",
+              "parent": "post"
+            },
+            {
+              "name": "create_trade",
+              "parent": "post"
+            },
+            {
+              "name": "deposit",
+              "parent": "post"
+            },
+            {
+              "name": "list_accounts_operations_from_ts",
+              "parent": "post"
+            },
+            {
+              "name": "list_active_trades",
+              "parent": "post"
+            },
+            {
+              "name": "list_bcodes",
+              "parent": "post"
+            },
+            {
+              "name": "list_my_matches_from_ts",
+              "parent": "post"
+            },
+            {
+              "name": "list_my_trades",
+              "parent": "post"
+            },
+            {
+              "name": "list_my_trads_from_ts",
+              "parent": "post"
+            },
+            {
+              "name": "list_payment_methods",
+              "parent": "post"
+            },
+            {
+              "name": "list_payments",
+              "parent": "post"
+            },
+            {
+              "name": "redeem_code",
+              "parent": "post"
+            },
+            {
+              "name": "resign",
+              "parent": "post"
+            },
+            {
+              "name": "signin",
+              "parent": "post"
+            },
+            {
+              "name": "signout",
+              "parent": "post"
+            },
+            {
+              "name": "trade_details",
+              "parent": "post"
+            },
+            {
+              "name": "trade_options",
+              "parent": "post"
+            },
+            {
+              "name": "withdraw",
+              "parent": "post"
+            },
+            {
+              "name": "withdraw_by_id",
+              "parent": "post"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

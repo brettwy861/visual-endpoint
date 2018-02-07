@@ -1,0 +1,156 @@
+{
+  "name": "hitbtc2",
+  "parent": "null",
+  "children": [
+    {
+      "name": "public",
+      "parent": "hitbtc2",
+      "children": [
+        {
+          "name": "get",
+          "parent": "public",
+          "children": [
+            {
+              "name": "orderbook",
+              "parent": "get"
+            },
+            {
+              "name": "ticker",
+              "parent": "get"
+            },
+            {
+              "name": "tickers",
+              "parent": "get"
+            },
+            {
+              "name": "trades",
+              "parent": "get"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "private",
+      "parent": "hitbtc2",
+      "children": [
+        {
+          "name": "get",
+          "parent": "private",
+          "children": [
+            {
+              "name": "accounts/{id}/pending",
+              "parent": "get"
+            },
+            {
+              "name": "accounts/{id}/transactions",
+              "parent": "get"
+            },
+            {
+              "name": "balance",
+              "parent": "get"
+            },
+            {
+              "name": "fee_info",
+              "parent": "get"
+            },
+            {
+              "name": "funding_address",
+              "parent": "get"
+            },
+            {
+              "name": "listorders",
+              "parent": "get"
+            },
+            {
+              "name": "listtrades",
+              "parent": "get"
+            },
+            {
+              "name": "orders/{id}",
+              "parent": "get"
+            },
+            {
+              "name": "quotes/{id}",
+              "parent": "get"
+            },
+            {
+              "name": "withdrawals",
+              "parent": "get"
+            },
+            {
+              "name": "withdrawals/{id}",
+              "parent": "get"
+            }
+          ]
+        },
+        {
+          "name": "post",
+          "parent": "private",
+          "children": [
+            {
+              "name": "accounts",
+              "parent": "post"
+            },
+            {
+              "name": "postorder",
+              "parent": "post"
+            },
+            {
+              "name": "marketorder",
+              "parent": "post"
+            },
+            {
+              "name": "stoporder",
+              "parent": "post"
+            },
+            {
+              "name": "funding_address",
+              "parent": "post"
+            },
+            {
+              "name": "withdrawals",
+              "parent": "post"
+            },
+            {
+              "name": "send",
+              "parent": "post"
+            },
+            {
+              "name": "quotes",
+              "parent": "post"
+            },
+            {
+              "name": "oauth2/grant",
+              "parent": "post"
+            }
+          ]
+        },
+        {
+          "name": "put",
+          "parent": "private",
+          "children": [
+            {
+              "name": "quotes/{id}",
+              "parent": "put"
+            }
+          ]
+        },
+        {
+          "name": "delete",
+          "parent": "private",
+          "children": [
+            {
+              "name": "quotes/{id}",
+              "parent": "delete"
+            },
+            {
+              "name": "withdrawals/{id}",
+              "parent": "delete"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "name": "hitbtc2",
+  "parent": "null",
+  "children": [
+    {
+      "name": "public",
+      "parent": "hitbtc2",
+      "children": [
+        {
+          "name": "post",
+          "parent": "public",
+          "children": [
+            {
+              "name": "GetTicker",
+              "parent": "post"
+            },
+            {
+              "name": "GetTrades",
+              "parent": "post"
+            },
+            {
+              "name": "GetTradesByDate",
+              "parent": "post"
+            },
+            {
+              "name": "GetOrderBook",
+              "parent": "post"
+            },
+            {
+              "name": "GetProductPairs",
+              "parent": "post"
+            },
+            {
+              "name": "GetProducts",
+              "parent": "post"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "private",
+      "parent": "hitbtc2",
+      "children": [
+        {
+          "name": "post",
+          "parent": "private",
+          "children": [
+            {
+              "name": "CreateAccount",
+              "parent": "post"
+            },
+            {
+              "name": "GetUserInfo",
+              "parent": "post"
+            },
+            {
+              "name": "SetUserInfo",
+              "parent": "post"
+            },
+            {
+              "name": "GetAccountInfo",
+              "parent": "post"
+            },
+            {
+              "name": "GetAccountTrades",
+              "parent": "post"
+            },
+            {
+              "name": "GetDepositAddresses",
+              "parent": "post"
+            },
+            {
+              "name": "Withdraw",
+              "parent": "post"
+            },
+            {
+              "name": "CreateOrder",
+              "parent": "post"
+            },
+            {
+              "name": "ModifyOrder",
+              "parent": "post"
+            },
+            {
+              "name": "CancelOrder",
+              "parent": "post"
+            },
+            {
+              "name": "CancelAllOrders",
+              "parent": "post"
+            },
+            {
+              "name": "GetAccountOpenOrders",
+              "parent": "post"
+            },
+            {
+              "name": "GetOrderFee",
+              "parent": "post"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

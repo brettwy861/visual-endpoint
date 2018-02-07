@@ -1,0 +1,170 @@
+{
+  "name": "hitbtc2",
+  "parent": "null",
+  "children": [
+    {
+      "name": "public",
+      "parent": "hitbtc2",
+      "children": [
+        {
+          "name": "get",
+          "parent": "public",
+          "children": [
+            {
+              "name": "return24hVolume",
+              "parent": "get"
+            },
+            {
+              "name": "returnChartData",
+              "parent": "get"
+            },
+            {
+              "name": "returnCurrencies",
+              "parent": "get"
+            },
+            {
+              "name": "returnLoanOrders",
+              "parent": "get"
+            },
+            {
+              "name": "returnOrderBook",
+              "parent": "get"
+            },
+            {
+              "name": "returnTicker",
+              "parent": "get"
+            },
+            {
+              "name": "returnTradeHistory",
+              "parent": "get"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "private",
+      "parent": "hitbtc2",
+      "children": [
+        {
+          "name": "post",
+          "parent": "private",
+          "children": [
+            {
+              "name": "buy",
+              "parent": "post"
+            },
+            {
+              "name": "cancelLoanOffer",
+              "parent": "post"
+            },
+            {
+              "name": "cancelOrder",
+              "parent": "post"
+            },
+            {
+              "name": "closeMarginPosition",
+              "parent": "post"
+            },
+            {
+              "name": "createLoanOffer",
+              "parent": "post"
+            },
+            {
+              "name": "generateNewAddress",
+              "parent": "post"
+            },
+            {
+              "name": "getMarginPosition",
+              "parent": "post"
+            },
+            {
+              "name": "marginBuy",
+              "parent": "post"
+            },
+            {
+              "name": "marginSell",
+              "parent": "post"
+            },
+            {
+              "name": "moveOrder",
+              "parent": "post"
+            },
+            {
+              "name": "returnActiveLoans",
+              "parent": "post"
+            },
+            {
+              "name": "returnAvailableAccountBalances",
+              "parent": "post"
+            },
+            {
+              "name": "returnBalances",
+              "parent": "post"
+            },
+            {
+              "name": "returnCompleteBalances",
+              "parent": "post"
+            },
+            {
+              "name": "returnDepositAddresses",
+              "parent": "post"
+            },
+            {
+              "name": "returnDepositsWithdrawals",
+              "parent": "post"
+            },
+            {
+              "name": "returnFeeInfo",
+              "parent": "post"
+            },
+            {
+              "name": "returnLendingHistory",
+              "parent": "post"
+            },
+            {
+              "name": "returnMarginAccountSummary",
+              "parent": "post"
+            },
+            {
+              "name": "returnOpenLoanOffers",
+              "parent": "post"
+            },
+            {
+              "name": "returnOpenOrders",
+              "parent": "post"
+            },
+            {
+              "name": "returnOrderTrades",
+              "parent": "post"
+            },
+            {
+              "name": "returnTradableBalances",
+              "parent": "post"
+            },
+            {
+              "name": "returnTradeHistory",
+              "parent": "post"
+            },
+            {
+              "name": "sell",
+              "parent": "post"
+            },
+            {
+              "name": "toggleAutoRenew",
+              "parent": "post"
+            },
+            {
+              "name": "transferBalance",
+              "parent": "post"
+            },
+            {
+              "name": "withdraw",
+              "parent": "post"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

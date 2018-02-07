@@ -1,0 +1,74 @@
+{
+  "name": "hitbtc2",
+  "parent": "null",
+  "children": [
+    {
+      "name": "public",
+      "parent": "hitbtc2",
+      "children": [
+        {
+          "name": "get",
+          "parent": "public",
+          "children": [
+            {
+              "name": "{pair}/ticker",
+              "parent": "get"
+            },
+            {
+              "name": "{pair}/trades",
+              "parent": "get"
+            },
+            {
+              "name": "{pair}/depth",
+              "parent": "get"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "private",
+      "parent": "hitbtc2",
+      "children": [
+        {
+          "name": "post",
+          "parent": "private",
+          "children": [
+            {
+              "name": "getInfo",
+              "parent": "post"
+            },
+            {
+              "name": "transHistory",
+              "parent": "post"
+            },
+            {
+              "name": "trade",
+              "parent": "post"
+            },
+            {
+              "name": "tradeHistory",
+              "parent": "post"
+            },
+            {
+              "name": "getOrder",
+              "parent": "post"
+            },
+            {
+              "name": "openOrders",
+              "parent": "post"
+            },
+            {
+              "name": "cancelOrder",
+              "parent": "post"
+            },
+            {
+              "name": "orderHistory",
+              "parent": "post"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

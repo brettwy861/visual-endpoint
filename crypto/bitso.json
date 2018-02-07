@@ -1,0 +1,178 @@
+{
+  "name": "hitbtc2",
+  "parent": "null",
+  "children": [
+    {
+      "name": "public",
+      "parent": "hitbtc2",
+      "children": [
+        {
+          "name": "get",
+          "parent": "public",
+          "children": [
+            {
+              "name": "available_books",
+              "parent": "get"
+            },
+            {
+              "name": "ticker",
+              "parent": "get"
+            },
+            {
+              "name": "order_book",
+              "parent": "get"
+            },
+            {
+              "name": "trades",
+              "parent": "get"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "private",
+      "parent": "hitbtc2",
+      "children": [
+        {
+          "name": "get",
+          "parent": "private",
+          "children": [
+            {
+              "name": "account_status",
+              "parent": "get"
+            },
+            {
+              "name": "balance",
+              "parent": "get"
+            },
+            {
+              "name": "fees",
+              "parent": "get"
+            },
+            {
+              "name": "fundings",
+              "parent": "get"
+            },
+            {
+              "name": "fundings/{fid}",
+              "parent": "get"
+            },
+            {
+              "name": "funding_destination",
+              "parent": "get"
+            },
+            {
+              "name": "kyc_documents",
+              "parent": "get"
+            },
+            {
+              "name": "ledger",
+              "parent": "get"
+            },
+            {
+              "name": "ledger/trades",
+              "parent": "get"
+            },
+            {
+              "name": "ledger/fees",
+              "parent": "get"
+            },
+            {
+              "name": "ledger/fundings",
+              "parent": "get"
+            },
+            {
+              "name": "ledger/withdrawals",
+              "parent": "get"
+            },
+            {
+              "name": "mx_bank_codes",
+              "parent": "get"
+            },
+            {
+              "name": "open_orders",
+              "parent": "get"
+            },
+            {
+              "name": "order_trades/{oid}",
+              "parent": "get"
+            },
+            {
+              "name": "orders/{oid}",
+              "parent": "get"
+            },
+            {
+              "name": "user_trades",
+              "parent": "get"
+            },
+            {
+              "name": "user_trades/{tid}",
+              "parent": "get"
+            },
+            {
+              "name": "withdrawals/",
+              "parent": "get"
+            },
+            {
+              "name": "withdrawals/{wid}",
+              "parent": "get"
+            }
+          ]
+        },
+        {
+          "name": "post",
+          "parent": "private",
+          "children": [
+            {
+              "name": "bitcoin_withdrawal",
+              "parent": "post"
+            },
+            {
+              "name": "debit_card_withdrawal",
+              "parent": "post"
+            },
+            {
+              "name": "ether_withdrawal",
+              "parent": "post"
+            },
+            {
+              "name": "orders",
+              "parent": "post"
+            },
+            {
+              "name": "phone_number",
+              "parent": "post"
+            },
+            {
+              "name": "phone_verification",
+              "parent": "post"
+            },
+            {
+              "name": "phone_withdrawal",
+              "parent": "post"
+            },
+            {
+              "name": "spei_withdrawal",
+              "parent": "post"
+            }
+          ]
+        },
+        {
+          "name": "delete",
+          "parent": "private",
+          "children": [
+            {
+              "name": "orders/{oid}",
+              "parent": "delete"
+            },
+            {
+              "name": "orders/all",
+              "parent": "delete"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

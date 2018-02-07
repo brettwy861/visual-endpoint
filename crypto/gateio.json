@@ -1,0 +1,114 @@
+{
+  "name": "hitbtc2",
+  "parent": "null",
+  "children": [
+    {
+      "name": "public",
+      "parent": "hitbtc2",
+      "children": [
+        {
+          "name": "get",
+          "parent": "public",
+          "children": [
+            {
+              "name": "pairs",
+              "parent": "get"
+            },
+            {
+              "name": "marketinfo",
+              "parent": "get"
+            },
+            {
+              "name": "marketlist",
+              "parent": "get"
+            },
+            {
+              "name": "tickers",
+              "parent": "get"
+            },
+            {
+              "name": "ticker/{id}",
+              "parent": "get"
+            },
+            {
+              "name": "orderBook/{id}",
+              "parent": "get"
+            },
+            {
+              "name": "trade/{id}",
+              "parent": "get"
+            },
+            {
+              "name": "tradeHistory/{id}",
+              "parent": "get"
+            },
+            {
+              "name": "tradeHistory/{id}/{tid}",
+              "parent": "get"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "private",
+      "parent": "hitbtc2",
+      "children": [
+        {
+          "name": "post",
+          "parent": "private",
+          "children": [
+            {
+              "name": "balances",
+              "parent": "post"
+            },
+            {
+              "name": "depositAddress",
+              "parent": "post"
+            },
+            {
+              "name": "newAddress",
+              "parent": "post"
+            },
+            {
+              "name": "depositsWithdrawals",
+              "parent": "post"
+            },
+            {
+              "name": "buy",
+              "parent": "post"
+            },
+            {
+              "name": "sell",
+              "parent": "post"
+            },
+            {
+              "name": "cancelOrder",
+              "parent": "post"
+            },
+            {
+              "name": "cancelAllOrders",
+              "parent": "post"
+            },
+            {
+              "name": "getOrder",
+              "parent": "post"
+            },
+            {
+              "name": "openOrders",
+              "parent": "post"
+            },
+            {
+              "name": "tradeHistory",
+              "parent": "post"
+            },
+            {
+              "name": "withdraw",
+              "parent": "post"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "name": "hitbtc2",
+  "parent": "null",
+  "children": [
+    {
+      "name": "public",
+      "parent": "hitbtc2",
+      "children": [
+        {
+          "name": "get",
+          "parent": "public",
+          "children": [
+            {
+              "name": "{currency_pair}/money/ticker",
+              "parent": "get"
+            },
+            {
+              "name": "{currency_pair}/money/depth/full",
+              "parent": "get"
+            },
+            {
+              "name": "{currency_pair}/money/trade/fetch",
+              "parent": "get"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "private",
+      "parent": "hitbtc2",
+      "children": [
+        {
+          "name": "post",
+          "parent": "private",
+          "children": [
+            {
+              "name": "{currency_pair}/money/order/add",
+              "parent": "post"
+            },
+            {
+              "name": "{currency_pair}/money/order/cancel",
+              "parent": "post"
+            },
+            {
+              "name": "{currency_pair}/money/order/quote",
+              "parent": "post"
+            },
+            {
+              "name": "{currency_pair}/money/order/result",
+              "parent": "post"
+            },
+            {
+              "name": "{currency_pair}/money/orders",
+              "parent": "post"
+            },
+            {
+              "name": "money/{currency}/address",
+              "parent": "post"
+            },
+            {
+              "name": "money/{currency}/send_simple",
+              "parent": "post"
+            },
+            {
+              "name": "money/info",
+              "parent": "post"
+            },
+            {
+              "name": "money/trade/list",
+              "parent": "post"
+            },
+            {
+              "name": "money/wallet/history",
+              "parent": "post"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

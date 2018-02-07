@@ -1,0 +1,110 @@
+{
+  "name": "hitbtc2",
+  "parent": "null",
+  "children": [
+    {
+      "name": "public",
+      "parent": "hitbtc2",
+      "children": [
+        {
+          "name": "get",
+          "parent": "public",
+          "children": [
+            {
+              "name": "order_book",
+              "parent": "get"
+            },
+            {
+              "name": "ticker",
+              "parent": "get"
+            },
+            {
+              "name": "transactions",
+              "parent": "get"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "private",
+      "parent": "hitbtc2",
+      "children": [
+        {
+          "name": "post",
+          "parent": "private",
+          "children": [
+            {
+              "name": "balance",
+              "parent": "post"
+            },
+            {
+              "name": "bitcoin_deposit_address",
+              "parent": "post"
+            },
+            {
+              "name": "bitcoin_withdrawal",
+              "parent": "post"
+            },
+            {
+              "name": "bitcoincash_deposit_address",
+              "parent": "post"
+            },
+            {
+              "name": "bitcoincash_withdrawal",
+              "parent": "post"
+            },
+            {
+              "name": "bitcoingold_deposit_address",
+              "parent": "post"
+            },
+            {
+              "name": "bitcoingold_withdrawal",
+              "parent": "post"
+            },
+            {
+              "name": "buy",
+              "parent": "post"
+            },
+            {
+              "name": "cancel_order",
+              "parent": "post"
+            },
+            {
+              "name": "ether_deposit_address",
+              "parent": "post"
+            },
+            {
+              "name": "ether_withdrawal",
+              "parent": "post"
+            },
+            {
+              "name": "litecoin_deposit_address",
+              "parent": "post"
+            },
+            {
+              "name": "litecoin_withdrawal",
+              "parent": "post"
+            },
+            {
+              "name": "lookup_order",
+              "parent": "post"
+            },
+            {
+              "name": "open_orders",
+              "parent": "post"
+            },
+            {
+              "name": "sell",
+              "parent": "post"
+            },
+            {
+              "name": "user_transactions",
+              "parent": "post"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

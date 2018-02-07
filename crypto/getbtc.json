@@ -1,0 +1,94 @@
+{
+  "name": "hitbtc2",
+  "parent": "null",
+  "children": [
+    {
+      "name": "public",
+      "parent": "hitbtc2",
+      "children": [
+        {
+          "name": "get",
+          "parent": "public",
+          "children": [
+            {
+              "name": "stats",
+              "parent": "get"
+            },
+            {
+              "name": "historical-prices",
+              "parent": "get"
+            },
+            {
+              "name": "order-book",
+              "parent": "get"
+            },
+            {
+              "name": "transactions",
+              "parent": "get"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "private",
+      "parent": "hitbtc2",
+      "children": [
+        {
+          "name": "post",
+          "parent": "private",
+          "children": [
+            {
+              "name": "balances-and-info",
+              "parent": "post"
+            },
+            {
+              "name": "open-orders",
+              "parent": "post"
+            },
+            {
+              "name": "user-transactions",
+              "parent": "post"
+            },
+            {
+              "name": "btc-deposit-address/get",
+              "parent": "post"
+            },
+            {
+              "name": "btc-deposit-address/new",
+              "parent": "post"
+            },
+            {
+              "name": "deposits/get",
+              "parent": "post"
+            },
+            {
+              "name": "withdrawals/get",
+              "parent": "post"
+            },
+            {
+              "name": "orders/new",
+              "parent": "post"
+            },
+            {
+              "name": "orders/edit",
+              "parent": "post"
+            },
+            {
+              "name": "orders/cancel",
+              "parent": "post"
+            },
+            {
+              "name": "orders/status",
+              "parent": "post"
+            },
+            {
+              "name": "withdrawals/new",
+              "parent": "post"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "name": "hitbtc2",
+  "parent": "null",
+  "children": [
+    {
+      "name": "public",
+      "parent": "hitbtc2",
+      "children": [
+        {
+          "name": "get",
+          "parent": "public",
+          "children": [
+            {
+              "name": "info",
+              "parent": "get"
+            },
+            {
+              "name": "ticker/{pair}",
+              "parent": "get"
+            },
+            {
+              "name": "depth/{pair}",
+              "parent": "get"
+            },
+            {
+              "name": "trades/{pair}",
+              "parent": "get"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "private",
+      "parent": "hitbtc2",
+      "children": [
+        {
+          "name": "post",
+          "parent": "private",
+          "children": [
+            {
+              "name": "getInfo",
+              "parent": "post"
+            },
+            {
+              "name": "Trade",
+              "parent": "post"
+            },
+            {
+              "name": "ActiveOrders",
+              "parent": "post"
+            },
+            {
+              "name": "OrderInfo",
+              "parent": "post"
+            },
+            {
+              "name": "CancelOrder",
+              "parent": "post"
+            },
+            {
+              "name": "TradeHistory",
+              "parent": "post"
+            },
+            {
+              "name": "CoinDepositAddress",
+              "parent": "post"
+            },
+            {
+              "name": "WithdrawCoin",
+              "parent": "post"
+            },
+            {
+              "name": "CreateCoupon",
+              "parent": "post"
+            },
+            {
+              "name": "RedeemCoupon",
+              "parent": "post"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,160 @@
+{
+  "name": "hitbtc2",
+  "parent": "null",
+  "children": [
+    {
+      "name": "public",
+      "parent": "hitbtc2",
+      "children": [
+        {
+          "name": "get",
+          "parent": "public",
+          "children": [
+            {
+              "name": "getmarkets/usa",
+              "parent": "get"
+            },
+            {
+              "name": "getmarkets/eu",
+              "parent": "get"
+            },
+            {
+              "name": "getmarkets",
+              "parent": "get"
+            },
+            {
+              "name": "getboard",
+              "parent": "get"
+            },
+            {
+              "name": "getticker",
+              "parent": "get"
+            },
+            {
+              "name": "getexecutions",
+              "parent": "get"
+            },
+            {
+              "name": "gethealth",
+              "parent": "get"
+            },
+            {
+              "name": "getchats",
+              "parent": "get"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "private",
+      "parent": "hitbtc2",
+      "children": [
+        {
+          "name": "get",
+          "parent": "private",
+          "children": [
+            {
+              "name": "getpermissions",
+              "parent": "get"
+            },
+            {
+              "name": "getbalance",
+              "parent": "get"
+            },
+            {
+              "name": "getcollateral",
+              "parent": "get"
+            },
+            {
+              "name": "getcollateralaccounts",
+              "parent": "get"
+            },
+            {
+              "name": "getaddresses",
+              "parent": "get"
+            },
+            {
+              "name": "getcoinins",
+              "parent": "get"
+            },
+            {
+              "name": "getcoinouts",
+              "parent": "get"
+            },
+            {
+              "name": "getbankaccounts",
+              "parent": "get"
+            },
+            {
+              "name": "getdeposits",
+              "parent": "get"
+            },
+            {
+              "name": "getwithdrawals",
+              "parent": "get"
+            },
+            {
+              "name": "getchildorders",
+              "parent": "get"
+            },
+            {
+              "name": "getparentorders",
+              "parent": "get"
+            },
+            {
+              "name": "getparentorder",
+              "parent": "get"
+            },
+            {
+              "name": "getexecutions",
+              "parent": "get"
+            },
+            {
+              "name": "getpositions",
+              "parent": "get"
+            },
+            {
+              "name": "gettradingcommission",
+              "parent": "get"
+            }
+          ]
+        },
+        {
+          "name": "post",
+          "parent": "private",
+          "children": [
+            {
+              "name": "sendcoin",
+              "parent": "post"
+            },
+            {
+              "name": "withdraw",
+              "parent": "post"
+            },
+            {
+              "name": "sendchildorder",
+              "parent": "post"
+            },
+            {
+              "name": "cancelchildorder",
+              "parent": "post"
+            },
+            {
+              "name": "sendparentorder",
+              "parent": "post"
+            },
+            {
+              "name": "cancelparentorder",
+              "parent": "post"
+            },
+            {
+              "name": "cancelallchildorders",
+              "parent": "post"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

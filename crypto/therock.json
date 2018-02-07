@@ -1,0 +1,138 @@
+{
+  "name": "hitbtc2",
+  "parent": "null",
+  "children": [
+    {
+      "name": "public",
+      "parent": "hitbtc2",
+      "children": [
+        {
+          "name": "get",
+          "parent": "public",
+          "children": [
+            {
+              "name": "funds/{id}/orderbook",
+              "parent": "get"
+            },
+            {
+              "name": "funds/{id}/ticker",
+              "parent": "get"
+            },
+            {
+              "name": "funds/{id}/trades",
+              "parent": "get"
+            },
+            {
+              "name": "funds/tickers",
+              "parent": "get"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "private",
+      "parent": "hitbtc2",
+      "children": [
+        {
+          "name": "get",
+          "parent": "private",
+          "children": [
+            {
+              "name": "balances",
+              "parent": "get"
+            },
+            {
+              "name": "balances/{id}",
+              "parent": "get"
+            },
+            {
+              "name": "discounts",
+              "parent": "get"
+            },
+            {
+              "name": "discounts/{id}",
+              "parent": "get"
+            },
+            {
+              "name": "funds",
+              "parent": "get"
+            },
+            {
+              "name": "funds/{id}",
+              "parent": "get"
+            },
+            {
+              "name": "funds/{id}/trades",
+              "parent": "get"
+            },
+            {
+              "name": "funds/{fund_id}/orders",
+              "parent": "get"
+            },
+            {
+              "name": "funds/{fund_id}/orders/{id}",
+              "parent": "get"
+            },
+            {
+              "name": "funds/{fund_id}/position_balances",
+              "parent": "get"
+            },
+            {
+              "name": "funds/{fund_id}/positions",
+              "parent": "get"
+            },
+            {
+              "name": "funds/{fund_id}/positions/{id}",
+              "parent": "get"
+            },
+            {
+              "name": "transactions",
+              "parent": "get"
+            },
+            {
+              "name": "transactions/{id}",
+              "parent": "get"
+            },
+            {
+              "name": "withdraw_limits/{id}",
+              "parent": "get"
+            },
+            {
+              "name": "withdraw_limits",
+              "parent": "get"
+            }
+          ]
+        },
+        {
+          "name": "post",
+          "parent": "private",
+          "children": [
+            {
+              "name": "atms/withdraw",
+              "parent": "post"
+            },
+            {
+              "name": "funds/{fund_id}/orders",
+              "parent": "post"
+            }
+          ]
+        },
+        {
+          "name": "delete",
+          "parent": "private",
+          "children": [
+            {
+              "name": "funds/{fund_id}/orders/{id}",
+              "parent": "delete"
+            },
+            {
+              "name": "funds/{fund_id}/orders/remove_all",
+              "parent": "delete"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "name": "hitbtc2",
+  "parent": "null",
+  "children": [
+    {
+      "name": "public",
+      "parent": "hitbtc2",
+      "children": [
+        {
+          "name": "get",
+          "parent": "public",
+          "children": [
+            {
+              "name": "market/{id}/tick",
+              "parent": "get"
+            },
+            {
+              "name": "market/{id}/orderbook",
+              "parent": "get"
+            },
+            {
+              "name": "market/{id}/trades",
+              "parent": "get"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "private",
+      "parent": "hitbtc2",
+      "children": [
+        {
+          "name": "get",
+          "parent": "private",
+          "children": [
+            {
+              "name": "account/balance",
+              "parent": "get"
+            },
+            {
+              "name": "account/{id}/tradingfee",
+              "parent": "get"
+            }
+          ]
+        },
+        {
+          "name": "post",
+          "parent": "private",
+          "children": [
+            {
+              "name": "fundtransfer/withdrawCrypto",
+              "parent": "post"
+            },
+            {
+              "name": "fundtransfer/withdrawEFT",
+              "parent": "post"
+            },
+            {
+              "name": "order/create",
+              "parent": "post"
+            },
+            {
+              "name": "order/cancel",
+              "parent": "post"
+            },
+            {
+              "name": "order/history",
+              "parent": "post"
+            },
+            {
+              "name": "order/open",
+              "parent": "post"
+            },
+            {
+              "name": "order/trade/history",
+              "parent": "post"
+            },
+            {
+              "name": "order/createBatch",
+              "parent": "post"
+            },
+            {
+              "name": "order/detail",
+              "parent": "post"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

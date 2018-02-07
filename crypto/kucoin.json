@@ -1,0 +1,184 @@
+{
+  "name": "hitbtc2",
+  "parent": "null",
+  "children": [
+    {
+      "name": "kitchen",
+      "parent": "hitbtc2",
+      "children": [
+        {
+          "name": "get",
+          "parent": "kitchen",
+          "children": [
+            {
+              "name": "open/chart/history",
+              "parent": "get"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "public",
+      "parent": "hitbtc2",
+      "children": [
+        {
+          "name": "get",
+          "parent": "public",
+          "children": [
+            {
+              "name": "open/chart/config",
+              "parent": "get"
+            },
+            {
+              "name": "open/chart/history",
+              "parent": "get"
+            },
+            {
+              "name": "open/chart/symbol",
+              "parent": "get"
+            },
+            {
+              "name": "open/currencies",
+              "parent": "get"
+            },
+            {
+              "name": "open/deal-orders",
+              "parent": "get"
+            },
+            {
+              "name": "open/kline",
+              "parent": "get"
+            },
+            {
+              "name": "open/lang-list",
+              "parent": "get"
+            },
+            {
+              "name": "open/orders",
+              "parent": "get"
+            },
+            {
+              "name": "open/orders-buy",
+              "parent": "get"
+            },
+            {
+              "name": "open/orders-sell",
+              "parent": "get"
+            },
+            {
+              "name": "open/tick",
+              "parent": "get"
+            },
+            {
+              "name": "market/open/coin-info",
+              "parent": "get"
+            },
+            {
+              "name": "market/open/coins",
+              "parent": "get"
+            },
+            {
+              "name": "market/open/coins-trending",
+              "parent": "get"
+            },
+            {
+              "name": "market/open/symbols",
+              "parent": "get"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "private",
+      "parent": "hitbtc2",
+      "children": [
+        {
+          "name": "get",
+          "parent": "private",
+          "children": [
+            {
+              "name": "account/balance",
+              "parent": "get"
+            },
+            {
+              "name": "account/{coin}/wallet/address",
+              "parent": "get"
+            },
+            {
+              "name": "account/{coin}/wallet/records",
+              "parent": "get"
+            },
+            {
+              "name": "account/{coin}/balance",
+              "parent": "get"
+            },
+            {
+              "name": "account/promotion/info",
+              "parent": "get"
+            },
+            {
+              "name": "account/promotion/sum",
+              "parent": "get"
+            },
+            {
+              "name": "deal-orders",
+              "parent": "get"
+            },
+            {
+              "name": "order/active",
+              "parent": "get"
+            },
+            {
+              "name": "order/active-map",
+              "parent": "get"
+            },
+            {
+              "name": "order/dealt",
+              "parent": "get"
+            },
+            {
+              "name": "order/detail",
+              "parent": "get"
+            },
+            {
+              "name": "referrer/descendant/count",
+              "parent": "get"
+            },
+            {
+              "name": "user/info",
+              "parent": "get"
+            }
+          ]
+        },
+        {
+          "name": "post",
+          "parent": "private",
+          "children": [
+            {
+              "name": "account/{coin}/withdraw/apply",
+              "parent": "post"
+            },
+            {
+              "name": "account/{coin}/withdraw/cancel",
+              "parent": "post"
+            },
+            {
+              "name": "cancel-order",
+              "parent": "post"
+            },
+            {
+              "name": "order",
+              "parent": "post"
+            },
+            {
+              "name": "user/change-lang",
+              "parent": "post"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

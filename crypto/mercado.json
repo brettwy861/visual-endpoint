@@ -1,0 +1,94 @@
+{
+  "name": "hitbtc2",
+  "parent": "null",
+  "children": [
+    {
+      "name": "public",
+      "parent": "hitbtc2",
+      "children": [
+        {
+          "name": "get",
+          "parent": "public",
+          "children": [
+            {
+              "name": "{coin}/orderbook/",
+              "parent": "get"
+            },
+            {
+              "name": "{coin}/ticker/",
+              "parent": "get"
+            },
+            {
+              "name": "{coin}/trades/",
+              "parent": "get"
+            },
+            {
+              "name": "{coin}/trades/{from}/",
+              "parent": "get"
+            },
+            {
+              "name": "{coin}/trades/{from}/{to}",
+              "parent": "get"
+            },
+            {
+              "name": "{coin}/day-summary/{year}/{month}/{day}/",
+              "parent": "get"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "private",
+      "parent": "hitbtc2",
+      "children": [
+        {
+          "name": "post",
+          "parent": "private",
+          "children": [
+            {
+              "name": "cancel_order",
+              "parent": "post"
+            },
+            {
+              "name": "get_account_info",
+              "parent": "post"
+            },
+            {
+              "name": "get_order",
+              "parent": "post"
+            },
+            {
+              "name": "get_withdrawal",
+              "parent": "post"
+            },
+            {
+              "name": "list_system_messages",
+              "parent": "post"
+            },
+            {
+              "name": "list_orders",
+              "parent": "post"
+            },
+            {
+              "name": "list_orderbook",
+              "parent": "post"
+            },
+            {
+              "name": "place_buy_order",
+              "parent": "post"
+            },
+            {
+              "name": "place_sell_order",
+              "parent": "post"
+            },
+            {
+              "name": "withdraw_coin",
+              "parent": "post"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

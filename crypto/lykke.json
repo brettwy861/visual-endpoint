@@ -1,0 +1,96 @@
+{
+  "name": "hitbtc2",
+  "parent": "null",
+  "children": [
+    {
+      "name": "mobile",
+      "parent": "hitbtc2",
+      "children": [
+        {
+          "name": "get",
+          "parent": "mobile",
+          "children": [
+            {
+              "name": "AllAssetPairRates/{market}",
+              "parent": "get"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "public",
+      "parent": "hitbtc2",
+      "children": [
+        {
+          "name": "get",
+          "parent": "public",
+          "children": [
+            {
+              "name": "AssetPairs",
+              "parent": "get"
+            },
+            {
+              "name": "AssetPairs/{id}",
+              "parent": "get"
+            },
+            {
+              "name": "IsAlive",
+              "parent": "get"
+            },
+            {
+              "name": "OrderBooks",
+              "parent": "get"
+            },
+            {
+              "name": "OrderBooks/{AssetPairId}",
+              "parent": "get"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "private",
+      "parent": "hitbtc2",
+      "children": [
+        {
+          "name": "get",
+          "parent": "private",
+          "children": [
+            {
+              "name": "Orders",
+              "parent": "get"
+            },
+            {
+              "name": "Orders/{id}",
+              "parent": "get"
+            },
+            {
+              "name": "Wallets",
+              "parent": "get"
+            }
+          ]
+        },
+        {
+          "name": "post",
+          "parent": "private",
+          "children": [
+            {
+              "name": "Orders/limit",
+              "parent": "post"
+            },
+            {
+              "name": "Orders/market",
+              "parent": "post"
+            },
+            {
+              "name": "Orders/{id}/Cancel",
+              "parent": "post"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

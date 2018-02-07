@@ -1,0 +1,106 @@
+{
+  "name": "hitbtc2",
+  "parent": "null",
+  "children": [
+    {
+      "name": "public",
+      "parent": "hitbtc2",
+      "children": [
+        {
+          "name": "get",
+          "parent": "public",
+          "children": [
+            {
+              "name": "markets/{symbol}/ticker",
+              "parent": "get"
+            },
+            {
+              "name": "markets/{symbol}/order_book",
+              "parent": "get"
+            },
+            {
+              "name": "markets/{symbol}/trades",
+              "parent": "get"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "private",
+      "parent": "hitbtc2",
+      "children": [
+        {
+          "name": "get",
+          "parent": "private",
+          "children": [
+            {
+              "name": "wallets",
+              "parent": "get"
+            },
+            {
+              "name": "wallets/{walletId}",
+              "parent": "get"
+            },
+            {
+              "name": "wallets/{walletId}/balances/{currencyCode}",
+              "parent": "get"
+            },
+            {
+              "name": "wallets/{walletId}/funding_history",
+              "parent": "get"
+            },
+            {
+              "name": "wallets/{walletId}/trades",
+              "parent": "get"
+            },
+            {
+              "name": "wallets/{walletId}/orders/{id}",
+              "parent": "get"
+            }
+          ]
+        },
+        {
+          "name": "post",
+          "parent": "private",
+          "children": [
+            {
+              "name": "wallet_transfers",
+              "parent": "post"
+            },
+            {
+              "name": "wallets",
+              "parent": "post"
+            },
+            {
+              "name": "wallets/{walletId}/cryptocurrency_deposits",
+              "parent": "post"
+            },
+            {
+              "name": "wallets/{walletId}/cryptocurrency_withdrawals",
+              "parent": "post"
+            },
+            {
+              "name": "wallets/{walletId}/orders",
+              "parent": "post"
+            },
+            {
+              "name": "wire_withdrawal",
+              "parent": "post"
+            }
+          ]
+        },
+        {
+          "name": "delete",
+          "parent": "private",
+          "children": [
+            {
+              "name": "wallets/{walletId}/orders/{id}",
+              "parent": "delete"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

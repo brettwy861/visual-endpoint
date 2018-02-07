@@ -1,0 +1,110 @@
+{
+  "name": "hitbtc2",
+  "parent": "null",
+  "children": [
+    {
+      "name": "public",
+      "parent": "hitbtc2",
+      "children": [
+        {
+          "name": "get",
+          "parent": "public",
+          "children": [
+            {
+              "name": "markets",
+              "parent": "get"
+            },
+            {
+              "name": "ticker",
+              "parent": "get"
+            },
+            {
+              "name": "depth",
+              "parent": "get"
+            },
+            {
+              "name": "trades",
+              "parent": "get"
+            },
+            {
+              "name": "kline",
+              "parent": "get"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "private",
+      "parent": "hitbtc2",
+      "children": [
+        {
+          "name": "post",
+          "parent": "private",
+          "children": [
+            {
+              "name": "order",
+              "parent": "post"
+            },
+            {
+              "name": "cancelOrder",
+              "parent": "post"
+            },
+            {
+              "name": "getOrder",
+              "parent": "post"
+            },
+            {
+              "name": "getOrders",
+              "parent": "post"
+            },
+            {
+              "name": "getOrdersNew",
+              "parent": "post"
+            },
+            {
+              "name": "getOrdersIgnoreTradeType",
+              "parent": "post"
+            },
+            {
+              "name": "getUnfinishedOrdersIgnoreTradeType",
+              "parent": "post"
+            },
+            {
+              "name": "getAccountInfo",
+              "parent": "post"
+            },
+            {
+              "name": "getUserAddress",
+              "parent": "post"
+            },
+            {
+              "name": "getWithdrawAddress",
+              "parent": "post"
+            },
+            {
+              "name": "getWithdrawRecord",
+              "parent": "post"
+            },
+            {
+              "name": "getChargeRecord",
+              "parent": "post"
+            },
+            {
+              "name": "getCnyWithdrawRecord",
+              "parent": "post"
+            },
+            {
+              "name": "getCnyChargeRecord",
+              "parent": "post"
+            },
+            {
+              "name": "withdraw",
+              "parent": "post"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

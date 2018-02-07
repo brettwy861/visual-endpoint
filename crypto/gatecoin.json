@@ -1,0 +1,542 @@
+{
+  "name": "hitbtc2",
+  "parent": "null",
+  "children": [
+    {
+      "name": "public",
+      "parent": "hitbtc2",
+      "children": [
+        {
+          "name": "get",
+          "parent": "public",
+          "children": [
+            {
+              "name": "Public/ExchangeRate",
+              "parent": "get"
+            },
+            {
+              "name": "Public/LiveTicker",
+              "parent": "get"
+            },
+            {
+              "name": "Public/LiveTicker/{CurrencyPair}",
+              "parent": "get"
+            },
+            {
+              "name": "Public/LiveTickers",
+              "parent": "get"
+            },
+            {
+              "name": "Public/MarketDepth/{CurrencyPair}",
+              "parent": "get"
+            },
+            {
+              "name": "Public/NetworkStatistics/{DigiCurrency}",
+              "parent": "get"
+            },
+            {
+              "name": "Public/StatisticHistory/{DigiCurrency}/{Typeofdata}",
+              "parent": "get"
+            },
+            {
+              "name": "Public/TickerHistory/{CurrencyPair}/{Timeframe}",
+              "parent": "get"
+            },
+            {
+              "name": "Public/Transactions/{CurrencyPair}",
+              "parent": "get"
+            },
+            {
+              "name": "Public/TransactionsHistory/{CurrencyPair}",
+              "parent": "get"
+            },
+            {
+              "name": "Reference/BusinessNatureList",
+              "parent": "get"
+            },
+            {
+              "name": "Reference/Countries",
+              "parent": "get"
+            },
+            {
+              "name": "Reference/Currencies",
+              "parent": "get"
+            },
+            {
+              "name": "Reference/CurrencyPairs",
+              "parent": "get"
+            },
+            {
+              "name": "Reference/CurrentStatusList",
+              "parent": "get"
+            },
+            {
+              "name": "Reference/IdentydocumentTypes",
+              "parent": "get"
+            },
+            {
+              "name": "Reference/IncomeRangeList",
+              "parent": "get"
+            },
+            {
+              "name": "Reference/IncomeSourceList",
+              "parent": "get"
+            },
+            {
+              "name": "Reference/VerificationLevelList",
+              "parent": "get"
+            },
+            {
+              "name": "Stream/PublicChannel",
+              "parent": "get"
+            }
+          ]
+        },
+        {
+          "name": "post",
+          "parent": "public",
+          "children": [
+            {
+              "name": "Export/Transactions",
+              "parent": "post"
+            },
+            {
+              "name": "Ping",
+              "parent": "post"
+            },
+            {
+              "name": "Public/Unsubscribe/{EmailCode}",
+              "parent": "post"
+            },
+            {
+              "name": "RegisterUser",
+              "parent": "post"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "private",
+      "parent": "hitbtc2",
+      "children": [
+        {
+          "name": "get",
+          "parent": "private",
+          "children": [
+            {
+              "name": "Account/CorporateData",
+              "parent": "get"
+            },
+            {
+              "name": "Account/DocumentAddress",
+              "parent": "get"
+            },
+            {
+              "name": "Account/DocumentCorporation",
+              "parent": "get"
+            },
+            {
+              "name": "Account/DocumentID",
+              "parent": "get"
+            },
+            {
+              "name": "Account/DocumentInformation",
+              "parent": "get"
+            },
+            {
+              "name": "Account/Email",
+              "parent": "get"
+            },
+            {
+              "name": "Account/FeeRate",
+              "parent": "get"
+            },
+            {
+              "name": "Account/Level",
+              "parent": "get"
+            },
+            {
+              "name": "Account/PersonalInformation",
+              "parent": "get"
+            },
+            {
+              "name": "Account/Phone",
+              "parent": "get"
+            },
+            {
+              "name": "Account/Profile",
+              "parent": "get"
+            },
+            {
+              "name": "Account/Questionnaire",
+              "parent": "get"
+            },
+            {
+              "name": "Account/Referral",
+              "parent": "get"
+            },
+            {
+              "name": "Account/ReferralCode",
+              "parent": "get"
+            },
+            {
+              "name": "Account/ReferralNames",
+              "parent": "get"
+            },
+            {
+              "name": "Account/ReferralReward",
+              "parent": "get"
+            },
+            {
+              "name": "Account/ReferredCode",
+              "parent": "get"
+            },
+            {
+              "name": "Account/ResidentInformation",
+              "parent": "get"
+            },
+            {
+              "name": "Account/SecuritySettings",
+              "parent": "get"
+            },
+            {
+              "name": "Account/User",
+              "parent": "get"
+            },
+            {
+              "name": "APIKey/APIKey",
+              "parent": "get"
+            },
+            {
+              "name": "Auth/ConnectionHistory",
+              "parent": "get"
+            },
+            {
+              "name": "Balance/Balances",
+              "parent": "get"
+            },
+            {
+              "name": "Balance/Balances/{Currency}",
+              "parent": "get"
+            },
+            {
+              "name": "Balance/Deposits",
+              "parent": "get"
+            },
+            {
+              "name": "Balance/Withdrawals",
+              "parent": "get"
+            },
+            {
+              "name": "Bank/Accounts/{Currency}/{Location}",
+              "parent": "get"
+            },
+            {
+              "name": "Bank/Transactions",
+              "parent": "get"
+            },
+            {
+              "name": "Bank/UserAccounts",
+              "parent": "get"
+            },
+            {
+              "name": "Bank/UserAccounts/{Currency}",
+              "parent": "get"
+            },
+            {
+              "name": "ElectronicWallet/DepositWallets",
+              "parent": "get"
+            },
+            {
+              "name": "ElectronicWallet/DepositWallets/{DigiCurrency}",
+              "parent": "get"
+            },
+            {
+              "name": "ElectronicWallet/Transactions",
+              "parent": "get"
+            },
+            {
+              "name": "ElectronicWallet/Transactions/{DigiCurrency}",
+              "parent": "get"
+            },
+            {
+              "name": "ElectronicWallet/UserWallets",
+              "parent": "get"
+            },
+            {
+              "name": "ElectronicWallet/UserWallets/{DigiCurrency}",
+              "parent": "get"
+            },
+            {
+              "name": "Info/ReferenceCurrency",
+              "parent": "get"
+            },
+            {
+              "name": "Info/ReferenceLanguage",
+              "parent": "get"
+            },
+            {
+              "name": "Notification/Messages",
+              "parent": "get"
+            },
+            {
+              "name": "Trade/Orders",
+              "parent": "get"
+            },
+            {
+              "name": "Trade/Orders/{OrderID}",
+              "parent": "get"
+            },
+            {
+              "name": "Trade/StopOrders",
+              "parent": "get"
+            },
+            {
+              "name": "Trade/StopOrdersHistory",
+              "parent": "get"
+            },
+            {
+              "name": "Trade/Trades",
+              "parent": "get"
+            },
+            {
+              "name": "Trade/UserTrades",
+              "parent": "get"
+            }
+          ]
+        },
+        {
+          "name": "post",
+          "parent": "private",
+          "children": [
+            {
+              "name": "Account/DocumentAddress",
+              "parent": "post"
+            },
+            {
+              "name": "Account/DocumentCorporation",
+              "parent": "post"
+            },
+            {
+              "name": "Account/DocumentID",
+              "parent": "post"
+            },
+            {
+              "name": "Account/Email/RequestVerify",
+              "parent": "post"
+            },
+            {
+              "name": "Account/Email/Verify",
+              "parent": "post"
+            },
+            {
+              "name": "Account/GoogleAuth",
+              "parent": "post"
+            },
+            {
+              "name": "Account/Level",
+              "parent": "post"
+            },
+            {
+              "name": "Account/Questionnaire",
+              "parent": "post"
+            },
+            {
+              "name": "Account/Referral",
+              "parent": "post"
+            },
+            {
+              "name": "APIKey/APIKey",
+              "parent": "post"
+            },
+            {
+              "name": "Auth/ChangePassword",
+              "parent": "post"
+            },
+            {
+              "name": "Auth/ForgotPassword",
+              "parent": "post"
+            },
+            {
+              "name": "Auth/ForgotUserID",
+              "parent": "post"
+            },
+            {
+              "name": "Auth/Login",
+              "parent": "post"
+            },
+            {
+              "name": "Auth/Logout",
+              "parent": "post"
+            },
+            {
+              "name": "Auth/LogoutOtherSessions",
+              "parent": "post"
+            },
+            {
+              "name": "Auth/ResetPassword",
+              "parent": "post"
+            },
+            {
+              "name": "Bank/Transactions",
+              "parent": "post"
+            },
+            {
+              "name": "Bank/UserAccounts",
+              "parent": "post"
+            },
+            {
+              "name": "ElectronicWallet/DepositWallets/{DigiCurrency}",
+              "parent": "post"
+            },
+            {
+              "name": "ElectronicWallet/Transactions/Deposits/{DigiCurrency}",
+              "parent": "post"
+            },
+            {
+              "name": "ElectronicWallet/Transactions/Withdrawals/{DigiCurrency}",
+              "parent": "post"
+            },
+            {
+              "name": "ElectronicWallet/UserWallets/{DigiCurrency}",
+              "parent": "post"
+            },
+            {
+              "name": "ElectronicWallet/Withdrawals/{DigiCurrency}",
+              "parent": "post"
+            },
+            {
+              "name": "Notification/Messages",
+              "parent": "post"
+            },
+            {
+              "name": "Notification/Messages/{ID}",
+              "parent": "post"
+            },
+            {
+              "name": "Trade/Orders",
+              "parent": "post"
+            },
+            {
+              "name": "Trade/StopOrders",
+              "parent": "post"
+            }
+          ]
+        },
+        {
+          "name": "put",
+          "parent": "private",
+          "children": [
+            {
+              "name": "Account/CorporateData",
+              "parent": "put"
+            },
+            {
+              "name": "Account/DocumentID",
+              "parent": "put"
+            },
+            {
+              "name": "Account/DocumentInformation",
+              "parent": "put"
+            },
+            {
+              "name": "Account/Email",
+              "parent": "put"
+            },
+            {
+              "name": "Account/PersonalInformation",
+              "parent": "put"
+            },
+            {
+              "name": "Account/Phone",
+              "parent": "put"
+            },
+            {
+              "name": "Account/Questionnaire",
+              "parent": "put"
+            },
+            {
+              "name": "Account/ReferredCode",
+              "parent": "put"
+            },
+            {
+              "name": "Account/ResidentInformation",
+              "parent": "put"
+            },
+            {
+              "name": "Account/SecuritySettings",
+              "parent": "put"
+            },
+            {
+              "name": "Account/User",
+              "parent": "put"
+            },
+            {
+              "name": "Bank/UserAccounts",
+              "parent": "put"
+            },
+            {
+              "name": "ElectronicWallet/DepositWallets/{DigiCurrency}/{AddressName}",
+              "parent": "put"
+            },
+            {
+              "name": "ElectronicWallet/UserWallets/{DigiCurrency}",
+              "parent": "put"
+            },
+            {
+              "name": "Info/ReferenceCurrency",
+              "parent": "put"
+            },
+            {
+              "name": "Info/ReferenceLanguage",
+              "parent": "put"
+            }
+          ]
+        },
+        {
+          "name": "delete",
+          "parent": "private",
+          "children": [
+            {
+              "name": "APIKey/APIKey/{PublicKey}",
+              "parent": "delete"
+            },
+            {
+              "name": "Bank/Transactions/{RequestID}",
+              "parent": "delete"
+            },
+            {
+              "name": "Bank/UserAccounts/{Currency}/{Label}",
+              "parent": "delete"
+            },
+            {
+              "name": "ElectronicWallet/DepositWallets/{DigiCurrency}/{AddressName}",
+              "parent": "delete"
+            },
+            {
+              "name": "ElectronicWallet/UserWallets/{DigiCurrency}/{AddressName}",
+              "parent": "delete"
+            },
+            {
+              "name": "Trade/Orders",
+              "parent": "delete"
+            },
+            {
+              "name": "Trade/Orders/{OrderID}",
+              "parent": "delete"
+            },
+            {
+              "name": "Trade/StopOrders",
+              "parent": "delete"
+            },
+            {
+              "name": "Trade/StopOrders/{ID}",
+              "parent": "delete"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

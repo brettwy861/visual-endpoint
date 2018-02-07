@@ -1,0 +1,98 @@
+{
+  "name": "hitbtc2",
+  "parent": "null",
+  "children": [
+    {
+      "name": "web",
+      "parent": "hitbtc2",
+      "children": [
+        {
+          "name": "get",
+          "parent": "web",
+          "children": [
+            {
+              "name": "Home/MarketOverViewDetail/",
+              "parent": "get"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "public",
+      "parent": "hitbtc2",
+      "children": [
+        {
+          "name": "get",
+          "parent": "public",
+          "children": [
+            {
+              "name": "depth",
+              "parent": "get"
+            },
+            {
+              "name": "kline",
+              "parent": "get"
+            },
+            {
+              "name": "ticker",
+              "parent": "get"
+            },
+            {
+              "name": "trades",
+              "parent": "get"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "private",
+      "parent": "hitbtc2",
+      "children": [
+        {
+          "name": "post",
+          "parent": "private",
+          "children": [
+            {
+              "name": "batch_trade",
+              "parent": "post"
+            },
+            {
+              "name": "cancel_order",
+              "parent": "post"
+            },
+            {
+              "name": "order_history",
+              "parent": "post"
+            },
+            {
+              "name": "order_info",
+              "parent": "post"
+            },
+            {
+              "name": "orders_info",
+              "parent": "post"
+            },
+            {
+              "name": "repayment",
+              "parent": "post"
+            },
+            {
+              "name": "trade",
+              "parent": "post"
+            },
+            {
+              "name": "trade_history",
+              "parent": "post"
+            },
+            {
+              "name": "userinfo",
+              "parent": "post"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

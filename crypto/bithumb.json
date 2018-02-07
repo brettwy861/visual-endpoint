@@ -1,0 +1,110 @@
+{
+  "name": "hitbtc2",
+  "parent": "null",
+  "children": [
+    {
+      "name": "public",
+      "parent": "hitbtc2",
+      "children": [
+        {
+          "name": "get",
+          "parent": "public",
+          "children": [
+            {
+              "name": "ticker/{currency}",
+              "parent": "get"
+            },
+            {
+              "name": "ticker/all",
+              "parent": "get"
+            },
+            {
+              "name": "orderbook/{currency}",
+              "parent": "get"
+            },
+            {
+              "name": "orderbook/all",
+              "parent": "get"
+            },
+            {
+              "name": "recent_transactions/{currency}",
+              "parent": "get"
+            },
+            {
+              "name": "recent_transactions/all",
+              "parent": "get"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "private",
+      "parent": "hitbtc2",
+      "children": [
+        {
+          "name": "post",
+          "parent": "private",
+          "children": [
+            {
+              "name": "info/account",
+              "parent": "post"
+            },
+            {
+              "name": "info/balance",
+              "parent": "post"
+            },
+            {
+              "name": "info/wallet_address",
+              "parent": "post"
+            },
+            {
+              "name": "info/ticker",
+              "parent": "post"
+            },
+            {
+              "name": "info/orders",
+              "parent": "post"
+            },
+            {
+              "name": "info/user_transactions",
+              "parent": "post"
+            },
+            {
+              "name": "trade/place",
+              "parent": "post"
+            },
+            {
+              "name": "info/order_detail",
+              "parent": "post"
+            },
+            {
+              "name": "trade/cancel",
+              "parent": "post"
+            },
+            {
+              "name": "trade/btc_withdrawal",
+              "parent": "post"
+            },
+            {
+              "name": "trade/krw_deposit",
+              "parent": "post"
+            },
+            {
+              "name": "trade/krw_withdrawal",
+              "parent": "post"
+            },
+            {
+              "name": "trade/market_buy",
+              "parent": "post"
+            },
+            {
+              "name": "trade/market_sell",
+              "parent": "post"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

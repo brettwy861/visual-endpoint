@@ -1,0 +1,74 @@
+{
+  "name": "hitbtc2",
+  "parent": "null",
+  "children": [
+    {
+      "name": "public",
+      "parent": "hitbtc2",
+      "children": [
+        {
+          "name": "get",
+          "parent": "public",
+          "children": [
+            {
+              "name": "bcorderbook",
+              "parent": "get"
+            },
+            {
+              "name": "bctrades",
+              "parent": "get"
+            },
+            {
+              "name": "ticker",
+              "parent": "get"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "private",
+      "parent": "hitbtc2",
+      "children": [
+        {
+          "name": "post",
+          "parent": "private",
+          "children": [
+            {
+              "name": "buyOrder",
+              "parent": "post"
+            },
+            {
+              "name": "cancelOrders",
+              "parent": "post"
+            },
+            {
+              "name": "getAccountInfo",
+              "parent": "post"
+            },
+            {
+              "name": "getExternalAccounts",
+              "parent": "post"
+            },
+            {
+              "name": "getOrders",
+              "parent": "post"
+            },
+            {
+              "name": "getTrades",
+              "parent": "post"
+            },
+            {
+              "name": "openOrders",
+              "parent": "post"
+            },
+            {
+              "name": "sellOrder",
+              "parent": "post"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

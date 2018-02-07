@@ -1,0 +1,82 @@
+{
+  "name": "hitbtc2",
+  "parent": "null",
+  "children": [
+    {
+      "name": "www",
+      "parent": "hitbtc2",
+      "children": [
+        {
+          "name": "get",
+          "parent": "www",
+          "children": [
+            {
+              "name": "",
+              "parent": "get"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "current",
+      "parent": "hitbtc2",
+      "children": [
+        {
+          "name": "get",
+          "parent": "current",
+          "children": [
+            {
+              "name": "order-book/{pair}/{askCount}/{bidCount}/{depth}",
+              "parent": "get"
+            },
+            {
+              "name": "transactions/{pair}/{maxCount}",
+              "parent": "get"
+            },
+            {
+              "name": "24hour-rolling-aggregation",
+              "parent": "get"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "user",
+      "parent": "hitbtc2",
+      "children": [
+        {
+          "name": "post",
+          "parent": "user",
+          "children": [
+            {
+              "name": "balance",
+              "parent": "post"
+            },
+            {
+              "name": "add-order",
+              "parent": "post"
+            },
+            {
+              "name": "cancel-order",
+              "parent": "post"
+            },
+            {
+              "name": "orders",
+              "parent": "post"
+            },
+            {
+              "name": "transactions",
+              "parent": "post"
+            },
+            {
+              "name": "create-crypto-withdrawal",
+              "parent": "post"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

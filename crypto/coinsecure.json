@@ -1,0 +1,496 @@
+{
+  "name": "hitbtc2",
+  "parent": "null",
+  "children": [
+    {
+      "name": "public",
+      "parent": "hitbtc2",
+      "children": [
+        {
+          "name": "get",
+          "parent": "public",
+          "children": [
+            {
+              "name": "bitcoin/search/confirmation/{txid}",
+              "parent": "get"
+            },
+            {
+              "name": "exchange/ask/low",
+              "parent": "get"
+            },
+            {
+              "name": "exchange/ask/orders",
+              "parent": "get"
+            },
+            {
+              "name": "exchange/bid/high",
+              "parent": "get"
+            },
+            {
+              "name": "exchange/bid/orders",
+              "parent": "get"
+            },
+            {
+              "name": "exchange/lastTrade",
+              "parent": "get"
+            },
+            {
+              "name": "exchange/max24Hr",
+              "parent": "get"
+            },
+            {
+              "name": "exchange/min24Hr",
+              "parent": "get"
+            },
+            {
+              "name": "exchange/ticker",
+              "parent": "get"
+            },
+            {
+              "name": "exchange/trades",
+              "parent": "get"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "private",
+      "parent": "hitbtc2",
+      "children": [
+        {
+          "name": "get",
+          "parent": "private",
+          "children": [
+            {
+              "name": "mfa/authy/call",
+              "parent": "get"
+            },
+            {
+              "name": "mfa/authy/sms",
+              "parent": "get"
+            },
+            {
+              "name": "netki/search/{netkiName}",
+              "parent": "get"
+            },
+            {
+              "name": "user/bank/otp/{number}",
+              "parent": "get"
+            },
+            {
+              "name": "user/kyc/otp/{number}",
+              "parent": "get"
+            },
+            {
+              "name": "user/profile/phone/otp/{number}",
+              "parent": "get"
+            },
+            {
+              "name": "user/wallet/coin/address/{id}",
+              "parent": "get"
+            },
+            {
+              "name": "user/wallet/coin/deposit/confirmed/all",
+              "parent": "get"
+            },
+            {
+              "name": "user/wallet/coin/deposit/confirmed/{id}",
+              "parent": "get"
+            },
+            {
+              "name": "user/wallet/coin/deposit/unconfirmed/all",
+              "parent": "get"
+            },
+            {
+              "name": "user/wallet/coin/deposit/unconfirmed/{id}",
+              "parent": "get"
+            },
+            {
+              "name": "user/wallet/coin/wallets",
+              "parent": "get"
+            },
+            {
+              "name": "user/exchange/bank/fiat/accounts",
+              "parent": "get"
+            },
+            {
+              "name": "user/exchange/bank/fiat/balance/available",
+              "parent": "get"
+            },
+            {
+              "name": "user/exchange/bank/fiat/balance/pending",
+              "parent": "get"
+            },
+            {
+              "name": "user/exchange/bank/fiat/balance/total",
+              "parent": "get"
+            },
+            {
+              "name": "user/exchange/bank/fiat/deposit/cancelled",
+              "parent": "get"
+            },
+            {
+              "name": "user/exchange/bank/fiat/deposit/unverified",
+              "parent": "get"
+            },
+            {
+              "name": "user/exchange/bank/fiat/deposit/verified",
+              "parent": "get"
+            },
+            {
+              "name": "user/exchange/bank/fiat/withdraw/cancelled",
+              "parent": "get"
+            },
+            {
+              "name": "user/exchange/bank/fiat/withdraw/completed",
+              "parent": "get"
+            },
+            {
+              "name": "user/exchange/bank/fiat/withdraw/unverified",
+              "parent": "get"
+            },
+            {
+              "name": "user/exchange/bank/fiat/withdraw/verified",
+              "parent": "get"
+            },
+            {
+              "name": "user/exchange/ask/cancelled",
+              "parent": "get"
+            },
+            {
+              "name": "user/exchange/ask/completed",
+              "parent": "get"
+            },
+            {
+              "name": "user/exchange/ask/pending",
+              "parent": "get"
+            },
+            {
+              "name": "user/exchange/bid/cancelled",
+              "parent": "get"
+            },
+            {
+              "name": "user/exchange/bid/completed",
+              "parent": "get"
+            },
+            {
+              "name": "user/exchange/bid/pending",
+              "parent": "get"
+            },
+            {
+              "name": "user/exchange/bank/coin/addresses",
+              "parent": "get"
+            },
+            {
+              "name": "user/exchange/bank/coin/balance/available",
+              "parent": "get"
+            },
+            {
+              "name": "user/exchange/bank/coin/balance/pending",
+              "parent": "get"
+            },
+            {
+              "name": "user/exchange/bank/coin/balance/total",
+              "parent": "get"
+            },
+            {
+              "name": "user/exchange/bank/coin/deposit/cancelled",
+              "parent": "get"
+            },
+            {
+              "name": "user/exchange/bank/coin/deposit/unverified",
+              "parent": "get"
+            },
+            {
+              "name": "user/exchange/bank/coin/deposit/verified",
+              "parent": "get"
+            },
+            {
+              "name": "user/exchange/bank/coin/withdraw/cancelled",
+              "parent": "get"
+            },
+            {
+              "name": "user/exchange/bank/coin/withdraw/completed",
+              "parent": "get"
+            },
+            {
+              "name": "user/exchange/bank/coin/withdraw/unverified",
+              "parent": "get"
+            },
+            {
+              "name": "user/exchange/bank/coin/withdraw/verified",
+              "parent": "get"
+            },
+            {
+              "name": "user/exchange/bank/summary",
+              "parent": "get"
+            },
+            {
+              "name": "user/exchange/coin/fee",
+              "parent": "get"
+            },
+            {
+              "name": "user/exchange/fiat/fee",
+              "parent": "get"
+            },
+            {
+              "name": "user/exchange/kycs",
+              "parent": "get"
+            },
+            {
+              "name": "user/exchange/referral/coin/paid",
+              "parent": "get"
+            },
+            {
+              "name": "user/exchange/referral/coin/successful",
+              "parent": "get"
+            },
+            {
+              "name": "user/exchange/referral/fiat/paid",
+              "parent": "get"
+            },
+            {
+              "name": "user/exchange/referrals",
+              "parent": "get"
+            },
+            {
+              "name": "user/exchange/trade/summary",
+              "parent": "get"
+            },
+            {
+              "name": "user/login/token/{token}",
+              "parent": "get"
+            },
+            {
+              "name": "user/summary",
+              "parent": "get"
+            },
+            {
+              "name": "user/wallet/summary",
+              "parent": "get"
+            },
+            {
+              "name": "wallet/coin/withdraw/cancelled",
+              "parent": "get"
+            },
+            {
+              "name": "wallet/coin/withdraw/completed",
+              "parent": "get"
+            },
+            {
+              "name": "wallet/coin/withdraw/unverified",
+              "parent": "get"
+            },
+            {
+              "name": "wallet/coin/withdraw/verified",
+              "parent": "get"
+            }
+          ]
+        },
+        {
+          "name": "post",
+          "parent": "private",
+          "children": [
+            {
+              "name": "login",
+              "parent": "post"
+            },
+            {
+              "name": "login/initiate",
+              "parent": "post"
+            },
+            {
+              "name": "login/password/forgot",
+              "parent": "post"
+            },
+            {
+              "name": "mfa/authy/initiate",
+              "parent": "post"
+            },
+            {
+              "name": "mfa/ga/initiate",
+              "parent": "post"
+            },
+            {
+              "name": "signup",
+              "parent": "post"
+            },
+            {
+              "name": "user/netki/update",
+              "parent": "post"
+            },
+            {
+              "name": "user/profile/image/update",
+              "parent": "post"
+            },
+            {
+              "name": "user/exchange/bank/coin/withdraw/initiate",
+              "parent": "post"
+            },
+            {
+              "name": "user/exchange/bank/coin/withdraw/newVerifycode",
+              "parent": "post"
+            },
+            {
+              "name": "user/exchange/bank/fiat/withdraw/initiate",
+              "parent": "post"
+            },
+            {
+              "name": "user/exchange/bank/fiat/withdraw/newVerifycode",
+              "parent": "post"
+            },
+            {
+              "name": "user/password/change",
+              "parent": "post"
+            },
+            {
+              "name": "user/password/reset",
+              "parent": "post"
+            },
+            {
+              "name": "user/wallet/coin/withdraw/initiate",
+              "parent": "post"
+            },
+            {
+              "name": "wallet/coin/withdraw/newVerifycode",
+              "parent": "post"
+            }
+          ]
+        },
+        {
+          "name": "put",
+          "parent": "private",
+          "children": [
+            {
+              "name": "signup/verify/{token}",
+              "parent": "put"
+            },
+            {
+              "name": "user/exchange/kyc",
+              "parent": "put"
+            },
+            {
+              "name": "user/exchange/bank/fiat/deposit/new",
+              "parent": "put"
+            },
+            {
+              "name": "user/exchange/ask/new",
+              "parent": "put"
+            },
+            {
+              "name": "user/exchange/bid/new",
+              "parent": "put"
+            },
+            {
+              "name": "user/exchange/instant/buy",
+              "parent": "put"
+            },
+            {
+              "name": "user/exchange/instant/sell",
+              "parent": "put"
+            },
+            {
+              "name": "user/exchange/bank/coin/withdraw/verify",
+              "parent": "put"
+            },
+            {
+              "name": "user/exchange/bank/fiat/account/new",
+              "parent": "put"
+            },
+            {
+              "name": "user/exchange/bank/fiat/withdraw/verify",
+              "parent": "put"
+            },
+            {
+              "name": "user/mfa/authy/initiate/enable",
+              "parent": "put"
+            },
+            {
+              "name": "user/mfa/ga/initiate/enable",
+              "parent": "put"
+            },
+            {
+              "name": "user/netki/create",
+              "parent": "put"
+            },
+            {
+              "name": "user/profile/phone/new",
+              "parent": "put"
+            },
+            {
+              "name": "user/wallet/coin/address/new",
+              "parent": "put"
+            },
+            {
+              "name": "user/wallet/coin/new",
+              "parent": "put"
+            },
+            {
+              "name": "user/wallet/coin/withdraw/sendToExchange",
+              "parent": "put"
+            },
+            {
+              "name": "user/wallet/coin/withdraw/verify",
+              "parent": "put"
+            }
+          ]
+        },
+        {
+          "name": "delete",
+          "parent": "private",
+          "children": [
+            {
+              "name": "user/gcm/{code}",
+              "parent": "delete"
+            },
+            {
+              "name": "user/logout",
+              "parent": "delete"
+            },
+            {
+              "name": "user/exchange/bank/coin/withdraw/unverified/cancel/{withdrawID}",
+              "parent": "delete"
+            },
+            {
+              "name": "user/exchange/bank/fiat/deposit/cancel/{depositID}",
+              "parent": "delete"
+            },
+            {
+              "name": "user/exchange/ask/cancel/{orderID}",
+              "parent": "delete"
+            },
+            {
+              "name": "user/exchange/bid/cancel/{orderID}",
+              "parent": "delete"
+            },
+            {
+              "name": "user/exchange/bank/fiat/withdraw/unverified/cancel/{withdrawID}",
+              "parent": "delete"
+            },
+            {
+              "name": "user/mfa/authy/disable/{code}",
+              "parent": "delete"
+            },
+            {
+              "name": "user/mfa/ga/disable/{code}",
+              "parent": "delete"
+            },
+            {
+              "name": "user/profile/phone/delete",
+              "parent": "delete"
+            },
+            {
+              "name": "user/profile/image/delete/{netkiName}",
+              "parent": "delete"
+            },
+            {
+              "name": "user/wallet/coin/withdraw/unverified/cancel/{withdrawID}",
+              "parent": "delete"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

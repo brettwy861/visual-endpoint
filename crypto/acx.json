@@ -1,0 +1,128 @@
+{
+  "name": "hitbtc2",
+  "parent": "null",
+  "children": [
+    {
+      "name": "public",
+      "parent": "hitbtc2",
+      "children": [
+        {
+          "name": "get",
+          "parent": "public",
+          "children": [
+            {
+              "name": "markets",
+              "parent": "get"
+            },
+            {
+              "name": "tickers",
+              "parent": "get"
+            },
+            {
+              "name": "tickers/{market}",
+              "parent": "get"
+            },
+            {
+              "name": "trades",
+              "parent": "get"
+            },
+            {
+              "name": "order_book",
+              "parent": "get"
+            },
+            {
+              "name": "depth",
+              "parent": "get"
+            },
+            {
+              "name": "k",
+              "parent": "get"
+            },
+            {
+              "name": "k_with_pending_trades",
+              "parent": "get"
+            },
+            {
+              "name": "timestamp",
+              "parent": "get"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "private",
+      "parent": "hitbtc2",
+      "children": [
+        {
+          "name": "get",
+          "parent": "private",
+          "children": [
+            {
+              "name": "members/me",
+              "parent": "get"
+            },
+            {
+              "name": "deposits",
+              "parent": "get"
+            },
+            {
+              "name": "deposit",
+              "parent": "get"
+            },
+            {
+              "name": "deposit_address",
+              "parent": "get"
+            },
+            {
+              "name": "orders",
+              "parent": "get"
+            },
+            {
+              "name": "order",
+              "parent": "get"
+            },
+            {
+              "name": "trades/my",
+              "parent": "get"
+            },
+            {
+              "name": "withdraws",
+              "parent": "get"
+            },
+            {
+              "name": "withdraw",
+              "parent": "get"
+            }
+          ]
+        },
+        {
+          "name": "post",
+          "parent": "private",
+          "children": [
+            {
+              "name": "orders",
+              "parent": "post"
+            },
+            {
+              "name": "orders/multi",
+              "parent": "post"
+            },
+            {
+              "name": "orders/clear",
+              "parent": "post"
+            },
+            {
+              "name": "order/delete",
+              "parent": "post"
+            },
+            {
+              "name": "withdraw",
+              "parent": "post"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

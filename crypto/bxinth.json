@@ -1,0 +1,138 @@
+{
+  "name": "hitbtc2",
+  "parent": "null",
+  "children": [
+    {
+      "name": "public",
+      "parent": "hitbtc2",
+      "children": [
+        {
+          "name": "get",
+          "parent": "public",
+          "children": [
+            {
+              "name": "",
+              "parent": "get"
+            },
+            {
+              "name": "options",
+              "parent": "get"
+            },
+            {
+              "name": "optionbook",
+              "parent": "get"
+            },
+            {
+              "name": "orderbook",
+              "parent": "get"
+            },
+            {
+              "name": "pairing",
+              "parent": "get"
+            },
+            {
+              "name": "trade",
+              "parent": "get"
+            },
+            {
+              "name": "tradehistory",
+              "parent": "get"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "private",
+      "parent": "hitbtc2",
+      "children": [
+        {
+          "name": "post",
+          "parent": "private",
+          "children": [
+            {
+              "name": "balance",
+              "parent": "post"
+            },
+            {
+              "name": "biller",
+              "parent": "post"
+            },
+            {
+              "name": "billgroup",
+              "parent": "post"
+            },
+            {
+              "name": "billpay",
+              "parent": "post"
+            },
+            {
+              "name": "cancel",
+              "parent": "post"
+            },
+            {
+              "name": "deposit",
+              "parent": "post"
+            },
+            {
+              "name": "getorders",
+              "parent": "post"
+            },
+            {
+              "name": "history",
+              "parent": "post"
+            },
+            {
+              "name": "option-issue",
+              "parent": "post"
+            },
+            {
+              "name": "option-bid",
+              "parent": "post"
+            },
+            {
+              "name": "option-sell",
+              "parent": "post"
+            },
+            {
+              "name": "option-myissue",
+              "parent": "post"
+            },
+            {
+              "name": "option-mybid",
+              "parent": "post"
+            },
+            {
+              "name": "option-myoptions",
+              "parent": "post"
+            },
+            {
+              "name": "option-exercise",
+              "parent": "post"
+            },
+            {
+              "name": "option-cancel",
+              "parent": "post"
+            },
+            {
+              "name": "option-history",
+              "parent": "post"
+            },
+            {
+              "name": "order",
+              "parent": "post"
+            },
+            {
+              "name": "withdrawal",
+              "parent": "post"
+            },
+            {
+              "name": "withdrawal-history",
+              "parent": "post"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

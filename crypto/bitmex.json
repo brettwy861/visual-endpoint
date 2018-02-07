@@ -1,0 +1,328 @@
+{
+  "name": "hitbtc2",
+  "parent": "null",
+  "children": [
+    {
+      "name": "public",
+      "parent": "hitbtc2",
+      "children": [
+        {
+          "name": "get",
+          "parent": "public",
+          "children": [
+            {
+              "name": "announcement",
+              "parent": "get"
+            },
+            {
+              "name": "announcement/urgent",
+              "parent": "get"
+            },
+            {
+              "name": "funding",
+              "parent": "get"
+            },
+            {
+              "name": "instrument",
+              "parent": "get"
+            },
+            {
+              "name": "instrument/active",
+              "parent": "get"
+            },
+            {
+              "name": "instrument/activeAndIndices",
+              "parent": "get"
+            },
+            {
+              "name": "instrument/activeIntervals",
+              "parent": "get"
+            },
+            {
+              "name": "instrument/compositeIndex",
+              "parent": "get"
+            },
+            {
+              "name": "instrument/indices",
+              "parent": "get"
+            },
+            {
+              "name": "insurance",
+              "parent": "get"
+            },
+            {
+              "name": "leaderboard",
+              "parent": "get"
+            },
+            {
+              "name": "liquidation",
+              "parent": "get"
+            },
+            {
+              "name": "orderBook",
+              "parent": "get"
+            },
+            {
+              "name": "orderBook/L2",
+              "parent": "get"
+            },
+            {
+              "name": "quote",
+              "parent": "get"
+            },
+            {
+              "name": "quote/bucketed",
+              "parent": "get"
+            },
+            {
+              "name": "schema",
+              "parent": "get"
+            },
+            {
+              "name": "schema/websocketHelp",
+              "parent": "get"
+            },
+            {
+              "name": "settlement",
+              "parent": "get"
+            },
+            {
+              "name": "stats",
+              "parent": "get"
+            },
+            {
+              "name": "stats/history",
+              "parent": "get"
+            },
+            {
+              "name": "trade",
+              "parent": "get"
+            },
+            {
+              "name": "trade/bucketed",
+              "parent": "get"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "private",
+      "parent": "hitbtc2",
+      "children": [
+        {
+          "name": "get",
+          "parent": "private",
+          "children": [
+            {
+              "name": "apiKey",
+              "parent": "get"
+            },
+            {
+              "name": "chat",
+              "parent": "get"
+            },
+            {
+              "name": "chat/channels",
+              "parent": "get"
+            },
+            {
+              "name": "chat/connected",
+              "parent": "get"
+            },
+            {
+              "name": "execution",
+              "parent": "get"
+            },
+            {
+              "name": "execution/tradeHistory",
+              "parent": "get"
+            },
+            {
+              "name": "notification",
+              "parent": "get"
+            },
+            {
+              "name": "order",
+              "parent": "get"
+            },
+            {
+              "name": "position",
+              "parent": "get"
+            },
+            {
+              "name": "user",
+              "parent": "get"
+            },
+            {
+              "name": "user/affiliateStatus",
+              "parent": "get"
+            },
+            {
+              "name": "user/checkReferralCode",
+              "parent": "get"
+            },
+            {
+              "name": "user/commission",
+              "parent": "get"
+            },
+            {
+              "name": "user/depositAddress",
+              "parent": "get"
+            },
+            {
+              "name": "user/margin",
+              "parent": "get"
+            },
+            {
+              "name": "user/minWithdrawalFee",
+              "parent": "get"
+            },
+            {
+              "name": "user/wallet",
+              "parent": "get"
+            },
+            {
+              "name": "user/walletHistory",
+              "parent": "get"
+            },
+            {
+              "name": "user/walletSummary",
+              "parent": "get"
+            }
+          ]
+        },
+        {
+          "name": "post",
+          "parent": "private",
+          "children": [
+            {
+              "name": "apiKey",
+              "parent": "post"
+            },
+            {
+              "name": "apiKey/disable",
+              "parent": "post"
+            },
+            {
+              "name": "apiKey/enable",
+              "parent": "post"
+            },
+            {
+              "name": "chat",
+              "parent": "post"
+            },
+            {
+              "name": "order",
+              "parent": "post"
+            },
+            {
+              "name": "order/bulk",
+              "parent": "post"
+            },
+            {
+              "name": "order/cancelAllAfter",
+              "parent": "post"
+            },
+            {
+              "name": "order/closePosition",
+              "parent": "post"
+            },
+            {
+              "name": "position/isolate",
+              "parent": "post"
+            },
+            {
+              "name": "position/leverage",
+              "parent": "post"
+            },
+            {
+              "name": "position/riskLimit",
+              "parent": "post"
+            },
+            {
+              "name": "position/transferMargin",
+              "parent": "post"
+            },
+            {
+              "name": "user/cancelWithdrawal",
+              "parent": "post"
+            },
+            {
+              "name": "user/confirmEmail",
+              "parent": "post"
+            },
+            {
+              "name": "user/confirmEnableTFA",
+              "parent": "post"
+            },
+            {
+              "name": "user/confirmWithdrawal",
+              "parent": "post"
+            },
+            {
+              "name": "user/disableTFA",
+              "parent": "post"
+            },
+            {
+              "name": "user/logout",
+              "parent": "post"
+            },
+            {
+              "name": "user/logoutAll",
+              "parent": "post"
+            },
+            {
+              "name": "user/preferences",
+              "parent": "post"
+            },
+            {
+              "name": "user/requestEnableTFA",
+              "parent": "post"
+            },
+            {
+              "name": "user/requestWithdrawal",
+              "parent": "post"
+            }
+          ]
+        },
+        {
+          "name": "put",
+          "parent": "private",
+          "children": [
+            {
+              "name": "order",
+              "parent": "put"
+            },
+            {
+              "name": "order/bulk",
+              "parent": "put"
+            },
+            {
+              "name": "user",
+              "parent": "put"
+            }
+          ]
+        },
+        {
+          "name": "delete",
+          "parent": "private",
+          "children": [
+            {
+              "name": "apiKey",
+              "parent": "delete"
+            },
+            {
+              "name": "order",
+              "parent": "delete"
+            },
+            {
+              "name": "order/all",
+              "parent": "delete"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

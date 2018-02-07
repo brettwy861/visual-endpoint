@@ -1,0 +1,150 @@
+{
+  "name": "hitbtc2",
+  "parent": "null",
+  "children": [
+    {
+      "name": "public",
+      "parent": "hitbtc2",
+      "children": [
+        {
+          "name": "get",
+          "parent": "public",
+          "children": [
+            {
+              "name": "{symbol}/orderbook",
+              "parent": "get"
+            },
+            {
+              "name": "{symbol}/ticker",
+              "parent": "get"
+            },
+            {
+              "name": "{symbol}/trades",
+              "parent": "get"
+            },
+            {
+              "name": "{symbol}/trades/recent",
+              "parent": "get"
+            },
+            {
+              "name": "symbols",
+              "parent": "get"
+            },
+            {
+              "name": "ticker",
+              "parent": "get"
+            },
+            {
+              "name": "time",
+              "parent": "get"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "trading",
+      "parent": "hitbtc2",
+      "children": [
+        {
+          "name": "get",
+          "parent": "trading",
+          "children": [
+            {
+              "name": "balance",
+              "parent": "get"
+            },
+            {
+              "name": "orders/active",
+              "parent": "get"
+            },
+            {
+              "name": "orders/recent",
+              "parent": "get"
+            },
+            {
+              "name": "order",
+              "parent": "get"
+            },
+            {
+              "name": "trades/by/order",
+              "parent": "get"
+            },
+            {
+              "name": "trades",
+              "parent": "get"
+            }
+          ]
+        },
+        {
+          "name": "post",
+          "parent": "trading",
+          "children": [
+            {
+              "name": "new_order",
+              "parent": "post"
+            },
+            {
+              "name": "cancel_order",
+              "parent": "post"
+            },
+            {
+              "name": "cancel_orders",
+              "parent": "post"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "payment",
+      "parent": "hitbtc2",
+      "children": [
+        {
+          "name": "get",
+          "parent": "payment",
+          "children": [
+            {
+              "name": "balance",
+              "parent": "get"
+            },
+            {
+              "name": "address/{currency}",
+              "parent": "get"
+            },
+            {
+              "name": "transactions",
+              "parent": "get"
+            },
+            {
+              "name": "transactions/{transaction}",
+              "parent": "get"
+            }
+          ]
+        },
+        {
+          "name": "post",
+          "parent": "payment",
+          "children": [
+            {
+              "name": "transfer_to_trading",
+              "parent": "post"
+            },
+            {
+              "name": "transfer_to_main",
+              "parent": "post"
+            },
+            {
+              "name": "address/{currency}",
+              "parent": "post"
+            },
+            {
+              "name": "payout",
+              "parent": "post"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

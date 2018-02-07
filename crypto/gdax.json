@@ -1,0 +1,178 @@
+{
+  "name": "hitbtc2",
+  "parent": "null",
+  "children": [
+    {
+      "name": "public",
+      "parent": "hitbtc2",
+      "children": [
+        {
+          "name": "get",
+          "parent": "public",
+          "children": [
+            {
+              "name": "currencies",
+              "parent": "get"
+            },
+            {
+              "name": "products",
+              "parent": "get"
+            },
+            {
+              "name": "products/{id}/book",
+              "parent": "get"
+            },
+            {
+              "name": "products/{id}/candles",
+              "parent": "get"
+            },
+            {
+              "name": "products/{id}/stats",
+              "parent": "get"
+            },
+            {
+              "name": "products/{id}/ticker",
+              "parent": "get"
+            },
+            {
+              "name": "products/{id}/trades",
+              "parent": "get"
+            },
+            {
+              "name": "time",
+              "parent": "get"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "private",
+      "parent": "hitbtc2",
+      "children": [
+        {
+          "name": "get",
+          "parent": "private",
+          "children": [
+            {
+              "name": "accounts",
+              "parent": "get"
+            },
+            {
+              "name": "accounts/{id}",
+              "parent": "get"
+            },
+            {
+              "name": "accounts/{id}/holds",
+              "parent": "get"
+            },
+            {
+              "name": "accounts/{id}/ledger",
+              "parent": "get"
+            },
+            {
+              "name": "accounts/{id}/transfers",
+              "parent": "get"
+            },
+            {
+              "name": "coinbase-accounts",
+              "parent": "get"
+            },
+            {
+              "name": "fills",
+              "parent": "get"
+            },
+            {
+              "name": "funding",
+              "parent": "get"
+            },
+            {
+              "name": "orders",
+              "parent": "get"
+            },
+            {
+              "name": "orders/{id}",
+              "parent": "get"
+            },
+            {
+              "name": "payment-methods",
+              "parent": "get"
+            },
+            {
+              "name": "position",
+              "parent": "get"
+            },
+            {
+              "name": "reports/{id}",
+              "parent": "get"
+            },
+            {
+              "name": "users/self/trailing-volume",
+              "parent": "get"
+            }
+          ]
+        },
+        {
+          "name": "post",
+          "parent": "private",
+          "children": [
+            {
+              "name": "deposits/coinbase-account",
+              "parent": "post"
+            },
+            {
+              "name": "deposits/payment-method",
+              "parent": "post"
+            },
+            {
+              "name": "funding/repay",
+              "parent": "post"
+            },
+            {
+              "name": "orders",
+              "parent": "post"
+            },
+            {
+              "name": "position/close",
+              "parent": "post"
+            },
+            {
+              "name": "profiles/margin-transfer",
+              "parent": "post"
+            },
+            {
+              "name": "reports",
+              "parent": "post"
+            },
+            {
+              "name": "withdrawals/coinbase",
+              "parent": "post"
+            },
+            {
+              "name": "withdrawals/crypto",
+              "parent": "post"
+            },
+            {
+              "name": "withdrawals/payment-method",
+              "parent": "post"
+            }
+          ]
+        },
+        {
+          "name": "delete",
+          "parent": "private",
+          "children": [
+            {
+              "name": "orders",
+              "parent": "delete"
+            },
+            {
+              "name": "orders/{id}",
+              "parent": "delete"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

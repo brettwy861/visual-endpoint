@@ -1,0 +1,106 @@
+{
+  "name": "hitbtc2",
+  "parent": "null",
+  "children": [
+    {
+      "name": "private",
+      "parent": "hitbtc2",
+      "children": [
+        {
+          "name": "get",
+          "parent": "private",
+          "children": [
+            {
+              "name": "market/bars",
+              "parent": "get"
+            },
+            {
+              "name": "market/categories",
+              "parent": "get"
+            },
+            {
+              "name": "market/details",
+              "parent": "get"
+            },
+            {
+              "name": "market/list",
+              "parent": "get"
+            },
+            {
+              "name": "market/quotes",
+              "parent": "get"
+            },
+            {
+              "name": "market/ticks",
+              "parent": "get"
+            },
+            {
+              "name": "order/cancel",
+              "parent": "get"
+            },
+            {
+              "name": "order/create",
+              "parent": "get"
+            },
+            {
+              "name": "order/open",
+              "parent": "get"
+            },
+            {
+              "name": "position/close",
+              "parent": "get"
+            },
+            {
+              "name": "position/close_cancel",
+              "parent": "get"
+            },
+            {
+              "name": "position/edit",
+              "parent": "get"
+            },
+            {
+              "name": "position/history",
+              "parent": "get"
+            },
+            {
+              "name": "position/open",
+              "parent": "get"
+            },
+            {
+              "name": "position/shared/get",
+              "parent": "get"
+            },
+            {
+              "name": "social/profile_statistics",
+              "parent": "get"
+            },
+            {
+              "name": "social/profile_trades",
+              "parent": "get"
+            },
+            {
+              "name": "user/bitcoin_deposit_address",
+              "parent": "get"
+            },
+            {
+              "name": "user/details",
+              "parent": "get"
+            },
+            {
+              "name": "user/overview",
+              "parent": "get"
+            },
+            {
+              "name": "user/quota_status",
+              "parent": "get"
+            },
+            {
+              "name": "user/transaction_log",
+              "parent": "get"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

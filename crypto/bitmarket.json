@@ -1,0 +1,198 @@
+{
+  "name": "hitbtc2",
+  "parent": "null",
+  "children": [
+    {
+      "name": "public",
+      "parent": "hitbtc2",
+      "children": [
+        {
+          "name": "get",
+          "parent": "public",
+          "children": [
+            {
+              "name": "json/{market}/ticker",
+              "parent": "get"
+            },
+            {
+              "name": "json/{market}/orderbook",
+              "parent": "get"
+            },
+            {
+              "name": "json/{market}/trades",
+              "parent": "get"
+            },
+            {
+              "name": "json/ctransfer",
+              "parent": "get"
+            },
+            {
+              "name": "graphs/{market}/90m",
+              "parent": "get"
+            },
+            {
+              "name": "graphs/{market}/6h",
+              "parent": "get"
+            },
+            {
+              "name": "graphs/{market}/1d",
+              "parent": "get"
+            },
+            {
+              "name": "graphs/{market}/7d",
+              "parent": "get"
+            },
+            {
+              "name": "graphs/{market}/1m",
+              "parent": "get"
+            },
+            {
+              "name": "graphs/{market}/3m",
+              "parent": "get"
+            },
+            {
+              "name": "graphs/{market}/6m",
+              "parent": "get"
+            },
+            {
+              "name": "graphs/{market}/1y",
+              "parent": "get"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "private",
+      "parent": "hitbtc2",
+      "children": [
+        {
+          "name": "post",
+          "parent": "private",
+          "children": [
+            {
+              "name": "info",
+              "parent": "post"
+            },
+            {
+              "name": "trade",
+              "parent": "post"
+            },
+            {
+              "name": "cancel",
+              "parent": "post"
+            },
+            {
+              "name": "orders",
+              "parent": "post"
+            },
+            {
+              "name": "trades",
+              "parent": "post"
+            },
+            {
+              "name": "history",
+              "parent": "post"
+            },
+            {
+              "name": "withdrawals",
+              "parent": "post"
+            },
+            {
+              "name": "tradingdesk",
+              "parent": "post"
+            },
+            {
+              "name": "tradingdeskStatus",
+              "parent": "post"
+            },
+            {
+              "name": "tradingdeskConfirm",
+              "parent": "post"
+            },
+            {
+              "name": "cryptotradingdesk",
+              "parent": "post"
+            },
+            {
+              "name": "cryptotradingdeskStatus",
+              "parent": "post"
+            },
+            {
+              "name": "cryptotradingdeskConfirm",
+              "parent": "post"
+            },
+            {
+              "name": "withdraw",
+              "parent": "post"
+            },
+            {
+              "name": "withdrawFiat",
+              "parent": "post"
+            },
+            {
+              "name": "withdrawPLNPP",
+              "parent": "post"
+            },
+            {
+              "name": "withdrawFiatFast",
+              "parent": "post"
+            },
+            {
+              "name": "deposit",
+              "parent": "post"
+            },
+            {
+              "name": "transfer",
+              "parent": "post"
+            },
+            {
+              "name": "transfers",
+              "parent": "post"
+            },
+            {
+              "name": "marginList",
+              "parent": "post"
+            },
+            {
+              "name": "marginOpen",
+              "parent": "post"
+            },
+            {
+              "name": "marginClose",
+              "parent": "post"
+            },
+            {
+              "name": "marginCancel",
+              "parent": "post"
+            },
+            {
+              "name": "marginModify",
+              "parent": "post"
+            },
+            {
+              "name": "marginBalanceAdd",
+              "parent": "post"
+            },
+            {
+              "name": "marginBalanceRemove",
+              "parent": "post"
+            },
+            {
+              "name": "swapList",
+              "parent": "post"
+            },
+            {
+              "name": "swapOpen",
+              "parent": "post"
+            },
+            {
+              "name": "swapClose",
+              "parent": "post"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

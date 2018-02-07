@@ -1,0 +1,82 @@
+{
+  "name": "hitbtc2",
+  "parent": "null",
+  "children": [
+    {
+      "name": "public",
+      "parent": "hitbtc2",
+      "children": [
+        {
+          "name": "get",
+          "parent": "public",
+          "children": [
+            {
+              "name": "{id}/ticker/",
+              "parent": "get"
+            },
+            {
+              "name": "{id}/order_book/",
+              "parent": "get"
+            },
+            {
+              "name": "{id}/transactions/",
+              "parent": "get"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "private",
+      "parent": "hitbtc2",
+      "children": [
+        {
+          "name": "post",
+          "parent": "private",
+          "children": [
+            {
+              "name": "{id}/balance/",
+              "parent": "post"
+            },
+            {
+              "name": "{id}/user_transactions/",
+              "parent": "post"
+            },
+            {
+              "name": "{id}/open_orders/",
+              "parent": "post"
+            },
+            {
+              "name": "{id}/cancel_order/",
+              "parent": "post"
+            },
+            {
+              "name": "{id}/buy/",
+              "parent": "post"
+            },
+            {
+              "name": "{id}/sell/",
+              "parent": "post"
+            },
+            {
+              "name": "{id}/buy_market/",
+              "parent": "post"
+            },
+            {
+              "name": "{id}/sell_market/",
+              "parent": "post"
+            },
+            {
+              "name": "{id}/estimate_sell_market/",
+              "parent": "post"
+            },
+            {
+              "name": "{id}/estimate_buy_market/",
+              "parent": "post"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

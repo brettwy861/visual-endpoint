@@ -1,0 +1,56 @@
+{
+  "name": "hitbtc2",
+  "parent": "null",
+  "children": [
+    {
+      "name": "public",
+      "parent": "hitbtc2",
+      "children": [
+        {
+          "name": "post",
+          "parent": "public",
+          "children": [
+            {
+              "name": "mdata",
+              "parent": "post"
+            }
+          ]
+        },
+        {
+          "name": "get",
+          "parent": "public",
+          "children": [
+            {
+              "name": "mdata",
+              "parent": "get"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "private",
+      "parent": "hitbtc2",
+      "children": [
+        {
+          "name": "post",
+          "parent": "private",
+          "children": [
+            {
+              "name": "user",
+              "parent": "post"
+            },
+            {
+              "name": "orderpending",
+              "parent": "post"
+            },
+            {
+              "name": "transfer",
+              "parent": "post"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

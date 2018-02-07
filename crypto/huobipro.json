@@ -1,0 +1,152 @@
+{
+  "name": "hitbtc2",
+  "parent": "null",
+  "children": [
+    {
+      "name": "market",
+      "parent": "hitbtc2",
+      "children": [
+        {
+          "name": "get",
+          "parent": "market",
+          "children": [
+            {
+              "name": "history/kline",
+              "parent": "get"
+            },
+            {
+              "name": "detail/merged",
+              "parent": "get"
+            },
+            {
+              "name": "depth",
+              "parent": "get"
+            },
+            {
+              "name": "trade",
+              "parent": "get"
+            },
+            {
+              "name": "history/trade",
+              "parent": "get"
+            },
+            {
+              "name": "detail",
+              "parent": "get"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "public",
+      "parent": "hitbtc2",
+      "children": [
+        {
+          "name": "get",
+          "parent": "public",
+          "children": [
+            {
+              "name": "common/symbols",
+              "parent": "get"
+            },
+            {
+              "name": "common/currencys",
+              "parent": "get"
+            },
+            {
+              "name": "common/timestamp",
+              "parent": "get"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "private",
+      "parent": "hitbtc2",
+      "children": [
+        {
+          "name": "get",
+          "parent": "private",
+          "children": [
+            {
+              "name": "account/accounts",
+              "parent": "get"
+            },
+            {
+              "name": "account/accounts/{id}/balance",
+              "parent": "get"
+            },
+            {
+              "name": "order/orders/{id}",
+              "parent": "get"
+            },
+            {
+              "name": "order/orders/{id}/matchresults",
+              "parent": "get"
+            },
+            {
+              "name": "order/orders",
+              "parent": "get"
+            },
+            {
+              "name": "order/matchresults",
+              "parent": "get"
+            },
+            {
+              "name": "dw/withdraw-virtual/addresses",
+              "parent": "get"
+            }
+          ]
+        },
+        {
+          "name": "post",
+          "parent": "private",
+          "children": [
+            {
+              "name": "order/orders/place",
+              "parent": "post"
+            },
+            {
+              "name": "order/orders",
+              "parent": "post"
+            },
+            {
+              "name": "order/orders/{id}/place",
+              "parent": "post"
+            },
+            {
+              "name": "order/orders/{id}/submitcancel",
+              "parent": "post"
+            },
+            {
+              "name": "order/orders/batchcancel",
+              "parent": "post"
+            },
+            {
+              "name": "dw/balance/transfer",
+              "parent": "post"
+            },
+            {
+              "name": "dw/withdraw/api/create",
+              "parent": "post"
+            },
+            {
+              "name": "dw/withdraw-virtual/create",
+              "parent": "post"
+            },
+            {
+              "name": "dw/withdraw-virtual/{id}/place",
+              "parent": "post"
+            },
+            {
+              "name": "dw/withdraw-virtual/{id}/cancel",
+              "parent": "post"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

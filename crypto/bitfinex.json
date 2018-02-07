@@ -1,0 +1,234 @@
+{
+  "name": "hitbtc2",
+  "parent": "null",
+  "children": [
+    {
+      "name": "v2",
+      "parent": "hitbtc2",
+      "children": [
+        {
+          "name": "get",
+          "parent": "v2",
+          "children": [
+            {
+              "name": "candles/trade:{timeframe}:{symbol}/{section}",
+              "parent": "get"
+            },
+            {
+              "name": "candles/trade:{timeframe}:{symbol}/last",
+              "parent": "get"
+            },
+            {
+              "name": "candles/trade:{timeframe}:{symbol}/hist",
+              "parent": "get"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "public",
+      "parent": "hitbtc2",
+      "children": [
+        {
+          "name": "get",
+          "parent": "public",
+          "children": [
+            {
+              "name": "book/{symbol}",
+              "parent": "get"
+            },
+            {
+              "name": "lendbook/{currency}",
+              "parent": "get"
+            },
+            {
+              "name": "lends/{currency}",
+              "parent": "get"
+            },
+            {
+              "name": "pubticker/{symbol}",
+              "parent": "get"
+            },
+            {
+              "name": "stats/{symbol}",
+              "parent": "get"
+            },
+            {
+              "name": "symbols",
+              "parent": "get"
+            },
+            {
+              "name": "symbols_details",
+              "parent": "get"
+            },
+            {
+              "name": "tickers",
+              "parent": "get"
+            },
+            {
+              "name": "today",
+              "parent": "get"
+            },
+            {
+              "name": "trades/{symbol}",
+              "parent": "get"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "private",
+      "parent": "hitbtc2",
+      "children": [
+        {
+          "name": "post",
+          "parent": "private",
+          "children": [
+            {
+              "name": "account_fees",
+              "parent": "post"
+            },
+            {
+              "name": "account_infos",
+              "parent": "post"
+            },
+            {
+              "name": "balances",
+              "parent": "post"
+            },
+            {
+              "name": "basket_manage",
+              "parent": "post"
+            },
+            {
+              "name": "credits",
+              "parent": "post"
+            },
+            {
+              "name": "deposit/new",
+              "parent": "post"
+            },
+            {
+              "name": "funding/close",
+              "parent": "post"
+            },
+            {
+              "name": "history",
+              "parent": "post"
+            },
+            {
+              "name": "history/movements",
+              "parent": "post"
+            },
+            {
+              "name": "key_info",
+              "parent": "post"
+            },
+            {
+              "name": "margin_infos",
+              "parent": "post"
+            },
+            {
+              "name": "mytrades",
+              "parent": "post"
+            },
+            {
+              "name": "mytrades_funding",
+              "parent": "post"
+            },
+            {
+              "name": "offer/cancel",
+              "parent": "post"
+            },
+            {
+              "name": "offer/new",
+              "parent": "post"
+            },
+            {
+              "name": "offer/status",
+              "parent": "post"
+            },
+            {
+              "name": "offers",
+              "parent": "post"
+            },
+            {
+              "name": "offers/hist",
+              "parent": "post"
+            },
+            {
+              "name": "order/cancel",
+              "parent": "post"
+            },
+            {
+              "name": "order/cancel/all",
+              "parent": "post"
+            },
+            {
+              "name": "order/cancel/multi",
+              "parent": "post"
+            },
+            {
+              "name": "order/cancel/replace",
+              "parent": "post"
+            },
+            {
+              "name": "order/new",
+              "parent": "post"
+            },
+            {
+              "name": "order/new/multi",
+              "parent": "post"
+            },
+            {
+              "name": "order/status",
+              "parent": "post"
+            },
+            {
+              "name": "orders",
+              "parent": "post"
+            },
+            {
+              "name": "orders/hist",
+              "parent": "post"
+            },
+            {
+              "name": "position/claim",
+              "parent": "post"
+            },
+            {
+              "name": "positions",
+              "parent": "post"
+            },
+            {
+              "name": "summary",
+              "parent": "post"
+            },
+            {
+              "name": "taken_funds",
+              "parent": "post"
+            },
+            {
+              "name": "total_taken_funds",
+              "parent": "post"
+            },
+            {
+              "name": "transfer",
+              "parent": "post"
+            },
+            {
+              "name": "unused_taken_funds",
+              "parent": "post"
+            },
+            {
+              "name": "withdraw",
+              "parent": "post"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

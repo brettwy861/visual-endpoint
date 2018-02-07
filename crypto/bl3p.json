@@ -1,0 +1,90 @@
+{
+  "name": "hitbtc2",
+  "parent": "null",
+  "children": [
+    {
+      "name": "public",
+      "parent": "hitbtc2",
+      "children": [
+        {
+          "name": "get",
+          "parent": "public",
+          "children": [
+            {
+              "name": "{market}/ticker",
+              "parent": "get"
+            },
+            {
+              "name": "{market}/orderbook",
+              "parent": "get"
+            },
+            {
+              "name": "{market}/trades",
+              "parent": "get"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "private",
+      "parent": "hitbtc2",
+      "children": [
+        {
+          "name": "post",
+          "parent": "private",
+          "children": [
+            {
+              "name": "{market}/money/depth/full",
+              "parent": "post"
+            },
+            {
+              "name": "{market}/money/order/add",
+              "parent": "post"
+            },
+            {
+              "name": "{market}/money/order/cancel",
+              "parent": "post"
+            },
+            {
+              "name": "{market}/money/order/result",
+              "parent": "post"
+            },
+            {
+              "name": "{market}/money/orders",
+              "parent": "post"
+            },
+            {
+              "name": "{market}/money/orders/history",
+              "parent": "post"
+            },
+            {
+              "name": "{market}/money/trades/fetch",
+              "parent": "post"
+            },
+            {
+              "name": "GENMKT/money/info",
+              "parent": "post"
+            },
+            {
+              "name": "GENMKT/money/deposit_address",
+              "parent": "post"
+            },
+            {
+              "name": "GENMKT/money/new_deposit_address",
+              "parent": "post"
+            },
+            {
+              "name": "GENMKT/money/wallet/history",
+              "parent": "post"
+            },
+            {
+              "name": "GENMKT/money/withdraw",
+              "parent": "post"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

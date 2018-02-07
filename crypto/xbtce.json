@@ -1,0 +1,252 @@
+{
+  "name": "hitbtc2",
+  "parent": "null",
+  "children": [
+    {
+      "name": "public",
+      "parent": "hitbtc2",
+      "children": [
+        {
+          "name": "get",
+          "parent": "public",
+          "children": [
+            {
+              "name": "currency",
+              "parent": "get"
+            },
+            {
+              "name": "currency/{filter}",
+              "parent": "get"
+            },
+            {
+              "name": "level2",
+              "parent": "get"
+            },
+            {
+              "name": "level2/{filter}",
+              "parent": "get"
+            },
+            {
+              "name": "quotehistory/{symbol}/{periodicity}/bars/ask",
+              "parent": "get"
+            },
+            {
+              "name": "quotehistory/{symbol}/{periodicity}/bars/bid",
+              "parent": "get"
+            },
+            {
+              "name": "quotehistory/{symbol}/level2",
+              "parent": "get"
+            },
+            {
+              "name": "quotehistory/{symbol}/ticks",
+              "parent": "get"
+            },
+            {
+              "name": "symbol",
+              "parent": "get"
+            },
+            {
+              "name": "symbol/{filter}",
+              "parent": "get"
+            },
+            {
+              "name": "tick",
+              "parent": "get"
+            },
+            {
+              "name": "tick/{filter}",
+              "parent": "get"
+            },
+            {
+              "name": "ticker",
+              "parent": "get"
+            },
+            {
+              "name": "ticker/{filter}",
+              "parent": "get"
+            },
+            {
+              "name": "tradesession",
+              "parent": "get"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "private",
+      "parent": "hitbtc2",
+      "children": [
+        {
+          "name": "get",
+          "parent": "private",
+          "children": [
+            {
+              "name": "tradeserverinfo",
+              "parent": "get"
+            },
+            {
+              "name": "tradesession",
+              "parent": "get"
+            },
+            {
+              "name": "currency",
+              "parent": "get"
+            },
+            {
+              "name": "currency/{filter}",
+              "parent": "get"
+            },
+            {
+              "name": "level2",
+              "parent": "get"
+            },
+            {
+              "name": "level2/{filter}",
+              "parent": "get"
+            },
+            {
+              "name": "symbol",
+              "parent": "get"
+            },
+            {
+              "name": "symbol/{filter}",
+              "parent": "get"
+            },
+            {
+              "name": "tick",
+              "parent": "get"
+            },
+            {
+              "name": "tick/{filter}",
+              "parent": "get"
+            },
+            {
+              "name": "account",
+              "parent": "get"
+            },
+            {
+              "name": "asset",
+              "parent": "get"
+            },
+            {
+              "name": "asset/{id}",
+              "parent": "get"
+            },
+            {
+              "name": "position",
+              "parent": "get"
+            },
+            {
+              "name": "position/{id}",
+              "parent": "get"
+            },
+            {
+              "name": "trade",
+              "parent": "get"
+            },
+            {
+              "name": "trade/{id}",
+              "parent": "get"
+            },
+            {
+              "name": "quotehistory/{symbol}/{periodicity}/bars/ask",
+              "parent": "get"
+            },
+            {
+              "name": "quotehistory/{symbol}/{periodicity}/bars/ask/info",
+              "parent": "get"
+            },
+            {
+              "name": "quotehistory/{symbol}/{periodicity}/bars/bid",
+              "parent": "get"
+            },
+            {
+              "name": "quotehistory/{symbol}/{periodicity}/bars/bid/info",
+              "parent": "get"
+            },
+            {
+              "name": "quotehistory/{symbol}/level2",
+              "parent": "get"
+            },
+            {
+              "name": "quotehistory/{symbol}/level2/info",
+              "parent": "get"
+            },
+            {
+              "name": "quotehistory/{symbol}/periodicities",
+              "parent": "get"
+            },
+            {
+              "name": "quotehistory/{symbol}/ticks",
+              "parent": "get"
+            },
+            {
+              "name": "quotehistory/{symbol}/ticks/info",
+              "parent": "get"
+            },
+            {
+              "name": "quotehistory/cache/{symbol}/{periodicity}/bars/ask",
+              "parent": "get"
+            },
+            {
+              "name": "quotehistory/cache/{symbol}/{periodicity}/bars/bid",
+              "parent": "get"
+            },
+            {
+              "name": "quotehistory/cache/{symbol}/level2",
+              "parent": "get"
+            },
+            {
+              "name": "quotehistory/cache/{symbol}/ticks",
+              "parent": "get"
+            },
+            {
+              "name": "quotehistory/symbols",
+              "parent": "get"
+            },
+            {
+              "name": "quotehistory/version",
+              "parent": "get"
+            }
+          ]
+        },
+        {
+          "name": "post",
+          "parent": "private",
+          "children": [
+            {
+              "name": "trade",
+              "parent": "post"
+            },
+            {
+              "name": "tradehistory",
+              "parent": "post"
+            }
+          ]
+        },
+        {
+          "name": "put",
+          "parent": "private",
+          "children": [
+            {
+              "name": "trade",
+              "parent": "put"
+            }
+          ]
+        },
+        {
+          "name": "delete",
+          "parent": "private",
+          "children": [
+            {
+              "name": "trade",
+              "parent": "delete"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

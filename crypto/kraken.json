@@ -1,0 +1,166 @@
+{
+  "name": "hitbtc2",
+  "parent": "null",
+  "children": [
+    {
+      "name": "zendesk",
+      "parent": "hitbtc2",
+      "children": [
+        {
+          "name": "get",
+          "parent": "zendesk",
+          "children": [
+            {
+              "name": "205893708-What-is-the-minimum-order-size-",
+              "parent": "get"
+            },
+            {
+              "name": "201396777-What-are-the-deposit-fees-",
+              "parent": "get"
+            },
+            {
+              "name": "201893608-What-are-the-withdrawal-fees-",
+              "parent": "get"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "public",
+      "parent": "hitbtc2",
+      "children": [
+        {
+          "name": "get",
+          "parent": "public",
+          "children": [
+            {
+              "name": "Assets",
+              "parent": "get"
+            },
+            {
+              "name": "AssetPairs",
+              "parent": "get"
+            },
+            {
+              "name": "Depth",
+              "parent": "get"
+            },
+            {
+              "name": "OHLC",
+              "parent": "get"
+            },
+            {
+              "name": "Spread",
+              "parent": "get"
+            },
+            {
+              "name": "Ticker",
+              "parent": "get"
+            },
+            {
+              "name": "Time",
+              "parent": "get"
+            },
+            {
+              "name": "Trades",
+              "parent": "get"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "private",
+      "parent": "hitbtc2",
+      "children": [
+        {
+          "name": "post",
+          "parent": "private",
+          "children": [
+            {
+              "name": "AddOrder",
+              "parent": "post"
+            },
+            {
+              "name": "Balance",
+              "parent": "post"
+            },
+            {
+              "name": "CancelOrder",
+              "parent": "post"
+            },
+            {
+              "name": "ClosedOrders",
+              "parent": "post"
+            },
+            {
+              "name": "DepositAddresses",
+              "parent": "post"
+            },
+            {
+              "name": "DepositMethods",
+              "parent": "post"
+            },
+            {
+              "name": "DepositStatus",
+              "parent": "post"
+            },
+            {
+              "name": "Ledgers",
+              "parent": "post"
+            },
+            {
+              "name": "OpenOrders",
+              "parent": "post"
+            },
+            {
+              "name": "OpenPositions",
+              "parent": "post"
+            },
+            {
+              "name": "QueryLedgers",
+              "parent": "post"
+            },
+            {
+              "name": "QueryOrders",
+              "parent": "post"
+            },
+            {
+              "name": "QueryTrades",
+              "parent": "post"
+            },
+            {
+              "name": "TradeBalance",
+              "parent": "post"
+            },
+            {
+              "name": "TradesHistory",
+              "parent": "post"
+            },
+            {
+              "name": "TradeVolume",
+              "parent": "post"
+            },
+            {
+              "name": "Withdraw",
+              "parent": "post"
+            },
+            {
+              "name": "WithdrawCancel",
+              "parent": "post"
+            },
+            {
+              "name": "WithdrawInfo",
+              "parent": "post"
+            },
+            {
+              "name": "WithdrawStatus",
+              "parent": "post"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

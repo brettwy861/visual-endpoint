@@ -1,0 +1,124 @@
+{
+  "name": "hitbtc2",
+  "parent": "null",
+  "children": [
+    {
+      "name": "public",
+      "parent": "hitbtc2",
+      "children": [
+        {
+          "name": "get",
+          "parent": "public",
+          "children": [
+            {
+              "name": "tickers",
+              "parent": "get"
+            },
+            {
+              "name": "tickers/{market}",
+              "parent": "get"
+            },
+            {
+              "name": "markets",
+              "parent": "get"
+            },
+            {
+              "name": "order_book",
+              "parent": "get"
+            },
+            {
+              "name": "k",
+              "parent": "get"
+            },
+            {
+              "name": "depth",
+              "parent": "get"
+            },
+            {
+              "name": "trades",
+              "parent": "get"
+            },
+            {
+              "name": "k_with_pending_trades",
+              "parent": "get"
+            },
+            {
+              "name": "timestamp",
+              "parent": "get"
+            },
+            {
+              "name": "addresses/{address}",
+              "parent": "get"
+            },
+            {
+              "name": "partners/orders/{id}/trades",
+              "parent": "get"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "private",
+      "parent": "hitbtc2",
+      "children": [
+        {
+          "name": "get",
+          "parent": "private",
+          "children": [
+            {
+              "name": "deposits",
+              "parent": "get"
+            },
+            {
+              "name": "members/me",
+              "parent": "get"
+            },
+            {
+              "name": "deposit",
+              "parent": "get"
+            },
+            {
+              "name": "deposit_address",
+              "parent": "get"
+            },
+            {
+              "name": "order",
+              "parent": "get"
+            },
+            {
+              "name": "orders",
+              "parent": "get"
+            },
+            {
+              "name": "trades/my",
+              "parent": "get"
+            }
+          ]
+        },
+        {
+          "name": "post",
+          "parent": "private",
+          "children": [
+            {
+              "name": "order/delete",
+              "parent": "post"
+            },
+            {
+              "name": "orders",
+              "parent": "post"
+            },
+            {
+              "name": "orders/multi",
+              "parent": "post"
+            },
+            {
+              "name": "orders/clear",
+              "parent": "post"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

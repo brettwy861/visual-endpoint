@@ -1,0 +1,102 @@
+{
+  "name": "hitbtc2",
+  "parent": "null",
+  "children": [
+    {
+      "name": "public",
+      "parent": "hitbtc2",
+      "children": [
+        {
+          "name": "get",
+          "parent": "public",
+          "children": [
+            {
+              "name": "symbols",
+              "parent": "get"
+            },
+            {
+              "name": "pubticker/{symbol}",
+              "parent": "get"
+            },
+            {
+              "name": "book/{symbol}",
+              "parent": "get"
+            },
+            {
+              "name": "trades/{symbol}",
+              "parent": "get"
+            },
+            {
+              "name": "auction/{symbol}",
+              "parent": "get"
+            },
+            {
+              "name": "auction/{symbol}/history",
+              "parent": "get"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "private",
+      "parent": "hitbtc2",
+      "children": [
+        {
+          "name": "post",
+          "parent": "private",
+          "children": [
+            {
+              "name": "order/new",
+              "parent": "post"
+            },
+            {
+              "name": "order/cancel",
+              "parent": "post"
+            },
+            {
+              "name": "order/cancel/session",
+              "parent": "post"
+            },
+            {
+              "name": "order/cancel/all",
+              "parent": "post"
+            },
+            {
+              "name": "order/status",
+              "parent": "post"
+            },
+            {
+              "name": "orders",
+              "parent": "post"
+            },
+            {
+              "name": "mytrades",
+              "parent": "post"
+            },
+            {
+              "name": "tradevolume",
+              "parent": "post"
+            },
+            {
+              "name": "balances",
+              "parent": "post"
+            },
+            {
+              "name": "deposit/{currency}/newAddress",
+              "parent": "post"
+            },
+            {
+              "name": "withdraw/{currency}",
+              "parent": "post"
+            },
+            {
+              "name": "heartbeat",
+              "parent": "post"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

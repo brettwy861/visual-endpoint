@@ -1,0 +1,202 @@
+{
+  "name": "hitbtc2",
+  "parent": "null",
+  "children": [
+    {
+      "name": "public",
+      "parent": "hitbtc2",
+      "children": [
+        {
+          "name": "get",
+          "parent": "public",
+          "children": [
+            {
+              "name": "depth/{pair}",
+              "parent": "get"
+            },
+            {
+              "name": "currencies/{pair}",
+              "parent": "get"
+            },
+            {
+              "name": "currencies/all",
+              "parent": "get"
+            },
+            {
+              "name": "currency_pairs/{pair}",
+              "parent": "get"
+            },
+            {
+              "name": "currency_pairs/all",
+              "parent": "get"
+            },
+            {
+              "name": "last_price/{pair}",
+              "parent": "get"
+            },
+            {
+              "name": "ticker/{pair}",
+              "parent": "get"
+            },
+            {
+              "name": "trades/{pair}",
+              "parent": "get"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "private",
+      "parent": "hitbtc2",
+      "children": [
+        {
+          "name": "post",
+          "parent": "private",
+          "children": [
+            {
+              "name": "active_orders",
+              "parent": "post"
+            },
+            {
+              "name": "cancel_order",
+              "parent": "post"
+            },
+            {
+              "name": "deposit_history",
+              "parent": "post"
+            },
+            {
+              "name": "get_id_info",
+              "parent": "post"
+            },
+            {
+              "name": "get_info",
+              "parent": "post"
+            },
+            {
+              "name": "get_info2",
+              "parent": "post"
+            },
+            {
+              "name": "get_personal_info",
+              "parent": "post"
+            },
+            {
+              "name": "trade",
+              "parent": "post"
+            },
+            {
+              "name": "trade_history",
+              "parent": "post"
+            },
+            {
+              "name": "withdraw",
+              "parent": "post"
+            },
+            {
+              "name": "withdraw_history",
+              "parent": "post"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ecapi",
+      "parent": "hitbtc2",
+      "children": [
+        {
+          "name": "post",
+          "parent": "ecapi",
+          "children": [
+            {
+              "name": "createInvoice",
+              "parent": "post"
+            },
+            {
+              "name": "getInvoice",
+              "parent": "post"
+            },
+            {
+              "name": "getInvoiceIdsByOrderNumber",
+              "parent": "post"
+            },
+            {
+              "name": "cancelInvoice",
+              "parent": "post"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "tlapi",
+      "parent": "hitbtc2",
+      "children": [
+        {
+          "name": "post",
+          "parent": "tlapi",
+          "children": [
+            {
+              "name": "get_positions",
+              "parent": "post"
+            },
+            {
+              "name": "position_history",
+              "parent": "post"
+            },
+            {
+              "name": "active_positions",
+              "parent": "post"
+            },
+            {
+              "name": "create_position",
+              "parent": "post"
+            },
+            {
+              "name": "change_position",
+              "parent": "post"
+            },
+            {
+              "name": "cancel_position",
+              "parent": "post"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "fapi",
+      "parent": "hitbtc2",
+      "children": [
+        {
+          "name": "get",
+          "parent": "fapi",
+          "children": [
+            {
+              "name": "groups/{group_id}",
+              "parent": "get"
+            },
+            {
+              "name": "last_price/{group_id}/{pair}",
+              "parent": "get"
+            },
+            {
+              "name": "ticker/{group_id}/{pair}",
+              "parent": "get"
+            },
+            {
+              "name": "trades/{group_id}/{pair}",
+              "parent": "get"
+            },
+            {
+              "name": "depth/{group_id}/{pair}",
+              "parent": "get"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

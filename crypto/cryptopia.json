@@ -1,0 +1,122 @@
+{
+  "name": "hitbtc2",
+  "parent": "null",
+  "children": [
+    {
+      "name": "public",
+      "parent": "hitbtc2",
+      "children": [
+        {
+          "name": "get",
+          "parent": "public",
+          "children": [
+            {
+              "name": "GetCurrencies",
+              "parent": "get"
+            },
+            {
+              "name": "GetTradePairs",
+              "parent": "get"
+            },
+            {
+              "name": "GetMarkets",
+              "parent": "get"
+            },
+            {
+              "name": "GetMarkets/{id}",
+              "parent": "get"
+            },
+            {
+              "name": "GetMarkets/{hours}",
+              "parent": "get"
+            },
+            {
+              "name": "GetMarkets/{id}/{hours}",
+              "parent": "get"
+            },
+            {
+              "name": "GetMarket/{id}",
+              "parent": "get"
+            },
+            {
+              "name": "GetMarket/{id}/{hours}",
+              "parent": "get"
+            },
+            {
+              "name": "GetMarketHistory/{id}",
+              "parent": "get"
+            },
+            {
+              "name": "GetMarketHistory/{id}/{hours}",
+              "parent": "get"
+            },
+            {
+              "name": "GetMarketOrders/{id}",
+              "parent": "get"
+            },
+            {
+              "name": "GetMarketOrders/{id}/{count}",
+              "parent": "get"
+            },
+            {
+              "name": "GetMarketOrderGroups/{ids}/{count}",
+              "parent": "get"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "private",
+      "parent": "hitbtc2",
+      "children": [
+        {
+          "name": "post",
+          "parent": "private",
+          "children": [
+            {
+              "name": "CancelTrade",
+              "parent": "post"
+            },
+            {
+              "name": "GetBalance",
+              "parent": "post"
+            },
+            {
+              "name": "GetDepositAddress",
+              "parent": "post"
+            },
+            {
+              "name": "GetOpenOrders",
+              "parent": "post"
+            },
+            {
+              "name": "GetTradeHistory",
+              "parent": "post"
+            },
+            {
+              "name": "GetTransactions",
+              "parent": "post"
+            },
+            {
+              "name": "SubmitTip",
+              "parent": "post"
+            },
+            {
+              "name": "SubmitTrade",
+              "parent": "post"
+            },
+            {
+              "name": "SubmitTransfer",
+              "parent": "post"
+            },
+            {
+              "name": "SubmitWithdraw",
+              "parent": "post"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
