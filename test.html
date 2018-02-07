@@ -40,7 +40,7 @@
 var exname = prompt("Please enter the name of exchange ", "bittrex");
     
 d3.json("crypto/"+ exname +".json", function(error, treeData) {
-  root = treeData[0];
+  root = treeData;
   update(root);
 });
 
@@ -66,7 +66,7 @@ var svg = d3.select("body").append("svg")
   .append("g")
 	.attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
-root = treeData[0];
+root = treeData;
 root.x0 = height / 2;
 root.y0 = 0;
   
