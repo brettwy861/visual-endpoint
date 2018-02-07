@@ -39,30 +39,82 @@
 <script>
 
 var treeData = [
-  {
-    "name": "Top Level",
-    "parent": "null",
-    "children": [
-      {
-        "name": "Level 2: A",
-        "parent": "Top Level",
-        "children": [
-          {
-            "name": "Son of A",
-            "parent": "Level 2: A"
-          },
-          {
-            "name": "Daughter of A",
-            "parent": "Level 2: A"
-          }
-        ]
-      },
-      {
-        "name": "Level 2: B",
-        "parent": "Top Level"
-      }
-    ]
-  }
+	{
+	"name": "root",
+	"parent": "null",
+	"children": [
+	{
+	  "name": "private",
+	  "parent": "root",
+	  "children": [ 
+		{
+		    "name": "post",
+			"parent": "private",
+			"children": [
+				{
+					"name": "ActiveOrders",
+					"parent": "post"
+				},
+				{
+					"name": "CancelOrder",
+					"parent": "post"
+				},
+				{
+					"name": "GetDepositAddress",
+					"parent": "post"
+				},
+				{
+					"name": "getInfo",
+					"parent": "post"
+				},
+				{
+					"name": "OrderInfo",
+					"parent": "post"
+				},
+				{
+					"name": "Trade",
+					"parent": "post"
+				},
+				{
+					"name": "TradeHistory",
+					"parent": "post"
+				},
+				{
+					"name": "WithdrawCoinsToAddress",
+					"parent": "post"
+				}
+	 	   	]
+	  	}]
+	},
+	{
+	  "name": "public",
+	  "parent": "root",
+	  "children": [ 
+		{ "name": "get",
+		  "parent": "public",
+		  "children": [
+			{
+				"name": "depth/{pair}",
+				"parent": "get"
+			},
+			{
+				"name": "info",
+				"parent": "get"
+			},
+			{
+				"name": "ticker/{pair}",
+				"parent": "get"
+			},
+			{
+				"name": "trades/{pair}",
+				"parent": "get"
+			}
+		]
+	   }
+	  ]
+   }
+  ]
+ }
 ];
 
 
