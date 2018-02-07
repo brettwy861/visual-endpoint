@@ -37,8 +37,9 @@
 <script src="http://d3js.org/d3.v3.min.js"></script>
 	
 <script>
-
-d3.json("treeData.json", function(error, treeData) {
+var ex_name = prompt("Please enter the name of exchange ", "bittrex");
+    
+d3.json("crypto/"+ exname +".json", function(error, treeData) {
   root = treeData[0];
   update(root);
 });
