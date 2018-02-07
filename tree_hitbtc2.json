@@ -1,4 +1,4 @@
-{
+[{
   "name": "hitbtc2",
   "parent": "null",
   "children": [
@@ -276,3 +276,4 @@
     }  
   ]
 }
+]
