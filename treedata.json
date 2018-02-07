@@ -1,0 +1,278 @@
+{
+  "children": [
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "name": "symbol",
+              "parent": "get"
+            },
+            {
+              "name": "symbol/{symbol}",
+              "parent": "get"
+            },
+            {
+              "name": "currency",
+              "parent": "get"
+            },
+            {
+              "name": "currency/{currency}",
+              "parent": "get"
+            },
+            {
+              "name": "ticker",
+              "parent": "get"
+            },
+            {
+              "name": "ticker/{symbol}",
+              "parent": "get"
+            },
+            {
+              "name": "trades/{symbol}",
+              "parent": "get"
+            },
+            {
+              "name": "orderbook/{symbol}",
+              "parent": "get"
+            },
+            {
+              "name": "candles/{symbol}",
+              "parent": "get"
+            }
+          ],
+          "name": "get",
+          "parent": "public"
+        }
+      ],
+      "name": "public",
+      "parent": "hitbtc2"
+    },
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "name": "balance",
+              "parent": "get"
+            },
+            {
+              "name": "orders/active",
+              "parent": "get"
+            },
+            {
+              "name": "orders/recent",
+              "parent": "get"
+            },
+            {
+              "name": "order",
+              "parent": "get"
+            },
+            {
+              "name": "trades/by/order",
+              "parent": "get"
+            },
+            {
+              "name": "trades",
+              "parent": "get"
+            }
+          ],
+          "name": "get",
+          "parent": "trading"
+        },
+        {
+          "children": [
+            {
+              "name": "new_order",
+              "parent": "post"
+            },
+            {
+              "name": "cancel_order",
+              "parent": "post"
+            },
+            {
+              "name": "cancel_orders",
+              "parent": "post"
+            }
+          ],
+          "name": "post",
+          "parent": "trading"
+        }
+      ],
+      "name": "trading",
+      "parent": "hitbtc2"
+    },
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "name": "balance",
+              "parent": "get"
+            },
+            {
+              "name": "address/{currency}",
+              "parent": "get"
+            },
+            {
+              "name": "transactions",
+              "parent": "get"
+            },
+            {
+              "name": "transactions/{transaction}",
+              "parent": "get"
+            }
+          ],
+          "name": "get",
+          "parent": "payment"
+        },
+        {
+          "children": [
+            {
+              "name": "transfer_to_trading",
+              "parent": "post"
+            },
+            {
+              "name": "transfer_to_main",
+              "parent": "post"
+            },
+            {
+              "name": "address/{currency}",
+              "parent": "post"
+            },
+            {
+              "name": "payout",
+              "parent": "post"
+            }
+          ],
+          "name": "post",
+          "parent": "payment"
+        }
+      ],
+      "name": "payment",
+      "parent": "hitbtc2"
+    },
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "name": "order",
+              "parent": "get"
+            },
+            {
+              "name": "order/{clientOrderId}",
+              "parent": "get"
+            },
+            {
+              "name": "trading/balance",
+              "parent": "get"
+            },
+            {
+              "name": "trading/fee/{symbol}",
+              "parent": "get"
+            },
+            {
+              "name": "history/trades",
+              "parent": "get"
+            },
+            {
+              "name": "history/order",
+              "parent": "get"
+            },
+            {
+              "name": "history/order/{id}/trades",
+              "parent": "get"
+            },
+            {
+              "name": "account/balance",
+              "parent": "get"
+            },
+            {
+              "name": "account/transactions",
+              "parent": "get"
+            },
+            {
+              "name": "account/transactions/{id}",
+              "parent": "get"
+            },
+            {
+              "name": "account/crypto/address/{currency}",
+              "parent": "get"
+            }
+          ],
+          "name": "get",
+          "parent": "private"
+        },
+        {
+          "children": [
+            {
+              "name": "order",
+              "parent": "post"
+            },
+            {
+              "name": "account/crypto/withdraw",
+              "parent": "post"
+            },
+            {
+              "name": "account/crypto/address/{currency}",
+              "parent": "post"
+            },
+            {
+              "name": "account/transfer",
+              "parent": "post"
+            }
+          ],
+          "name": "post",
+          "parent": "private"
+        },
+        {
+          "children": [
+            {
+              "name": "order/{clientOrderId}",
+              "parent": "put"
+            },
+            {
+              "name": "account/crypto/withdraw/{id}",
+              "parent": "put"
+            }
+          ],
+          "name": "put",
+          "parent": "private"
+        },
+        {
+          "children": [
+            {
+              "name": "order",
+              "parent": "delete"
+            },
+            {
+              "name": "order/{clientOrderId}",
+              "parent": "delete"
+            },
+            {
+              "name": "account/crypto/withdraw/{id}",
+              "parent": "delete"
+            }
+          ],
+          "name": "delete",
+          "parent": "private"
+        },
+        {
+          "children": [
+            {
+              "name": "order/{clientOrderId}",
+              "parent": "patch"
+            }
+          ],
+          "name": "patch",
+          "parent": "private"
+        }
+      ],
+      "name": "private",
+      "parent": "hitbtc2"
+    }
+  ],
+  "name": "hitbtc2",
+  "parent": "null"
+}
