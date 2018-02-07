@@ -1,9 +1,11 @@
-[
-  {
+{
+  "name": "hitbtc2",
+  "parent": "null",
   "children": [
     {
-      "children": {
-        "children": [
+      "name": "public",
+      "parent": "hitbtc2",
+      "children": [
           {
             "children": [
               {
@@ -46,14 +48,12 @@
             "name": "get",
             "parent": "public"
           }
-        ]
-      },
-      "name": "public",
-      "parent": "hitbtc2"
+      ] 
     },
     {
-      "children": {
-        "children": [
+      "name": "trading",
+      "parent": "hitbtc2",
+      "children": [
           {
             "children": [
               {
@@ -103,13 +103,11 @@
             "parent": "trading"
           }
         ]
-      },
-      "name": "trading",
-      "parent": "hitbtc2"
     },
     {
-      "children": {
-        "children": [
+      "name": "payment",
+      "parent": "hitbtc2",
+      "children": [
           {
             "children": [
               {
@@ -155,13 +153,11 @@
             "parent": "payment"
           }
         ]
-      },
-      "name": "payment",
-      "parent": "hitbtc2"
     },
     {
-      "children": {
-        "children": [
+      "name": "private",
+      "parent": "hitbtc2",
+      "children": [
           {
             "children": [
               {
@@ -277,12 +273,6 @@
             "parent": "private"
           }
         ]
-      },
-      "name": "private",
-      "parent": "hitbtc2"
-    }
-  ],
-  "name": "hitbtc2",
-  "parent": "null"
+    }  
+  ]
 }
-]
