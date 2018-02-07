@@ -1,10 +1,10 @@
 {
-  "name": "hitbtc2",
+  "name": "gatecoin",
   "parent": "null",
   "children": [
     {
       "name": "public",
-      "parent": "hitbtc2",
+      "parent": "gatecoin",
       "children": [
         {
           "name": "get",
@@ -118,7 +118,7 @@
     },
     {
       "name": "private",
-      "parent": "hitbtc2",
+      "parent": "gatecoin",
       "children": [
         {
           "name": "get",

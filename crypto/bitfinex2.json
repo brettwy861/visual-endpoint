@@ -1,10 +1,10 @@
 {
-  "name": "hitbtc2",
+  "name": "bitfinex2",
   "parent": "null",
   "children": [
     {
       "name": "v2",
-      "parent": "hitbtc2",
+      "parent": "bitfinex2",
       "children": [
         {
           "name": "get",
@@ -28,7 +28,7 @@
     },
     {
       "name": "public",
-      "parent": "hitbtc2",
+      "parent": "bitfinex2",
       "children": [
         {
           "name": "get",
@@ -122,7 +122,7 @@
     },
     {
       "name": "private",
-      "parent": "hitbtc2",
+      "parent": "bitfinex2",
       "children": [
         {
           "name": "post",

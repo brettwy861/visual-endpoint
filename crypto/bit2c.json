@@ -1,10 +1,10 @@
 {
-  "name": "hitbtc2",
+  "name": "bit2c",
   "parent": "null",
   "children": [
     {
       "name": "public",
-      "parent": "hitbtc2",
+      "parent": "bit2c",
       "children": [
         {
           "name": "get",
@@ -28,7 +28,7 @@
     },
     {
       "name": "private",
-      "parent": "hitbtc2",
+      "parent": "bit2c",
       "children": [
         {
           "name": "post",

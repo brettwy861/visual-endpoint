@@ -1,10 +1,10 @@
 {
-  "name": "hitbtc2",
+  "name": "zaif",
   "parent": "null",
   "children": [
     {
       "name": "public",
-      "parent": "hitbtc2",
+      "parent": "zaif",
       "children": [
         {
           "name": "get",
@@ -48,7 +48,7 @@
     },
     {
       "name": "private",
-      "parent": "hitbtc2",
+      "parent": "zaif",
       "children": [
         {
           "name": "post",
@@ -104,7 +104,7 @@
     },
     {
       "name": "ecapi",
-      "parent": "hitbtc2",
+      "parent": "zaif",
       "children": [
         {
           "name": "post",
@@ -132,7 +132,7 @@
     },
     {
       "name": "tlapi",
-      "parent": "hitbtc2",
+      "parent": "zaif",
       "children": [
         {
           "name": "post",
@@ -168,7 +168,7 @@
     },
     {
       "name": "fapi",
-      "parent": "hitbtc2",
+      "parent": "zaif",
       "children": [
         {
           "name": "get",

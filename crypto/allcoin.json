@@ -1,10 +1,10 @@
 {
-  "name": "hitbtc2",
+  "name": "allcoin",
   "parent": "null",
   "children": [
     {
       "name": "web",
-      "parent": "hitbtc2",
+      "parent": "allcoin",
       "children": [
         {
           "name": "get",
@@ -20,7 +20,7 @@
     },
     {
       "name": "public",
-      "parent": "hitbtc2",
+      "parent": "allcoin",
       "children": [
         {
           "name": "get",
@@ -48,7 +48,7 @@
     },
     {
       "name": "private",
-      "parent": "hitbtc2",
+      "parent": "allcoin",
       "children": [
         {
           "name": "post",

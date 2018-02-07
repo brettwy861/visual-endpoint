@@ -1,10 +1,10 @@
 {
-  "name": "hitbtc2",
+  "name": "huobi",
   "parent": "null",
   "children": [
     {
       "name": "staticmarket",
-      "parent": "hitbtc2",
+      "parent": "huobi",
       "children": [
         {
           "name": "get",
@@ -36,7 +36,7 @@
     },
     {
       "name": "usdmarket",
-      "parent": "hitbtc2",
+      "parent": "huobi",
       "children": [
         {
           "name": "get",
@@ -68,7 +68,7 @@
     },
     {
       "name": "trade",
-      "parent": "hitbtc2",
+      "parent": "huobi",
       "children": [
         {
           "name": "post",

@@ -1,10 +1,10 @@
 {
-  "name": "hitbtc2",
+  "name": "kucoin",
   "parent": "null",
   "children": [
     {
       "name": "kitchen",
-      "parent": "hitbtc2",
+      "parent": "kucoin",
       "children": [
         {
           "name": "get",
@@ -20,7 +20,7 @@
     },
     {
       "name": "public",
-      "parent": "hitbtc2",
+      "parent": "kucoin",
       "children": [
         {
           "name": "get",
@@ -92,7 +92,7 @@
     },
     {
       "name": "private",
-      "parent": "hitbtc2",
+      "parent": "kucoin",
       "children": [
         {
           "name": "get",

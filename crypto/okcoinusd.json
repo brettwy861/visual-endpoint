@@ -1,10 +1,10 @@
 {
-  "name": "hitbtc2",
+  "name": "okcoinusd",
   "parent": "null",
   "children": [
     {
       "name": "web",
-      "parent": "hitbtc2",
+      "parent": "okcoinusd",
       "children": [
         {
           "name": "get",
@@ -24,7 +24,7 @@
     },
     {
       "name": "public",
-      "parent": "hitbtc2",
+      "parent": "okcoinusd",
       "children": [
         {
           "name": "get",
@@ -96,7 +96,7 @@
     },
     {
       "name": "private",
-      "parent": "hitbtc2",
+      "parent": "okcoinusd",
       "children": [
         {
           "name": "post",

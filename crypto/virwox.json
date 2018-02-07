@@ -1,10 +1,10 @@
 {
-  "name": "hitbtc2",
+  "name": "virwox",
   "parent": "null",
   "children": [
     {
       "name": "public",
-      "parent": "hitbtc2",
+      "parent": "virwox",
       "children": [
         {
           "name": "get",
@@ -102,7 +102,7 @@
     },
     {
       "name": "private",
-      "parent": "hitbtc2",
+      "parent": "virwox",
       "children": [
         {
           "name": "get",

@@ -1,10 +1,10 @@
 {
-  "name": "hitbtc2",
+  "name": "coingi",
   "parent": "null",
   "children": [
     {
       "name": "www",
-      "parent": "hitbtc2",
+      "parent": "coingi",
       "children": [
         {
           "name": "get",
@@ -20,7 +20,7 @@
     },
     {
       "name": "current",
-      "parent": "hitbtc2",
+      "parent": "coingi",
       "children": [
         {
           "name": "get",
@@ -44,7 +44,7 @@
     },
     {
       "name": "user",
-      "parent": "hitbtc2",
+      "parent": "coingi",
       "children": [
         {
           "name": "post",

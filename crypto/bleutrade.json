@@ -1,10 +1,10 @@
 {
-  "name": "hitbtc2",
+  "name": "bleutrade",
   "parent": "null",
   "children": [
     {
       "name": "v2",
-      "parent": "hitbtc2",
+      "parent": "bleutrade",
       "children": [
         {
           "name": "get",
@@ -36,7 +36,7 @@
     },
     {
       "name": "public",
-      "parent": "hitbtc2",
+      "parent": "bleutrade",
       "children": [
         {
           "name": "get",
@@ -76,7 +76,7 @@
     },
     {
       "name": "account",
-      "parent": "hitbtc2",
+      "parent": "bleutrade",
       "children": [
         {
           "name": "get",
@@ -120,7 +120,7 @@
     },
     {
       "name": "market",
-      "parent": "hitbtc2",
+      "parent": "bleutrade",
       "children": [
         {
           "name": "get",

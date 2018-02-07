@@ -1,10 +1,10 @@
 {
-  "name": "hitbtc2",
+  "name": "livecoin",
   "parent": "null",
   "children": [
     {
       "name": "public",
-      "parent": "hitbtc2",
+      "parent": "livecoin",
       "children": [
         {
           "name": "get",
@@ -44,7 +44,7 @@
     },
     {
       "name": "private",
-      "parent": "hitbtc2",
+      "parent": "livecoin",
       "children": [
         {
           "name": "get",

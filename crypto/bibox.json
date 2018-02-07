@@ -1,10 +1,10 @@
 {
-  "name": "hitbtc2",
+  "name": "bibox",
   "parent": "null",
   "children": [
     {
       "name": "public",
-      "parent": "hitbtc2",
+      "parent": "bibox",
       "children": [
         {
           "name": "post",
@@ -30,7 +30,7 @@
     },
     {
       "name": "private",
-      "parent": "hitbtc2",
+      "parent": "bibox",
       "children": [
         {
           "name": "post",

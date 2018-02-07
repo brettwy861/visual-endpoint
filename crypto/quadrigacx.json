@@ -1,10 +1,10 @@
 {
-  "name": "hitbtc2",
+  "name": "quadrigacx",
   "parent": "null",
   "children": [
     {
       "name": "public",
-      "parent": "hitbtc2",
+      "parent": "quadrigacx",
       "children": [
         {
           "name": "get",
@@ -28,7 +28,7 @@
     },
     {
       "name": "private",
-      "parent": "hitbtc2",
+      "parent": "quadrigacx",
       "children": [
         {
           "name": "post",

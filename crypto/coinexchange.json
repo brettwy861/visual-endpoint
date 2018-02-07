@@ -1,10 +1,10 @@
 {
-  "name": "hitbtc2",
+  "name": "coinexchange",
   "parent": "null",
   "children": [
     {
       "name": "public",
-      "parent": "hitbtc2",
+      "parent": "coinexchange",
       "children": [
         {
           "name": "get",

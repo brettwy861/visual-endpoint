@@ -1,10 +1,10 @@
 {
-  "name": "hitbtc2",
+  "name": "huobicny",
   "parent": "null",
   "children": [
     {
       "name": "market",
-      "parent": "hitbtc2",
+      "parent": "huobicny",
       "children": [
         {
           "name": "get",
@@ -40,7 +40,7 @@
     },
     {
       "name": "public",
-      "parent": "hitbtc2",
+      "parent": "huobicny",
       "children": [
         {
           "name": "get",
@@ -64,7 +64,7 @@
     },
     {
       "name": "private",
-      "parent": "hitbtc2",
+      "parent": "huobicny",
       "children": [
         {
           "name": "get",

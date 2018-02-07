@@ -1,10 +1,10 @@
 {
-  "name": "hitbtc2",
+  "name": "bitflyer",
   "parent": "null",
   "children": [
     {
       "name": "public",
-      "parent": "hitbtc2",
+      "parent": "bitflyer",
       "children": [
         {
           "name": "get",
@@ -48,7 +48,7 @@
     },
     {
       "name": "private",
-      "parent": "hitbtc2",
+      "parent": "bitflyer",
       "children": [
         {
           "name": "get",

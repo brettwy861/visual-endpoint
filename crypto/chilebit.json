@@ -1,10 +1,10 @@
 {
-  "name": "hitbtc2",
+  "name": "chilebit",
   "parent": "null",
   "children": [
     {
       "name": "public",
-      "parent": "hitbtc2",
+      "parent": "chilebit",
       "children": [
         {
           "name": "get",
@@ -28,7 +28,7 @@
     },
     {
       "name": "private",
-      "parent": "hitbtc2",
+      "parent": "chilebit",
       "children": [
         {
           "name": "post",

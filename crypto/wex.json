@@ -1,10 +1,10 @@
 {
-  "name": "hitbtc2",
+  "name": "wex",
   "parent": "null",
   "children": [
     {
       "name": "public",
-      "parent": "hitbtc2",
+      "parent": "wex",
       "children": [
         {
           "name": "get",
@@ -32,7 +32,7 @@
     },
     {
       "name": "private",
-      "parent": "hitbtc2",
+      "parent": "wex",
       "children": [
         {
           "name": "post",

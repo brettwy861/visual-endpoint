@@ -1,10 +1,10 @@
 {
-  "name": "hitbtc2",
+  "name": "luno",
   "parent": "null",
   "children": [
     {
       "name": "public",
-      "parent": "hitbtc2",
+      "parent": "luno",
       "children": [
         {
           "name": "get",
@@ -32,7 +32,7 @@
     },
     {
       "name": "private",
-      "parent": "hitbtc2",
+      "parent": "luno",
       "children": [
         {
           "name": "get",

@@ -1,10 +1,10 @@
 {
-  "name": "hitbtc2",
+  "name": "coinspot",
   "parent": "null",
   "children": [
     {
       "name": "public",
-      "parent": "hitbtc2",
+      "parent": "coinspot",
       "children": [
         {
           "name": "get",
@@ -20,7 +20,7 @@
     },
     {
       "name": "private",
-      "parent": "hitbtc2",
+      "parent": "coinspot",
       "children": [
         {
           "name": "post",

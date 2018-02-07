@@ -1,10 +1,10 @@
 {
-  "name": "hitbtc2",
+  "name": "coinmarketcap",
   "parent": "null",
   "children": [
     {
       "name": "files",
-      "parent": "hitbtc2",
+      "parent": "coinmarketcap",
       "children": [
         {
           "name": "get",
@@ -20,7 +20,7 @@
     },
     {
       "name": "graphs",
-      "parent": "hitbtc2",
+      "parent": "coinmarketcap",
       "children": [
         {
           "name": "get",
@@ -36,7 +36,7 @@
     },
     {
       "name": "public",
-      "parent": "hitbtc2",
+      "parent": "coinmarketcap",
       "children": [
         {
           "name": "get",

@@ -1,10 +1,10 @@
 {
-  "name": "hitbtc2",
+  "name": "binance",
   "parent": "null",
   "children": [
     {
       "name": "web",
-      "parent": "hitbtc2",
+      "parent": "binance",
       "children": [
         {
           "name": "get",
@@ -20,7 +20,7 @@
     },
     {
       "name": "wapi",
-      "parent": "hitbtc2",
+      "parent": "binance",
       "children": [
         {
           "name": "post",
@@ -54,7 +54,7 @@
     },
     {
       "name": "v3",
-      "parent": "hitbtc2",
+      "parent": "binance",
       "children": [
         {
           "name": "get",
@@ -74,7 +74,7 @@
     },
     {
       "name": "public",
-      "parent": "hitbtc2",
+      "parent": "binance",
       "children": [
         {
           "name": "get",
@@ -130,7 +130,7 @@
     },
     {
       "name": "private",
-      "parent": "hitbtc2",
+      "parent": "binance",
       "children": [
         {
           "name": "get",
@@ -186,7 +186,7 @@
     },
     {
       "name": "v1",
-      "parent": "hitbtc2",
+      "parent": "binance",
       "children": [
         {
           "name": "put",
