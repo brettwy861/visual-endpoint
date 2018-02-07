@@ -39,7 +39,7 @@
 	    
 <script>
 var exname = prompt("Please enter the name of exchange ", "bittrex");
-if "crypto/"+ exname +".json"
+
 d3.json("crypto/"+ exname +".json", function(error, treeData) {
   root = treeData;
   update(root);
