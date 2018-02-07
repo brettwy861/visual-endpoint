@@ -1,4 +1,5 @@
-{
+[
+  {
   "children": [
     {
       "children": {
@@ -284,3 +285,4 @@
   "name": "hitbtc2",
   "parent": "null"
 }
+]
