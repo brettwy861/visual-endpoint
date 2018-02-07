@@ -47,7 +47,7 @@ for name in exchange_list:
     data = exchange.api
     new_dict = {}
     l = len(data.keys())
-    new_dict['name'] = 'hitbtc2'
+    new_dict['name'] = name
     new_dict['parent'] = 'null'
     new_dict['children'] = [] #append dicts to this list
     for item in data.keys():
