@@ -8,22 +8,13 @@ Created on Tue Jan 30 00:18:59 2018
 
 import json
 import csv
-f = open('/Users/brettwang/Desktop/JSON2CSV/cc-all-crypto.json', 'r')
-#json.dump(obj, f, *, skipkeys=True, ensure_ascii=True, check_circular=True, allow_nan=True, cls=None, indent=None, separators=None, default=None, sort_keys=False)
+from urllib.request import Request, urlopen
+url = 'https://ghost.computer/cx/cc-all-crypto.json'
+req = Request(url,headers={'User-Agent': 'Mozilla/5.0'})
+f = urlopen(req)
 datastore = json.load(f)
 f.close()
-
-"""
-maxlen = 0
-for key in datastore.keys():
-    if type(datastore[key]) is int:
-        dictlen = 1
-    else:
-        dictlen = len(datastore[key])
-    if dictlen >= maxlen:
-        maxlen = dictlen
-        data = datastore[key]
-"""        
+ 
 while type(datastore) is dict:
 # check main dict             
     maxlen = 0
